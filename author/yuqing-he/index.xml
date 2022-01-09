@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuqing He | AutoAI Lab</title>
+    <link>/author/yuqing-he/</link>
+      <atom:link href="/author/yuqing-he/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuqing He</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Yuqing He</title>
+      <link>/author/yuqing-he/</link>
+    </image>
+    
+    <item>
+      <title>A Random Multi-trajectory Generation Method for Online Emergency Threat Management (Analysis and Application in Path Planning Algorithm)</title>
+      <link>/publication/17-multi-traj-path-plan/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-multi-traj-path-plan/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a novel randomized path planning algorithm, which is a goal and homology biased sampling based algorithm called Multiple Guiding Attraction based Random Tree, and robots can use it to tackle pop-up and moving threats under kinodynamic constraints. Our proposed method considers the kinematics and dynamics constraints, using obstacle information to perform informed sampling and redistribution around collision region toward valid routing. We pioneeringly propose a multiple path planning method using ‘Extending Forbidden’ algorithm, rather than using variant cost principles for online threat management. The threat management method performs online path switching between the planned multiple paths, which is proved with better time performance than conventional approaches. The proposed method has advantage in exploration in obstacle crowded environment, where narrow corridor fails using the general sampling based exploration methods. We perform detailed comparative experiments with peer approaches in cluttered environment, and point out the advantages in time and mission performance.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

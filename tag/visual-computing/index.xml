@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Computing | AutoAI Lab</title>
+    <link>/tag/visual-computing/</link>
+      <atom:link href="/tag/visual-computing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Visual Computing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Visual Computing</title>
+      <link>/tag/visual-computing/</link>
+    </image>
+    
+    <item>
+      <title>Advancing Self-Supervised Monocular Depth Learning with Sparse LiDAR</title>
+      <link>/publication/21-depth-prediction-corl/</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-depth-prediction-corl/</guid>
+      <description>&lt;p&gt;Abstract:
+Self-supervised monocular depth prediction provides a cost-effective solution to obtain the 3D location of each pixel. However, the existing approaches usually lead to unsatisfactory accuracy, which is critical for autonomous robots. In this paper, we propose FusionDepth, a novel two-stage network to advance the self-supervised monocular dense depth learning by leveraging low-cost sparse (e.g. 4-beam) LiDAR. Unlike the existing methods that use sparse LiDAR mainly in a manner of time-consuming iterative post-processing, our model fuses monocular image features and sparse LiDAR features to predict initial depth maps. Then, an efficient feed-forward refine network is further designed to correct the errors in these initial depth maps in pseudo-3D space with real-time performance. Extensive experiments show that our proposed model significantly outperforms all the state-of-the-art self-supervised methods, as well as the sparse-LiDAR-based methods on both self-supervised monocular depth prediction and completion tasks. With the accurate dense depth prediction, our model outperforms the state-of-the-art sparse-LiDAR-based method (Pseudo-LiDAR++) by more than 68% for the downstream task monocular 3D object detection on the KITTI Leaderboard.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multimodal Semi-Supervised Learning for 3D Objects</title>
+      <link>/publication/21-object-contrastive-bmvc/</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-object-contrastive-bmvc/</guid>
+      <description>&lt;p&gt;Abstract:
+In recent years, semi-supervised learning has been widely explored and shows excellent data efficiency for 2D data. There is an emerging need to improve data efficiency for 3D tasks due to the scarcity of labeled 3D data. This paper explores how the coherence of different modelities of 3D data (e.g. point cloud, image, and mesh) can be used to improve data efficiency for both 3D classification and retrieval tasks. We propose a novel multimodal semi-supervised learning framework by introducing instance-level consistency constraint and a novel multimodal contrastive prototype (M2CP) loss. The instance-level consistency enforces the network to generate consistent representations for multimodal data of the same object regardless of its modality. The M2CP maintains a multimodal prototype for each class and learns features with small intra-class variations by minimizing the feature distance of each object to its prototype while maximizing the distance to the others. Our proposed framework significantly outperforms all the state-of-the-art counterparts for both classification and retrieval tasks by a large margin on the modelNet10 and ModelNet40 datasets.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PSE-Match: A Viewpoint-Free Place Recognition Method With Parallel Semantic Embedding</title>
+      <link>/publication/21-place-recognition-tits/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-place-recognition-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+Accurate localization on the autonomous driving cars is essential for autonomy and driving safety, especially for complex urban streets and search-and-rescue subterranean environments where high-accurate GPS is not available. However current odometry estimation may introduce the drifting problems in long-term navigation without robust global localization. The main challenges involve scene divergence under the interference of dynamic environments and effective perception of observation and object layout variance from different viewpoints. To tackle these challenges, we present PSE-Match, a viewpoint-free place recognition method based on parallel semantic analysis of isolated semantic attributes from 3D point-cloud models. Compared with the original point cloud, the observed variance of semantic attributes is smaller. PSE-Match incorporates a divergence place learning network to capture different semantic attributes parallelly through the spherical harmonics domain. Using both existing benchmark datasets and two in-field collected datasets, our experiments show that the proposed method achieves above 70% average recall with top one retrieval and above 95% average recall with top ten retrieval cases. And PSE-Match has also demonstrated an obvious generalization ability with limited training dataset.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-Scale Fusion With Matching Attention Model: A Novel Decoding Network Cooperated With NAS for Real-Time Semantic Segmentation</title>
+      <link>/publication/21-nas-attention-tits/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-nas-attention-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper proposes a real-time multi-scale semantic segmentation network (MsNet). MsNet is a combination of our novel multi-scale fusion with matching attention model (MFMA) as the decoding network and the network searched by asymptotic neural architecture search (ANAS) or MobileNetV3 as the encoding network. The MFMA not only extracts low level spatial features from multi-scale inputs but also decodes the contextual features extracted by ANAS. Specifically, considering the advantages and disadvantages of the addition fusion and concatenation fusion, we design multi-scale fusion (MF) that balances speed and accuracy. Then we creatively design two matching attention mechanisms (MA), including matching attention with low calculation (MALC) mechanism and matching attention with strong global context modeling (MASG) mechanism, to match varying resolutions and information of features at different levels of a network. Besides, the ANAS performs the deep neural network search by employing an asymptotic method and provide an efficient encoding network for MsNet, releasing researchers from those tedious mechanical trials. Through extensive experiments, we prove that MFMA, which can be applied to numerous recognition tasks, possesses excellent decoding ability. And we demonstrate the effectiveness and necessity of implementing the matching attention mechanism. Finally, the proposed two versions, MsNet-ANAS and MsNet-M achieve a new state-of-the-art trade-off between accuracy and speed on the CamVid and Cityscapes datasets. More remarkably, on the Nvidia Tesla V100 GPU, our MsNet-ANAS achieves 74.1% mIoU with the speed of 184.2 FPS on the CamVid while 72.9% mIoU with the speed of 119.9 FPS on the Cityscapes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3D Mapping and Stability Prediction for Autonomous Wheelchairs</title>
+      <link>/publication/20-wheelchair-stability-cyber/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-wheelchair-stability-cyber/</guid>
+      <description>&lt;p&gt;Abstract:
+Autonomous wheelchairs can address a very large need in many populations by serving as the gateway to a much higher degree of independence and mobility capability. This is due to the fact that the big picture idea for autonomous wheelchairs integration into the transportation chain is to allow for individuals to be able to utilize the Intelligent wheelchair to reach the vehicle (regardless of terrain), mount into autonomous wheelchair that navigates to desired destination, and finally autonomous wheelchair dismounts. This will enable a higher degree of mobility for a handicapped population that experiences a large quantity of restrictions as a result of their circumstances. In order for this potential to be achieved numerous precautions must be integrated into the control system, such as stability maintenance. This paper focuses on mapping the environment through the use of a LiDAR sensor and predicting the stability of the given wheelchair. We utilize RTAB Mapping in combination with LiDAR odometry to construct a 3D map of the environment. Then Poisson reconstruction is deployed to convert the built 3D pointcloud into triangular mesh that allows for the norms to the surface to be calculated, which allows for stability prediction. This paper, not only outlines a novel pipeline but also deployed the pipeline on the recently released Intel RealSense L515 sensor and leverages its unique capabilities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semantic Digital Surface Map Towards Collaborative Off-Road Vehicle Autonomy</title>
+      <link>/publication/20-gvsets-mapping/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-gvsets-mapping/</guid>
+      <description>&lt;p&gt;Abstract:
+The fundamental aspect of unmanned ground vehicle (UGV) navigation, especially over off-road environments, are representations of terrain describing geometry, types, and traversability. One of the typical representations of the environment is digital surface models (DSMs) which efficiently encode geometric information. In this research, we propose a collaborative approach for UGV navigation through unmanned aerial vehicle (UAV) mapping to create semantic DSMs, by leveraging the UAV wide field of view and nadir perspective for map surveying. Semantic segmentation models for terrain recognition are affected by sensing modality as well as dataset availability. We explored and developed semantic segmentation deep convolutional neural networks (CNN) models to construct semantic DSMs. We further conducted a thorough quantitative and qualitative analysis regarding image modalities (between RGB, RGB+DSM and RG+DSM) and dataset availability effects on the performance of segmentation CNN models.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Concrete Defects Inspection and 3D Mapping Using CityFlyer Quadrotor Robot</title>
+      <link>/publication/20-inspection-drone/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-inspection-drone/</guid>
+      <description>&lt;p&gt;Abstract:
+The concrete aging problem has gained more attention in recent years as more bridges and tunnels in the United States lack proper maintenance. Though the Federal Highway Administration requires these public concrete structures to be inspected regularly, on-site manual inspection by human operators is time-consuming and labor-intensive. Conventional inspection approaches for concrete inspection, using RGB imagebased thresholding methods, are not able to determine metric information as well as accurate location information for assessed defects for conditions. To address this challenge, we propose a deep neural network (DNN) based concrete inspection system using a quadrotor flying robot (referred to as CityFlyer) mounted with an RGB-D camera. The inspection system introduces several novel modules. Firstly, a visual-inertial fusion approach is introduced to perform camera and robot positioning and structure 3D metric reconstruction. The reconstructed map is used to retrieve the location and metric information of the defects. Secondly, we introduce a DNN model, namely AdaNet, to detect concrete spalling and cracking, with the capability of maintaining robustness under various distances between the camera and concrete surface. In order to train the model, we craft a new dataset, i.e., the concrete structure spalling and cracking (CSSC) dataset, which is released publicly to the research community. Finally, we introduce a 3D semantic mapping method using the annotated framework to reconstruct the concrete structure for visualization. We performed comparative studies and demonstrated that our AdaNet can achieve 8.41% higher detection accuracy than ResNets and VGGs. Moreover, we conducted five field tests, of which three are manual hand-held tests and two are drone-based field tests. These results indicate that our system is capable of performing metric field inspection, and can serve as an effective tool for civil engineers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predicting Wheelchair Stability While Crossing a Curb Using RGB-Depth Vision</title>
+      <link>/publication/20-wheelchair-curb-icchp/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-wheelchair-curb-icchp/</guid>
+      <description>&lt;p&gt;Abstract:
+Handicapped individuals often rely heavily on various assistive technologies including wheelchairs and the purpose of these technologies is to enable greater levels of independence for the user. In the development of autonomous wheelchairs, it is imperative that the wheelchair maintains appropriate stability for the user in an outdoor urban environment. This paper proposes an RGB-Depth based perception algorithm for 3D mapping of the environment in addition to dynamic modeling of the wheelchair for stability analysis and prediction. We utilize RTAB Mapping in combination with Poisson Reconstruction that produced triangular mesh from which an accurate prediction of the stability of the wheelchair can be made based on the normals and the critical angle calculated from the dynamic model of the wheelchair.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Driver Drowsiness Behavior Detection and Analysis Using Vision-Based Multimodal Features for Driving Safety</title>
+      <link>/publication/20-driver-drowsiness-sae/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-driver-drowsiness-sae/</guid>
+      <description>&lt;p&gt;Abstract:
+Driving inattention caused by drowsiness has been a significant reason for vehicle crash accidents, and there is a critical need to augment driving safety by monitoring driver drowsiness behaviors. For real-time drowsy driving awareness, we propose a vision-based driver drowsiness monitoring system (DDMS) for driver drowsiness behavior recognition and analysis. First, an infrared camera is deployed in-vehicle to capture the driver’s facial and head information in naturalistic driving scenarios, in which the driver may or may not wear glasses or sunglasses. Second, we propose and design a multi-modal features representation approach based on facial landmarks, and head pose which is retrieved in a convolutional neural network (CNN) regression model. Finally, an extreme learning machine (ELM) model is proposed to fuse the facial landmark, recognition model and pose orientation for drowsiness detection. The DDMS gives promptly warning to the driver once a drowsiness event is detected. The proposed CNN and ELM models are trained in a drowsy driving dataset and are validated on public datasets and field tests. Comparing to the end-to-end CNN recognition model, the proposed multi-modal fusion with the ELM detection model allows faster and more accurate detection with minimal intervention. The experimental result demonstrates that DDMS is able to provide real-time and effective drowsy driving alerts under various light conditions to augment driving safety.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Method, Apparatus and Computer Program Product for Mapping and Modeling a Three Dimensional Structure</title>
+      <link>/publication/20-mapping-patent/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-mapping-patent/</guid>
+      <description>&lt;p&gt;Abstract:
+Embodiments described herein may provide a method for generating a three-dimensional vector model of the interior of a structure. Methods may include: receiving sensor data indicative of a trajectory; receiving sensor data defining structural surfaces within a structure; generating a three-dimensional point cloud from the sensor data defining structural surfaces within the structure; segmenting the three-dimensional point cloud into two or more segments based, at least in part, on the sensor data indicative of trajectory; generating a three-dimensional surface model of an interior of the structure based on the segmented three-dimensional point cloud with semantic recognition and labelling; and providing the three-dimensional surface model of an interior of the structure to an advanced driver assistance system to facilitate autonomous vehicle parking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Neural Network based Visual Inspection with 3D Metric Measurement of Concrete Defects using Wall-climbing Robot</title>
+      <link>/publication/19-visual-inspection-iros/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-visual-inspection-iros/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a novel metric inspection robot system using a deep neural network to detect and measure surface flaws (i.e., crack and spalling) on concrete structures performed by a wall-climbing robot. The system consists of four modules: robotics data collection module to obtain RGB-D images and IMU measurement, visual-inertial SLAM module to generate pose coupled key-frames with depth information, InspectionNet module to classify each pixel into three classes (back-ground, crack and spalling), and 3D registration and map fusion module to register the flaw patch into registered 3D model overlaid and highlighted with detected flaws for spatial-contextual visualization. The system enables the metric model of each surface flaw patch with pixel-level accuracy and determines its location in 3D space that is significant for structural health assessment and monitoring. The InspectionNet achieves an average accuracy of 87.64% for crack and spalling inspection. We also demonstrate our InspectionNet is robust to view angle, scale and illumination variation. Finally, we design a metric voxel volume map to highlight the flaw in 3D model and provide location and metric information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vision-Based Mobile Indoor Assistive Navigation Aid for Blind People</title>
+      <link>/publication/19-visual-mobile-navi-tmc/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-visual-mobile-navi-tmc/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a new holistic vision-based mobile assistive navigation system to help blind and visually impaired people with indoor independent travel. The system detects dynamic obstacles and adjusts path planning in real-time to improve navigation safety. First, we develop an indoor map editor to parse geometric information from architectural models and generate a semantic map consisting of a global 2D traversable grid map layer and context-aware layers. By leveraging the visual positioning service (VPS) within the Google Tango device, we design a map alignment algorithm to bridge the visual area description file (ADF) and semantic map to achieve semantic localization. Using the on-board RGB-D camera, we develop an efficient obstacle detection and avoidance approach based on a time-stamped map Kalman filter (TSM-KF) algorithm. A multi-modal human-machine interface (HMI) is designed with speech-audio interaction and robust haptic interaction through an electronic SmartCane. Finally, field experiments by blindfolded and blind subjects demonstrate that the proposed system provides an effective tool to help blind individuals with indoor navigation and wayfinding.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semantic Metric 3D Reconstruction for Concrete Inspection</title>
+      <link>/publication/18-metric-recon-cvprw/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/18-metric-recon-cvprw/</guid>
+      <description>&lt;p&gt;Abstract:
+In this paper, we exploit the concrete surface flaw inspection through the fusion of visual positioning and semantic segmentation approach. The fused inspection result is represented by a 3D metric map with a spatial area, width, and depth information, which shows the advantage over general inspection in image space without metric info. We also relieve the human labor with an automatic labeling approach. The system is composed of three hybrid parts: visual positioning to enable pose association, crack/spalling inspection using a deep neural network (pixel level), and a 3D random field filter for fusion to achieve a global 3D metric map. To improve the infrastructure inspection, we released a new data set for concrete crack and spalling segmentation which is built on CSSC dataset [27]. To leverage the effectiveness of the large-scale SLAM aided semantic inspection, we performed three field tests and one baseline test. Experimental results show that our proposed approach significantly improves the capability of 3D metric concrete inspection via deploying visual SLAM. Furthermore, we achieve an 82.4% MaxF1 score for crack detection and 88.64% MaxF1 score for spalling detection on the relabeled dataset.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collaborative Mapping and Autonomous Parking for Multi-Story Parking Garage</title>
+      <link>/publication/18-colla-mapping-tits/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/18-colla-mapping-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+We present a novel collaborative mapping and autonomous parking system for semi-structured multi-story parking garages, based on cooperative 3-D LiDAR point cloud registration and Bayesian probabilistic updating. First, an inertial-enhanced (IE) generalized iterative closest point (G-ICP) approach is presented to perform high accuracy registration for LiDAR odometry, which is loosely coupled with inertial measurement unit using multi-state extended Kalman filter fusion. Second, the IE G-ICP is utilized to reconstruct the 3-D point cloud model for each vehicle, and then the individual model maps are merged and updated into a global probabilistic 2-D grid map. A collaborative multiple layer semantic map is constructed to support autonomous parking. Finally, we propose a collaborative navigation approach for path planning when there are multiple vehicles in the parking garage through vehicle-to-vehicle communication. A global path planner is designed to explore the minimum cost path based on the semantic map, and local motion planning is performed using a random exploring algorithm for obstacle avoidance and path smoothing. Our pilot experimental evaluation provides a proof of concept for indoor autonomous parking by collaborative perception, map merging, and updating methodologies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Robotic System Towards Concrete Structure Spalling and Crack Database</title>
+      <link>/publication/17-spalling-crack-db-robio/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-spalling-crack-db-robio/</guid>
+      <description>&lt;p&gt;Abstract:
+Concrete spalling and crack inspection is a labor intensive and routine task. However, it plays an important role in structure health monitoring (SHM) of civil infrastructures. Autonomous inspection with robots has been regarded as one of the best ways to reduce both error and cost. This paper presents an automated approach using Unmanned Aerial Vehicle(UAV) and towards a Concrete Structure Spalling and Crack database (CSSC), which is by far the first released database for deep learning inspection. We aim locate the spalling and crack regions to assist 3D registration and visualization. For deep inspection, we provide a complete procedure of data searching, labeling, training, and post processing. We further present a visual Simultaneously Localization and Mapping(SLAM) approach for localization and reconstruction. Comparative experiments and field tests are illustrated, results show that we can achieve an accuracy over 70% for field tests, and more than 93% accuracy with CSSC database.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Assistive Indoor Navigation System for the Visually Impaired in Multi-Floor Environments</title>
+      <link>/publication/17-indoor-navi-cyber/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-indoor-navi-cyber/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents an innovative wearable system to assist visually impaired people navigate indoors in real time. Our proposed system incorporates state-of-the-art handheld devices from Google&amp;rsquo;s Project Tango and integrates path planner and obstacle avoidance submodules, as well as human-computer interaction techniques, to provide assistance to the user. Our system preprocesses a priori knowledge of the environment extracted from CAD files and spatial information from Google&amp;rsquo;s Area Description Files. The system can then reallocate resources to navigation and human-computer interaction tasks during execution. The system is capable of exploring complex environments spanning multiple floors and has been tested and demonstrated in a variety of indoor environments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guided Text Spotting for Assistive Blind Navigation in Unfamiliar Indoor Environments</title>
+      <link>/publication/16-text-recog-isvc/</link>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-text-recog-isvc/</guid>
+      <description>&lt;p&gt;Abstract:
+Scene text in indoor environments usually preserves and communicates important contextual information which can significantly enhance the independent travel of blind and visually impaired people. In this paper, we present an assistive text spotting navigation system based on an RGB-D mobile device for blind or severely visually impaired people. Specifically, a novel spatial-temporal text localization algorithm is proposed to localize and prune text regions, by integrating stroke-specific features with a subsequent text tracking process. The density of extracted text-specific feature points serves as an efficient text indicator to guide the user closer to text-likely regions for better recognition performance. Next, detected text regions are binarized and recognized by off-the-shelf optical character recognition methods. Significant non-text indicator signage can also be matched to provide additional environment information. Both recognized results are then transferred to speech feedback for user interaction. Our proposed video text localization approach is quantitatively evaluated on the ICDAR 2013 dataset, and the experimental results demonstrate the effectiveness of our proposed method.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ISANA: Wearable Context-Aware Indoor Assistive Navigation with Obstacle Avoidance for the Blind</title>
+      <link>/publication/16-isana-navi-eccvw/</link>
+      <pubDate>Thu, 03 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-isana-navi-eccvw/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a novel mobile wearable context-aware indoor maps and navigation system with obstacle avoidance for the blind. The system includes an indoor map editor and an App on Tango devices with multiple modules. The indoor map editor parses spatial semantic information from a building architectural model, and represents it as a high-level semantic map to support context awareness. An obstacle avoidance module detects objects in front using a depth sensor. Based on the ego-motion tracking within the Tango, localization alignment on the semantic map, and obstacle detection, the system automatically generates a safe path to a desired destination. A speech-audio interface delivers user input, guidance and alert cues in real-time using a priority-based mechanism to reduce the user’s cognitive load. Field tests involving blindfolded and blind subjects demonstrate that the proposed prototype performs context-aware and safety indoor assistive navigation effectively.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Construction and Realization of a 3D Perceptual System Based on 2D Laser Radar</title>
+      <link>/publication/08-perceptual-sys-iciea/</link>
+      <pubDate>Thu, 05 Jun 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/08-perceptual-sys-iciea/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a 3D perceptual system based on 2D laser radar LMS291. The proposed system utilizes intelligent module to add a degree of freedom to LMS291. A new method of synchronization between LMS291 and intelligent module was proposed. We added Visual C++ multi-media timer to the timestamp method, the purpose we use this method is to change the level resolution conveniently, and control the number of the points we acquired, because in some condition we need speedy scanning to rebuild the reconstructed image of the terrain quickly. And we use Matlab to reconstruct the 2D and 3D images. To repair the singular points we selected absolute mean value method. The experiment shows that absolute mean value method works more accurately and effectively And this system we designed can be used for image reconstruction in unstructured environment by experiments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3D Reconstruction Embedded System Based on Laser Scanner for Mobile Robot</title>
+      <link>/publication/08-3d-recon-iciea/</link>
+      <pubDate>Tue, 03 Jun 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/08-3d-recon-iciea/</guid>
+      <description>&lt;p&gt;Abstract:
+For 3D reconstruction technology based on laser ranging for mobile robot, this paper presents the design of real-time embedded system for 3D data processing. Firstly, this paper introduces the home and abroad research situation of laser ranging for mobile robot, and analysis the method of 3D data acquisition with 2D laser scanner and ID driving motor module. Secondly, this paper introduces the hardware design and system building of multi-module embedded system, which consists of DSP data acquisition module, FPGA data processing module and ARM control. The ARM system is the main control system and realizes 3D reconstruction function. CAN bus communication is selected between these modules. Thirdly, this paper introduces the design of communication programming under ARM control system. At last, this paper presents the 3D reconstruction method with laser scanner and driving motor by Mesa3D based on RTLinux system.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

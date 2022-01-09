@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jizhong Xiao | AutoAI Lab</title>
+    <link>/author/jizhong-xiao/</link>
+      <atom:link href="/author/jizhong-xiao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jizhong Xiao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Jizhong Xiao</title>
+      <link>/author/jizhong-xiao/</link>
+    </image>
+    
+    <item>
+      <title>Concrete Defects Inspection and 3D Mapping Using CityFlyer Quadrotor Robot</title>
+      <link>/publication/20-inspection-drone/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-inspection-drone/</guid>
+      <description>&lt;p&gt;Abstract:
+The concrete aging problem has gained more attention in recent years as more bridges and tunnels in the United States lack proper maintenance. Though the Federal Highway Administration requires these public concrete structures to be inspected regularly, on-site manual inspection by human operators is time-consuming and labor-intensive. Conventional inspection approaches for concrete inspection, using RGB imagebased thresholding methods, are not able to determine metric information as well as accurate location information for assessed defects for conditions. To address this challenge, we propose a deep neural network (DNN) based concrete inspection system using a quadrotor flying robot (referred to as CityFlyer) mounted with an RGB-D camera. The inspection system introduces several novel modules. Firstly, a visual-inertial fusion approach is introduced to perform camera and robot positioning and structure 3D metric reconstruction. The reconstructed map is used to retrieve the location and metric information of the defects. Secondly, we introduce a DNN model, namely AdaNet, to detect concrete spalling and cracking, with the capability of maintaining robustness under various distances between the camera and concrete surface. In order to train the model, we craft a new dataset, i.e., the concrete structure spalling and cracking (CSSC) dataset, which is released publicly to the research community. Finally, we introduce a 3D semantic mapping method using the annotated framework to reconstruct the concrete structure for visualization. We performed comparative studies and demonstrated that our AdaNet can achieve 8.41% higher detection accuracy than ResNets and VGGs. Moreover, we conducted five field tests, of which three are manual hand-held tests and two are drone-based field tests. These results indicate that our system is capable of performing metric field inspection, and can serve as an effective tool for civil engineers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Neural Network based Visual Inspection with 3D Metric Measurement of Concrete Defects using Wall-climbing Robot</title>
+      <link>/publication/19-visual-inspection-iros/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-visual-inspection-iros/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a novel metric inspection robot system using a deep neural network to detect and measure surface flaws (i.e., crack and spalling) on concrete structures performed by a wall-climbing robot. The system consists of four modules: robotics data collection module to obtain RGB-D images and IMU measurement, visual-inertial SLAM module to generate pose coupled key-frames with depth information, InspectionNet module to classify each pixel into three classes (back-ground, crack and spalling), and 3D registration and map fusion module to register the flaw patch into registered 3D model overlaid and highlighted with detected flaws for spatial-contextual visualization. The system enables the metric model of each surface flaw patch with pixel-level accuracy and determines its location in 3D space that is significant for structural health assessment and monitoring. The InspectionNet achieves an average accuracy of 87.64% for crack and spalling inspection. We also demonstrate our InspectionNet is robust to view angle, scale and illumination variation. Finally, we design a metric voxel volume map to highlight the flaw in 3D model and provide location and metric information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vision-Based Mobile Indoor Assistive Navigation Aid for Blind People</title>
+      <link>/publication/19-visual-mobile-navi-tmc/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-visual-mobile-navi-tmc/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a new holistic vision-based mobile assistive navigation system to help blind and visually impaired people with indoor independent travel. The system detects dynamic obstacles and adjusts path planning in real-time to improve navigation safety. First, we develop an indoor map editor to parse geometric information from architectural models and generate a semantic map consisting of a global 2D traversable grid map layer and context-aware layers. By leveraging the visual positioning service (VPS) within the Google Tango device, we design a map alignment algorithm to bridge the visual area description file (ADF) and semantic map to achieve semantic localization. Using the on-board RGB-D camera, we develop an efficient obstacle detection and avoidance approach based on a time-stamped map Kalman filter (TSM-KF) algorithm. A multi-modal human-machine interface (HMI) is designed with speech-audio interaction and robust haptic interaction through an electronic SmartCane. Finally, field experiments by blindfolded and blind subjects demonstrate that the proposed system provides an effective tool to help blind individuals with indoor navigation and wayfinding.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semantic Metric 3D Reconstruction for Concrete Inspection</title>
+      <link>/publication/18-metric-recon-cvprw/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/18-metric-recon-cvprw/</guid>
+      <description>&lt;p&gt;Abstract:
+In this paper, we exploit the concrete surface flaw inspection through the fusion of visual positioning and semantic segmentation approach. The fused inspection result is represented by a 3D metric map with a spatial area, width, and depth information, which shows the advantage over general inspection in image space without metric info. We also relieve the human labor with an automatic labeling approach. The system is composed of three hybrid parts: visual positioning to enable pose association, crack/spalling inspection using a deep neural network (pixel level), and a 3D random field filter for fusion to achieve a global 3D metric map. To improve the infrastructure inspection, we released a new data set for concrete crack and spalling segmentation which is built on CSSC dataset [27]. To leverage the effectiveness of the large-scale SLAM aided semantic inspection, we performed three field tests and one baseline test. Experimental results show that our proposed approach significantly improves the capability of 3D metric concrete inspection via deploying visual SLAM. Furthermore, we achieve an 82.4% MaxF1 score for crack detection and 88.64% MaxF1 score for spalling detection on the relabeled dataset.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collaborative Mapping and Autonomous Parking for Multi-Story Parking Garage</title>
+      <link>/publication/18-colla-mapping-tits/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/18-colla-mapping-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+We present a novel collaborative mapping and autonomous parking system for semi-structured multi-story parking garages, based on cooperative 3-D LiDAR point cloud registration and Bayesian probabilistic updating. First, an inertial-enhanced (IE) generalized iterative closest point (G-ICP) approach is presented to perform high accuracy registration for LiDAR odometry, which is loosely coupled with inertial measurement unit using multi-state extended Kalman filter fusion. Second, the IE G-ICP is utilized to reconstruct the 3-D point cloud model for each vehicle, and then the individual model maps are merged and updated into a global probabilistic 2-D grid map. A collaborative multiple layer semantic map is constructed to support autonomous parking. Finally, we propose a collaborative navigation approach for path planning when there are multiple vehicles in the parking garage through vehicle-to-vehicle communication. A global path planner is designed to explore the minimum cost path based on the semantic map, and local motion planning is performed using a random exploring algorithm for obstacle avoidance and path smoothing. Our pilot experimental evaluation provides a proof of concept for indoor autonomous parking by collaborative perception, map merging, and updating methodologies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Random Multi-trajectory Generation Method for Online Emergency Threat Management (Analysis and Application in Path Planning Algorithm)</title>
+      <link>/publication/17-multi-traj-path-plan/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-multi-traj-path-plan/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a novel randomized path planning algorithm, which is a goal and homology biased sampling based algorithm called Multiple Guiding Attraction based Random Tree, and robots can use it to tackle pop-up and moving threats under kinodynamic constraints. Our proposed method considers the kinematics and dynamics constraints, using obstacle information to perform informed sampling and redistribution around collision region toward valid routing. We pioneeringly propose a multiple path planning method using ‘Extending Forbidden’ algorithm, rather than using variant cost principles for online threat management. The threat management method performs online path switching between the planned multiple paths, which is proved with better time performance than conventional approaches. The proposed method has advantage in exploration in obstacle crowded environment, where narrow corridor fails using the general sampling based exploration methods. We perform detailed comparative experiments with peer approaches in cluttered environment, and point out the advantages in time and mission performance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Robotic System Towards Concrete Structure Spalling and Crack Database</title>
+      <link>/publication/17-spalling-crack-db-robio/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-spalling-crack-db-robio/</guid>
+      <description>&lt;p&gt;Abstract:
+Concrete spalling and crack inspection is a labor intensive and routine task. However, it plays an important role in structure health monitoring (SHM) of civil infrastructures. Autonomous inspection with robots has been regarded as one of the best ways to reduce both error and cost. This paper presents an automated approach using Unmanned Aerial Vehicle(UAV) and towards a Concrete Structure Spalling and Crack database (CSSC), which is by far the first released database for deep learning inspection. We aim locate the spalling and crack regions to assist 3D registration and visualization. For deep inspection, we provide a complete procedure of data searching, labeling, training, and post processing. We further present a visual Simultaneously Localization and Mapping(SLAM) approach for localization and reconstruction. Comparative experiments and field tests are illustrated, results show that we can achieve an accuracy over 70% for field tests, and more than 93% accuracy with CSSC database.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Assistive Indoor Navigation System for the Visually Impaired in Multi-Floor Environments</title>
+      <link>/publication/17-indoor-navi-cyber/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-indoor-navi-cyber/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents an innovative wearable system to assist visually impaired people navigate indoors in real time. Our proposed system incorporates state-of-the-art handheld devices from Google&amp;rsquo;s Project Tango and integrates path planner and obstacle avoidance submodules, as well as human-computer interaction techniques, to provide assistance to the user. Our system preprocesses a priori knowledge of the environment extracted from CAD files and spatial information from Google&amp;rsquo;s Area Description Files. The system can then reallocate resources to navigation and human-computer interaction tasks during execution. The system is capable of exploring complex environments spanning multiple floors and has been tested and demonstrated in a variety of indoor environments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CCNY Smart Cane</title>
+      <link>/publication/17-smart-cane-cyber/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-smart-cane-cyber/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents SmartCane - the CCNY Smart Cane system, a robotic white cane and mobile device navigation software for visually impaired people. The system includes software for Google Tango devices that utilizes simultaneous localization and mapping (SLAM) to plan a path and guide a visually impaired user to waypoints within indoor environments. A control panel is mounted on the standard white cane that enables visually impaired users to communicate with the navigation software and is additionally used to provide navigation instructions via haptic feedback. Based on the motion-tracking and localization capabilities of the Google Tango, the SmartCane is able to generate a safe path to the destination waypoint indicated by the user.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rise-Rover: A Wall-Climbing Robot with High Reliability and Load-Carrying Capacity</title>
+      <link>/publication/15-wall-climbing-clawar/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/15-wall-climbing-clawar/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents Rise-Rover, a new generation wall-climbing robot with high reliability and load-carrying capacity on vertical surfaces for Non-Destructive Testing (NDT) of concrete and steel infrastructure. One Rise-Rover drivetrain module can operate on both smooth and rough vertical/inclined surfaces independently. The on-board electronics and PID controller monitor the pressure reading and adjust impeller speed to provide stable suction force for the wall-climbing robot. The use of duct fan and tether further increase the operation reliability. Rise-Rover is remotely controlled by Android smartphone via Wifi, and the User Interface (UI) provides good usability and convenience. The experimental test verified the good performance of the Rise-Rover prototype.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wall-climbing Robot for Non-destructive Evaluation using Impact-echo and Metric learning SVM</title>
+      <link>/publication/17-wall-climbing-inspection/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-wall-climbing-inspection/</guid>
+      <description>&lt;p&gt;Abstract:
+The impact-echo (IE) acoustic inspection method is a non-destructive evaluation technique, which has been widely applied to detect the defects, structural deterioration level, and thickness of plate-like concrete structures. This paper presents a novel climbing robot, namely Rise-Rover, to perform automated IE signal collection from concrete structures with IE signal analyzing based on machine learning techniques. Rise-Rover is our new generation robot, and it has a novel and enhanced absorption system to support heavy load, and crawler-like suction cups to maintain high mobility performance while crossing small grooves. Moreover, the design enables a seamless transition between ground and wall. This paper applies the fast Fourier transform and wavelet transform for feature detection from collected IE signals. A distance metric learning based support vector machine approach is newly proposed to automatically classify the IE signals. With the visual-inertial odometry of the robot, the detected flaws of inspection area on the concrete plates are visualized in 2D/3D. Field tests on a concrete bridge deck demonstrate the efficiency of the proposed robot system in automatic health condition assessment for concrete structures.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guided Text Spotting for Assistive Blind Navigation in Unfamiliar Indoor Environments</title>
+      <link>/publication/16-text-recog-isvc/</link>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-text-recog-isvc/</guid>
+      <description>&lt;p&gt;Abstract:
+Scene text in indoor environments usually preserves and communicates important contextual information which can significantly enhance the independent travel of blind and visually impaired people. In this paper, we present an assistive text spotting navigation system based on an RGB-D mobile device for blind or severely visually impaired people. Specifically, a novel spatial-temporal text localization algorithm is proposed to localize and prune text regions, by integrating stroke-specific features with a subsequent text tracking process. The density of extracted text-specific feature points serves as an efficient text indicator to guide the user closer to text-likely regions for better recognition performance. Next, detected text regions are binarized and recognized by off-the-shelf optical character recognition methods. Significant non-text indicator signage can also be matched to provide additional environment information. Both recognized results are then transferred to speech feedback for user interaction. Our proposed video text localization approach is quantitatively evaluated on the ICDAR 2013 dataset, and the experimental results demonstrate the effectiveness of our proposed method.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Demo: Assisting Visually Impaired People Navigate Indoors</title>
+      <link>/publication/16-demo-navi-ijcai/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-demo-navi-ijcai/</guid>
+      <description>&lt;p&gt;Abstract:
+Research in Artificial Intelligence, Robotics and Computer Vision has recently made great strides in improving indoor localization. Publicly available technology now allows for indoor localization with very small margins of error. In this demo, we show a system that uses state-of the-art technology to assist visually impaired people navigate indoors. Our system takes advantage of spatial representations from CAD files, or floor plan images, to extract valuable information that later can be used to improve navigation and human-computer interaction. Using depth information, our system is capable of detecting obstacles and guiding the user to avoid them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Wearable Indoor Navigation System with Context-based Decision Making For Visually Impaired</title>
+      <link>/publication/16-wearable-navi-sys/</link>
+      <pubDate>Tue, 15 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-wearable-navi-sys/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a wearable indoor navigation system that helps visually impaired user to perform indoor navigation. The system takes advantage of the Simultaneous Localization and Mapping (SLAM) and semantic path planning to accomplish localization and navigation tasks while collaborating with the visually impaired user. It integrates multiple sensors and feedback devices as an RGB-D camera, an IMU and a web camera; and it applies the RGB-D based visual odometry algorithm to estimate the user&amp;rsquo;s location and orientation, and uses the IMU to refine the orientation error. Major landmarks such as room numbers and corridor corners are detected by the web camera and RGB-D camera, and matched to the digitalized floor map so as to localize the user. The path and motion guidance are generated afterwards to guide the user to a desired destination. To improve the fitting between the rigid commands and optimal machine decisions for human beings, we propose a context based decision making mechanism on path planning that resolves users&amp;rsquo; confusions caused by incorrect observations. The software modules are implemented in Robotics Operating System (ROS) and the navigation system are tested with blindfolded sight persons. The field experiments confirm the feasibility of the system prototype and the proposed mechanism.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ISANA: Wearable Context-Aware Indoor Assistive Navigation with Obstacle Avoidance for the Blind</title>
+      <link>/publication/16-isana-navi-eccvw/</link>
+      <pubDate>Thu, 03 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-isana-navi-eccvw/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a novel mobile wearable context-aware indoor maps and navigation system with obstacle avoidance for the blind. The system includes an indoor map editor and an App on Tango devices with multiple modules. The indoor map editor parses spatial semantic information from a building architectural model, and represents it as a high-level semantic map to support context awareness. An obstacle avoidance module detects objects in front using a depth sensor. Based on the ego-motion tracking within the Tango, localization alignment on the semantic map, and obstacle detection, the system automatically generates a safe path to a desired destination. A speech-audio interface delivers user input, guidance and alert cues in real-time using a priority-based mechanism to reduce the user’s cognitive load. Field tests involving blindfolded and blind subjects demonstrate that the proposed prototype performs context-aware and safety indoor assistive navigation effectively.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A SLAM based Semantic Indoor Navigation System for Visually Impaired Users</title>
+      <link>/publication/15-assistive-navi-smc/</link>
+      <pubDate>Fri, 09 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/15-assistive-navi-smc/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper proposes a novel assistive navigation system based on simultaneous localization and mapping (SLAM) and semantic path planning to help visually impaired users navigate in indoor environments. The system integrates multiple wearable sensors and feedback devices including a RGB-D sensor and an inertial measurement unit (IMU) on the waist, a head mounted camera, a microphone and an earplug/speaker. We develop a visual odometry algorithm based on RGB-D data to estimate the user&amp;rsquo;s position and orientation, and refine the orientation error using the IMU. We employ the head mounted camera to recognize the door numbers and the RGB-D sensor to detect major landmarks such as corridor corners. By matching the detected landmarks against the corresponding features on the digitalized floor map, the system localizes the user, and provides verbal instruction to guide the user to the desired destination. The software modules of our system are implemented in Robotics Operating System (ROS). The prototype of the proposed assistive navigation system is evaluated by blindfolded sight persons. The field tests confirm the feasibility of the proposed algorithms and the system prototype.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Assistive Navigation Framework for the Visually Impaired</title>
+      <link>/publication/15-assistive-navi-thms/</link>
+      <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/15-assistive-navi-thms/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper provides a framework for context-aware navigation services for vision impaired people. Integrating advanced intelligence into navigation requires knowledge of the semantic properties of the objects around the user&amp;rsquo;s environment. This interaction is required to enhance communication about objects and places to improve travel decisions. Our intelligent system is a human-in-the-loop cyber-physical system that interprets ubiquitous semantic entities by interacting with the physical world and the cyber domain, viz., 1) visual cues and distance sensing of material objects as line-of-sight interaction to interpret location-context information, and 2) data (tweets) from social media as event-based interaction to interpret situational vibes. The case study elaborates our proposed localization methods (viz., topological, landmark, metric, crowdsourced, and sound localization) for applications in way finding, way confirmation, user tracking, socialization, and situation alerts. Our pilot evaluation provides a proof of concept for an assistive navigation system.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robotic Impact-Echo Non-Destructive Evaluation based on FFT and SVM</title>
+      <link>/publication/14-impact-echo-wcica/</link>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/14-impact-echo-wcica/</guid>
+      <description>&lt;p&gt;Abstract:
+Previous research has shown that the impact-echo emission signals contain information about the flaws of structural integrity and deterioration levels of concrete bridges. This paper presents a method of using the mobile robot equipped with an impact-echo Non-Destructive Evaluation (NDE) device to autonomously collect data, perform automatic classification and 3D visualization of the detected flaws. This method is based on Power Spectral Density (PSD) analysis for the Fast Fourier Transform (FFT) of the impact-echo signals, and Support Vector Machine (SVM) classification. Therefore, health condition of concrete bridge decks can be automatically recorded, analyzed and visualized in 3D.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

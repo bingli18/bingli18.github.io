@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Muhammad Khan | AutoAI Lab</title>
+    <link>/author/muhammad-khan/</link>
+      <atom:link href="/author/muhammad-khan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Muhammad Khan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Muhammad Khan</title>
+      <link>/author/muhammad-khan/</link>
+    </image>
+    
+    <item>
+      <title>CCNY Smart Cane</title>
+      <link>/publication/17-smart-cane-cyber/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-smart-cane-cyber/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents SmartCane - the CCNY Smart Cane system, a robotic white cane and mobile device navigation software for visually impaired people. The system includes software for Google Tango devices that utilizes simultaneous localization and mapping (SLAM) to plan a path and guide a visually impaired user to waypoints within indoor environments. A control panel is mounted on the standard white cane that enables visually impaired users to communicate with the navigation software and is additionally used to provide navigation instructions via haptic feedback. Based on the motion-tracking and localization capabilities of the Google Tango, the SmartCane is able to generate a safe path to the destination waypoint indicated by the user.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

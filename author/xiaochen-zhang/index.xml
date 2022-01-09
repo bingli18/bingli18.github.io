@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaochen Zhang | AutoAI Lab</title>
+    <link>/author/xiaochen-zhang/</link>
+      <atom:link href="/author/xiaochen-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaochen Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 15 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Xiaochen Zhang</title>
+      <link>/author/xiaochen-zhang/</link>
+    </image>
+    
+    <item>
+      <title>A Wearable Indoor Navigation System with Context-based Decision Making For Visually Impaired</title>
+      <link>/publication/16-wearable-navi-sys/</link>
+      <pubDate>Tue, 15 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-wearable-navi-sys/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a wearable indoor navigation system that helps visually impaired user to perform indoor navigation. The system takes advantage of the Simultaneous Localization and Mapping (SLAM) and semantic path planning to accomplish localization and navigation tasks while collaborating with the visually impaired user. It integrates multiple sensors and feedback devices as an RGB-D camera, an IMU and a web camera; and it applies the RGB-D based visual odometry algorithm to estimate the user&amp;rsquo;s location and orientation, and uses the IMU to refine the orientation error. Major landmarks such as room numbers and corridor corners are detected by the web camera and RGB-D camera, and matched to the digitalized floor map so as to localize the user. The path and motion guidance are generated afterwards to guide the user to a desired destination. To improve the fitting between the rigid commands and optimal machine decisions for human beings, we propose a context based decision making mechanism on path planning that resolves users&amp;rsquo; confusions caused by incorrect observations. The software modules are implemented in Robotics Operating System (ROS) and the navigation system are tested with blindfolded sight persons. The field experiments confirm the feasibility of the system prototype and the proposed mechanism.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A SLAM based Semantic Indoor Navigation System for Visually Impaired Users</title>
+      <link>/publication/15-assistive-navi-smc/</link>
+      <pubDate>Fri, 09 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/15-assistive-navi-smc/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper proposes a novel assistive navigation system based on simultaneous localization and mapping (SLAM) and semantic path planning to help visually impaired users navigate in indoor environments. The system integrates multiple wearable sensors and feedback devices including a RGB-D sensor and an inertial measurement unit (IMU) on the waist, a head mounted camera, a microphone and an earplug/speaker. We develop a visual odometry algorithm based on RGB-D data to estimate the user&amp;rsquo;s position and orientation, and refine the orientation error using the IMU. We employ the head mounted camera to recognize the door numbers and the RGB-D sensor to detect major landmarks such as corridor corners. By matching the detected landmarks against the corresponding features on the digitalized floor map, the system localizes the user, and provides verbal instruction to guide the user to the desired destination. The software modules of our system are implemented in Robotics Operating System (ROS). The prototype of the proposed assistive navigation system is evaluated by blindfolded sight persons. The field tests confirm the feasibility of the proposed algorithms and the system prototype.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Assistive Navigation Framework for the Visually Impaired</title>
+      <link>/publication/15-assistive-navi-thms/</link>
+      <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/15-assistive-navi-thms/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper provides a framework for context-aware navigation services for vision impaired people. Integrating advanced intelligence into navigation requires knowledge of the semantic properties of the objects around the user&amp;rsquo;s environment. This interaction is required to enhance communication about objects and places to improve travel decisions. Our intelligent system is a human-in-the-loop cyber-physical system that interprets ubiquitous semantic entities by interacting with the physical world and the cyber domain, viz., 1) visual cues and distance sensing of material objects as line-of-sight interaction to interpret location-context information, and 2) data (tweets) from social media as event-based interaction to interpret situational vibes. The case study elaborates our proposed localization methods (viz., topological, landmark, metric, crowdsourced, and sound localization) for applications in way finding, way confirmation, user tracking, socialization, and situation alerts. Our pilot evaluation provides a proof of concept for an assistive navigation system.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robotic Impact-Echo Non-Destructive Evaluation based on FFT and SVM</title>
+      <link>/publication/14-impact-echo-wcica/</link>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/14-impact-echo-wcica/</guid>
+      <description>&lt;p&gt;Abstract:
+Previous research has shown that the impact-echo emission signals contain information about the flaws of structural integrity and deterioration levels of concrete bridges. This paper presents a method of using the mobile robot equipped with an impact-echo Non-Destructive Evaluation (NDE) device to autonomously collect data, perform automatic classification and 3D visualization of the detected flaws. This method is based on Power Spectral Density (PSD) analysis for the Fast Fourier Transform (FFT) of the impact-echo signals, and Support Vector Machine (SVM) classification. Therefore, health condition of concrete bridge decks can be automatically recorded, analyzed and visualized in 3D.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

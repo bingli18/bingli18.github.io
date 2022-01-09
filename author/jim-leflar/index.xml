@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jim Leflar | AutoAI Lab</title>
+    <link>/author/jim-leflar/</link>
+      <atom:link href="/author/jim-leflar/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jim Leflar</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Jim Leflar</title>
+      <link>/author/jim-leflar/</link>
+    </image>
+    
+    <item>
+      <title>Collaborative Mapping and Autonomous Parking for Multi-Story Parking Garage</title>
+      <link>/publication/18-colla-mapping-tits/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/18-colla-mapping-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+We present a novel collaborative mapping and autonomous parking system for semi-structured multi-story parking garages, based on cooperative 3-D LiDAR point cloud registration and Bayesian probabilistic updating. First, an inertial-enhanced (IE) generalized iterative closest point (G-ICP) approach is presented to perform high accuracy registration for LiDAR odometry, which is loosely coupled with inertial measurement unit using multi-state extended Kalman filter fusion. Second, the IE G-ICP is utilized to reconstruct the 3-D point cloud model for each vehicle, and then the individual model maps are merged and updated into a global probabilistic 2-D grid map. A collaborative multiple layer semantic map is constructed to support autonomous parking. Finally, we propose a collaborative navigation approach for path planning when there are multiple vehicles in the parking garage through vehicle-to-vehicle communication. A global path planner is designed to explore the minimum cost path based on the semantic map, and local motion planning is performed using a random exploring algorithm for obstacle avoidance and path smoothing. Our pilot experimental evaluation provides a proof of concept for indoor autonomous parking by collaborative perception, map merging, and updating methodologies.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

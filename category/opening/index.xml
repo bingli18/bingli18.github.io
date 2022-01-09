@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>opening | AutoAI Lab</title>
+    <link>/category/opening/</link>
+      <atom:link href="/category/opening/index.xml" rel="self" type="application/rss+xml" />
+    <description>opening</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>opening</title>
+      <link>/category/opening/</link>
+    </image>
+    
+    <item>
+      <title>Ph.D. Student Position Available</title>
+      <link>/post/_opening2-phd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/_opening2-phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Postdoctoral Research Fellow Position Available</title>
+      <link>/post/_opening1-postdoc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/_opening1-postdoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thesis Advising Projects for BS/MS Students</title>
+      <link>/post/_opening3-msthesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/_opening3-msthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visiting and Internship Opportunities</title>
+      <link>/post/_opening4-interns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/_opening4-interns/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

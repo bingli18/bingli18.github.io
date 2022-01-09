@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liang Yang | AutoAI Lab</title>
+    <link>/author/liang-yang/</link>
+      <atom:link href="/author/liang-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Liang Yang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 25 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Liang Yang</title>
+      <link>/author/liang-yang/</link>
+    </image>
+    
+    <item>
+      <title>Multi-Scale Fusion With Matching Attention Model: A Novel Decoding Network Cooperated With NAS for Real-Time Semantic Segmentation</title>
+      <link>/publication/21-nas-attention-tits/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-nas-attention-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper proposes a real-time multi-scale semantic segmentation network (MsNet). MsNet is a combination of our novel multi-scale fusion with matching attention model (MFMA) as the decoding network and the network searched by asymptotic neural architecture search (ANAS) or MobileNetV3 as the encoding network. The MFMA not only extracts low level spatial features from multi-scale inputs but also decodes the contextual features extracted by ANAS. Specifically, considering the advantages and disadvantages of the addition fusion and concatenation fusion, we design multi-scale fusion (MF) that balances speed and accuracy. Then we creatively design two matching attention mechanisms (MA), including matching attention with low calculation (MALC) mechanism and matching attention with strong global context modeling (MASG) mechanism, to match varying resolutions and information of features at different levels of a network. Besides, the ANAS performs the deep neural network search by employing an asymptotic method and provide an efficient encoding network for MsNet, releasing researchers from those tedious mechanical trials. Through extensive experiments, we prove that MFMA, which can be applied to numerous recognition tasks, possesses excellent decoding ability. And we demonstrate the effectiveness and necessity of implementing the matching attention mechanism. Finally, the proposed two versions, MsNet-ANAS and MsNet-M achieve a new state-of-the-art trade-off between accuracy and speed on the CamVid and Cityscapes datasets. More remarkably, on the Nvidia Tesla V100 GPU, our MsNet-ANAS achieves 74.1% mIoU with the speed of 184.2 FPS on the CamVid while 72.9% mIoU with the speed of 119.9 FPS on the Cityscapes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Concrete Defects Inspection and 3D Mapping Using CityFlyer Quadrotor Robot</title>
+      <link>/publication/20-inspection-drone/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-inspection-drone/</guid>
+      <description>&lt;p&gt;Abstract:
+The concrete aging problem has gained more attention in recent years as more bridges and tunnels in the United States lack proper maintenance. Though the Federal Highway Administration requires these public concrete structures to be inspected regularly, on-site manual inspection by human operators is time-consuming and labor-intensive. Conventional inspection approaches for concrete inspection, using RGB imagebased thresholding methods, are not able to determine metric information as well as accurate location information for assessed defects for conditions. To address this challenge, we propose a deep neural network (DNN) based concrete inspection system using a quadrotor flying robot (referred to as CityFlyer) mounted with an RGB-D camera. The inspection system introduces several novel modules. Firstly, a visual-inertial fusion approach is introduced to perform camera and robot positioning and structure 3D metric reconstruction. The reconstructed map is used to retrieve the location and metric information of the defects. Secondly, we introduce a DNN model, namely AdaNet, to detect concrete spalling and cracking, with the capability of maintaining robustness under various distances between the camera and concrete surface. In order to train the model, we craft a new dataset, i.e., the concrete structure spalling and cracking (CSSC) dataset, which is released publicly to the research community. Finally, we introduce a 3D semantic mapping method using the annotated framework to reconstruct the concrete structure for visualization. We performed comparative studies and demonstrated that our AdaNet can achieve 8.41% higher detection accuracy than ResNets and VGGs. Moreover, we conducted five field tests, of which three are manual hand-held tests and two are drone-based field tests. These results indicate that our system is capable of performing metric field inspection, and can serve as an effective tool for civil engineers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Driver Drowsiness Behavior Detection and Analysis Using Vision-Based Multimodal Features for Driving Safety</title>
+      <link>/publication/20-driver-drowsiness-sae/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-driver-drowsiness-sae/</guid>
+      <description>&lt;p&gt;Abstract:
+Driving inattention caused by drowsiness has been a significant reason for vehicle crash accidents, and there is a critical need to augment driving safety by monitoring driver drowsiness behaviors. For real-time drowsy driving awareness, we propose a vision-based driver drowsiness monitoring system (DDMS) for driver drowsiness behavior recognition and analysis. First, an infrared camera is deployed in-vehicle to capture the driver’s facial and head information in naturalistic driving scenarios, in which the driver may or may not wear glasses or sunglasses. Second, we propose and design a multi-modal features representation approach based on facial landmarks, and head pose which is retrieved in a convolutional neural network (CNN) regression model. Finally, an extreme learning machine (ELM) model is proposed to fuse the facial landmark, recognition model and pose orientation for drowsiness detection. The DDMS gives promptly warning to the driver once a drowsiness event is detected. The proposed CNN and ELM models are trained in a drowsy driving dataset and are validated on public datasets and field tests. Comparing to the end-to-end CNN recognition model, the proposed multi-modal fusion with the ELM detection model allows faster and more accurate detection with minimal intervention. The experimental result demonstrates that DDMS is able to provide real-time and effective drowsy driving alerts under various light conditions to augment driving safety.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Neural Network based Visual Inspection with 3D Metric Measurement of Concrete Defects using Wall-climbing Robot</title>
+      <link>/publication/19-visual-inspection-iros/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-visual-inspection-iros/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a novel metric inspection robot system using a deep neural network to detect and measure surface flaws (i.e., crack and spalling) on concrete structures performed by a wall-climbing robot. The system consists of four modules: robotics data collection module to obtain RGB-D images and IMU measurement, visual-inertial SLAM module to generate pose coupled key-frames with depth information, InspectionNet module to classify each pixel into three classes (back-ground, crack and spalling), and 3D registration and map fusion module to register the flaw patch into registered 3D model overlaid and highlighted with detected flaws for spatial-contextual visualization. The system enables the metric model of each surface flaw patch with pixel-level accuracy and determines its location in 3D space that is significant for structural health assessment and monitoring. The InspectionNet achieves an average accuracy of 87.64% for crack and spalling inspection. We also demonstrate our InspectionNet is robust to view angle, scale and illumination variation. Finally, we design a metric voxel volume map to highlight the flaw in 3D model and provide location and metric information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semantic Metric 3D Reconstruction for Concrete Inspection</title>
+      <link>/publication/18-metric-recon-cvprw/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/18-metric-recon-cvprw/</guid>
+      <description>&lt;p&gt;Abstract:
+In this paper, we exploit the concrete surface flaw inspection through the fusion of visual positioning and semantic segmentation approach. The fused inspection result is represented by a 3D metric map with a spatial area, width, and depth information, which shows the advantage over general inspection in image space without metric info. We also relieve the human labor with an automatic labeling approach. The system is composed of three hybrid parts: visual positioning to enable pose association, crack/spalling inspection using a deep neural network (pixel level), and a 3D random field filter for fusion to achieve a global 3D metric map. To improve the infrastructure inspection, we released a new data set for concrete crack and spalling segmentation which is built on CSSC dataset [27]. To leverage the effectiveness of the large-scale SLAM aided semantic inspection, we performed three field tests and one baseline test. Experimental results show that our proposed approach significantly improves the capability of 3D metric concrete inspection via deploying visual SLAM. Furthermore, we achieve an 82.4% MaxF1 score for crack detection and 88.64% MaxF1 score for spalling detection on the relabeled dataset.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collaborative Mapping and Autonomous Parking for Multi-Story Parking Garage</title>
+      <link>/publication/18-colla-mapping-tits/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/18-colla-mapping-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+We present a novel collaborative mapping and autonomous parking system for semi-structured multi-story parking garages, based on cooperative 3-D LiDAR point cloud registration and Bayesian probabilistic updating. First, an inertial-enhanced (IE) generalized iterative closest point (G-ICP) approach is presented to perform high accuracy registration for LiDAR odometry, which is loosely coupled with inertial measurement unit using multi-state extended Kalman filter fusion. Second, the IE G-ICP is utilized to reconstruct the 3-D point cloud model for each vehicle, and then the individual model maps are merged and updated into a global probabilistic 2-D grid map. A collaborative multiple layer semantic map is constructed to support autonomous parking. Finally, we propose a collaborative navigation approach for path planning when there are multiple vehicles in the parking garage through vehicle-to-vehicle communication. A global path planner is designed to explore the minimum cost path based on the semantic map, and local motion planning is performed using a random exploring algorithm for obstacle avoidance and path smoothing. Our pilot experimental evaluation provides a proof of concept for indoor autonomous parking by collaborative perception, map merging, and updating methodologies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Random Multi-trajectory Generation Method for Online Emergency Threat Management (Analysis and Application in Path Planning Algorithm)</title>
+      <link>/publication/17-multi-traj-path-plan/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-multi-traj-path-plan/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a novel randomized path planning algorithm, which is a goal and homology biased sampling based algorithm called Multiple Guiding Attraction based Random Tree, and robots can use it to tackle pop-up and moving threats under kinodynamic constraints. Our proposed method considers the kinematics and dynamics constraints, using obstacle information to perform informed sampling and redistribution around collision region toward valid routing. We pioneeringly propose a multiple path planning method using ‘Extending Forbidden’ algorithm, rather than using variant cost principles for online threat management. The threat management method performs online path switching between the planned multiple paths, which is proved with better time performance than conventional approaches. The proposed method has advantage in exploration in obstacle crowded environment, where narrow corridor fails using the general sampling based exploration methods. We perform detailed comparative experiments with peer approaches in cluttered environment, and point out the advantages in time and mission performance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Robotic System Towards Concrete Structure Spalling and Crack Database</title>
+      <link>/publication/17-spalling-crack-db-robio/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-spalling-crack-db-robio/</guid>
+      <description>&lt;p&gt;Abstract:
+Concrete spalling and crack inspection is a labor intensive and routine task. However, it plays an important role in structure health monitoring (SHM) of civil infrastructures. Autonomous inspection with robots has been regarded as one of the best ways to reduce both error and cost. This paper presents an automated approach using Unmanned Aerial Vehicle(UAV) and towards a Concrete Structure Spalling and Crack database (CSSC), which is by far the first released database for deep learning inspection. We aim locate the spalling and crack regions to assist 3D registration and visualization. For deep inspection, we provide a complete procedure of data searching, labeling, training, and post processing. We further present a visual Simultaneously Localization and Mapping(SLAM) approach for localization and reconstruction. Comparative experiments and field tests are illustrated, results show that we can achieve an accuracy over 70% for field tests, and more than 93% accuracy with CSSC database.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wall-climbing Robot for Non-destructive Evaluation using Impact-echo and Metric learning SVM</title>
+      <link>/publication/17-wall-climbing-inspection/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-wall-climbing-inspection/</guid>
+      <description>&lt;p&gt;Abstract:
+The impact-echo (IE) acoustic inspection method is a non-destructive evaluation technique, which has been widely applied to detect the defects, structural deterioration level, and thickness of plate-like concrete structures. This paper presents a novel climbing robot, namely Rise-Rover, to perform automated IE signal collection from concrete structures with IE signal analyzing based on machine learning techniques. Rise-Rover is our new generation robot, and it has a novel and enhanced absorption system to support heavy load, and crawler-like suction cups to maintain high mobility performance while crossing small grooves. Moreover, the design enables a seamless transition between ground and wall. This paper applies the fast Fourier transform and wavelet transform for feature detection from collected IE signals. A distance metric learning based support vector machine approach is newly proposed to automatically classify the IE signals. With the visual-inertial odometry of the robot, the detected flaws of inspection area on the concrete plates are visualized in 2D/3D. Field tests on a concrete bridge deck demonstrate the efficiency of the proposed robot system in automatic health condition assessment for concrete structures.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

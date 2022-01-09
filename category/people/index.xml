@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>People | AutoAI Lab</title>
+    <link>/category/people/</link>
+      <atom:link href="/category/people/index.xml" rel="self" type="application/rss+xml" />
+    <description>People</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>People</title>
+      <link>/category/people/</link>
+    </image>
+    
+    <item>
+      <title>Dr. Bing Li</title>
+      <link>/post/bing-li/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/bing-li/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

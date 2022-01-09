@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | AutoAI Lab</title>
+    <link>/publication-type/2/</link>
+      <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>2</title>
+      <link>/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>PSE-Match: A Viewpoint-Free Place Recognition Method With Parallel Semantic Embedding</title>
+      <link>/publication/21-place-recognition-tits/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-place-recognition-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+Accurate localization on the autonomous driving cars is essential for autonomy and driving safety, especially for complex urban streets and search-and-rescue subterranean environments where high-accurate GPS is not available. However current odometry estimation may introduce the drifting problems in long-term navigation without robust global localization. The main challenges involve scene divergence under the interference of dynamic environments and effective perception of observation and object layout variance from different viewpoints. To tackle these challenges, we present PSE-Match, a viewpoint-free place recognition method based on parallel semantic analysis of isolated semantic attributes from 3D point-cloud models. Compared with the original point cloud, the observed variance of semantic attributes is smaller. PSE-Match incorporates a divergence place learning network to capture different semantic attributes parallelly through the spherical harmonics domain. Using both existing benchmark datasets and two in-field collected datasets, our experiments show that the proposed method achieves above 70% average recall with top one retrieval and above 95% average recall with top ten retrieval cases. And PSE-Match has also demonstrated an obvious generalization ability with limited training dataset.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-Scale Fusion With Matching Attention Model: A Novel Decoding Network Cooperated With NAS for Real-Time Semantic Segmentation</title>
+      <link>/publication/21-nas-attention-tits/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-nas-attention-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper proposes a real-time multi-scale semantic segmentation network (MsNet). MsNet is a combination of our novel multi-scale fusion with matching attention model (MFMA) as the decoding network and the network searched by asymptotic neural architecture search (ANAS) or MobileNetV3 as the encoding network. The MFMA not only extracts low level spatial features from multi-scale inputs but also decodes the contextual features extracted by ANAS. Specifically, considering the advantages and disadvantages of the addition fusion and concatenation fusion, we design multi-scale fusion (MF) that balances speed and accuracy. Then we creatively design two matching attention mechanisms (MA), including matching attention with low calculation (MALC) mechanism and matching attention with strong global context modeling (MASG) mechanism, to match varying resolutions and information of features at different levels of a network. Besides, the ANAS performs the deep neural network search by employing an asymptotic method and provide an efficient encoding network for MsNet, releasing researchers from those tedious mechanical trials. Through extensive experiments, we prove that MFMA, which can be applied to numerous recognition tasks, possesses excellent decoding ability. And we demonstrate the effectiveness and necessity of implementing the matching attention mechanism. Finally, the proposed two versions, MsNet-ANAS and MsNet-M achieve a new state-of-the-art trade-off between accuracy and speed on the CamVid and Cityscapes datasets. More remarkably, on the Nvidia Tesla V100 GPU, our MsNet-ANAS achieves 74.1% mIoU with the speed of 184.2 FPS on the CamVid while 72.9% mIoU with the speed of 119.9 FPS on the Cityscapes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Concrete Defects Inspection and 3D Mapping Using CityFlyer Quadrotor Robot</title>
+      <link>/publication/20-inspection-drone/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-inspection-drone/</guid>
+      <description>&lt;p&gt;Abstract:
+The concrete aging problem has gained more attention in recent years as more bridges and tunnels in the United States lack proper maintenance. Though the Federal Highway Administration requires these public concrete structures to be inspected regularly, on-site manual inspection by human operators is time-consuming and labor-intensive. Conventional inspection approaches for concrete inspection, using RGB imagebased thresholding methods, are not able to determine metric information as well as accurate location information for assessed defects for conditions. To address this challenge, we propose a deep neural network (DNN) based concrete inspection system using a quadrotor flying robot (referred to as CityFlyer) mounted with an RGB-D camera. The inspection system introduces several novel modules. Firstly, a visual-inertial fusion approach is introduced to perform camera and robot positioning and structure 3D metric reconstruction. The reconstructed map is used to retrieve the location and metric information of the defects. Secondly, we introduce a DNN model, namely AdaNet, to detect concrete spalling and cracking, with the capability of maintaining robustness under various distances between the camera and concrete surface. In order to train the model, we craft a new dataset, i.e., the concrete structure spalling and cracking (CSSC) dataset, which is released publicly to the research community. Finally, we introduce a 3D semantic mapping method using the annotated framework to reconstruct the concrete structure for visualization. We performed comparative studies and demonstrated that our AdaNet can achieve 8.41% higher detection accuracy than ResNets and VGGs. Moreover, we conducted five field tests, of which three are manual hand-held tests and two are drone-based field tests. These results indicate that our system is capable of performing metric field inspection, and can serve as an effective tool for civil engineers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vision-Based Mobile Indoor Assistive Navigation Aid for Blind People</title>
+      <link>/publication/19-visual-mobile-navi-tmc/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-visual-mobile-navi-tmc/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a new holistic vision-based mobile assistive navigation system to help blind and visually impaired people with indoor independent travel. The system detects dynamic obstacles and adjusts path planning in real-time to improve navigation safety. First, we develop an indoor map editor to parse geometric information from architectural models and generate a semantic map consisting of a global 2D traversable grid map layer and context-aware layers. By leveraging the visual positioning service (VPS) within the Google Tango device, we design a map alignment algorithm to bridge the visual area description file (ADF) and semantic map to achieve semantic localization. Using the on-board RGB-D camera, we develop an efficient obstacle detection and avoidance approach based on a time-stamped map Kalman filter (TSM-KF) algorithm. A multi-modal human-machine interface (HMI) is designed with speech-audio interaction and robust haptic interaction through an electronic SmartCane. Finally, field experiments by blindfolded and blind subjects demonstrate that the proposed system provides an effective tool to help blind individuals with indoor navigation and wayfinding.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Adaptive Stair-ascending Gait Generation Approach Based on Depth Camera for Lower Limb Exoskeleton.” Review of Scientific Instruments</title>
+      <link>/publication/19-depth-gait/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-depth-gait/</guid>
+      <description>&lt;p&gt;Abstract:
+The mobility on stairways is a daily challenge for seniors and people with dyskinesia. Lower limb exoskeletons can be effective assistants to improve their life quality. In this paper, we present an adaptive stair-ascending gait generation algorithm based on a depth camera for lower limb exoskeletons. We first construct a linked-list-based stairway model with the point cloud captured from the depth camera. Then, an optimal foothold point is calculated based on the linked-list stair model for gait generation. Finally, the exoskeleton takes the stair-ascending gait of healthy people as a reference and generates appropriate gait for the stair. The proposed gait generation algorithm is initially validated through holistic simulation analyses. We tested the stairway modeling algorithm on varieties of indoor and outdoor stairways and evaluated the gait generation algorithm on stairs of different height. The subjects’ stair walking tests with lower limb exoskeletons show the effectiveness of the proposed stairway modeling and gait generation approaches.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collaborative Mapping and Autonomous Parking for Multi-Story Parking Garage</title>
+      <link>/publication/18-colla-mapping-tits/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/18-colla-mapping-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+We present a novel collaborative mapping and autonomous parking system for semi-structured multi-story parking garages, based on cooperative 3-D LiDAR point cloud registration and Bayesian probabilistic updating. First, an inertial-enhanced (IE) generalized iterative closest point (G-ICP) approach is presented to perform high accuracy registration for LiDAR odometry, which is loosely coupled with inertial measurement unit using multi-state extended Kalman filter fusion. Second, the IE G-ICP is utilized to reconstruct the 3-D point cloud model for each vehicle, and then the individual model maps are merged and updated into a global probabilistic 2-D grid map. A collaborative multiple layer semantic map is constructed to support autonomous parking. Finally, we propose a collaborative navigation approach for path planning when there are multiple vehicles in the parking garage through vehicle-to-vehicle communication. A global path planner is designed to explore the minimum cost path based on the semantic map, and local motion planning is performed using a random exploring algorithm for obstacle avoidance and path smoothing. Our pilot experimental evaluation provides a proof of concept for indoor autonomous parking by collaborative perception, map merging, and updating methodologies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wall-climbing Robot for Non-destructive Evaluation using Impact-echo and Metric learning SVM</title>
+      <link>/publication/17-wall-climbing-inspection/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-wall-climbing-inspection/</guid>
+      <description>&lt;p&gt;Abstract:
+The impact-echo (IE) acoustic inspection method is a non-destructive evaluation technique, which has been widely applied to detect the defects, structural deterioration level, and thickness of plate-like concrete structures. This paper presents a novel climbing robot, namely Rise-Rover, to perform automated IE signal collection from concrete structures with IE signal analyzing based on machine learning techniques. Rise-Rover is our new generation robot, and it has a novel and enhanced absorption system to support heavy load, and crawler-like suction cups to maintain high mobility performance while crossing small grooves. Moreover, the design enables a seamless transition between ground and wall. This paper applies the fast Fourier transform and wavelet transform for feature detection from collected IE signals. A distance metric learning based support vector machine approach is newly proposed to automatically classify the IE signals. With the visual-inertial odometry of the robot, the detected flaws of inspection area on the concrete plates are visualized in 2D/3D. Field tests on a concrete bridge deck demonstrate the efficiency of the proposed robot system in automatic health condition assessment for concrete structures.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Wearable Indoor Navigation System with Context-based Decision Making For Visually Impaired</title>
+      <link>/publication/16-wearable-navi-sys/</link>
+      <pubDate>Tue, 15 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-wearable-navi-sys/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a wearable indoor navigation system that helps visually impaired user to perform indoor navigation. The system takes advantage of the Simultaneous Localization and Mapping (SLAM) and semantic path planning to accomplish localization and navigation tasks while collaborating with the visually impaired user. It integrates multiple sensors and feedback devices as an RGB-D camera, an IMU and a web camera; and it applies the RGB-D based visual odometry algorithm to estimate the user&amp;rsquo;s location and orientation, and uses the IMU to refine the orientation error. Major landmarks such as room numbers and corridor corners are detected by the web camera and RGB-D camera, and matched to the digitalized floor map so as to localize the user. The path and motion guidance are generated afterwards to guide the user to a desired destination. To improve the fitting between the rigid commands and optimal machine decisions for human beings, we propose a context based decision making mechanism on path planning that resolves users&amp;rsquo; confusions caused by incorrect observations. The software modules are implemented in Robotics Operating System (ROS) and the navigation system are tested with blindfolded sight persons. The field experiments confirm the feasibility of the system prototype and the proposed mechanism.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Assistive Navigation Framework for the Visually Impaired</title>
+      <link>/publication/15-assistive-navi-thms/</link>
+      <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/15-assistive-navi-thms/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper provides a framework for context-aware navigation services for vision impaired people. Integrating advanced intelligence into navigation requires knowledge of the semantic properties of the objects around the user&amp;rsquo;s environment. This interaction is required to enhance communication about objects and places to improve travel decisions. Our intelligent system is a human-in-the-loop cyber-physical system that interprets ubiquitous semantic entities by interacting with the physical world and the cyber domain, viz., 1) visual cues and distance sensing of material objects as line-of-sight interaction to interpret location-context information, and 2) data (tweets) from social media as event-based interaction to interpret situational vibes. The case study elaborates our proposed localization methods (viz., topological, landmark, metric, crowdsourced, and sound localization) for applications in way finding, way confirmation, user tracking, socialization, and situation alerts. Our pilot evaluation provides a proof of concept for an assistive navigation system.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

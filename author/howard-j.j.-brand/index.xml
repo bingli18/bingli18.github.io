@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Howard J.J. Brand | AutoAI Lab</title>
+    <link>/author/howard-j.j.-brand/</link>
+      <atom:link href="/author/howard-j.j.-brand/index.xml" rel="self" type="application/rss+xml" />
+    <description>Howard J.J. Brand</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 06 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Howard J.J. Brand</title>
+      <link>/author/howard-j.j.-brand/</link>
+    </image>
+    
+    <item>
+      <title>Nondestructive Evaluation of Terrain Using mmWave Radar Imaging</title>
+      <link>/publication/21-mmwave-radar-sae/</link>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-mmwave-radar-sae/</guid>
+      <description>&lt;p&gt;Abstract:
+Military ground vehicles operate in off-road environments traversing different terrains under various environmental conditions. There has been an increasing interest towards autonomous off-road vehicle navigation, leading to the needs of terrain traversability assessment through sensing. These methods utilized data-driven approaches on classical robotic perception sensing modalities (RGB cameras, Lidar, and depth cameras) positioned in front of ground vehicles in order to observe approaching terrain. Classical robotic sensing modalities, though effective for describing environment geometry and object detection and tracking, aren’t able to directly observe features related to compaction and moisture content which have significant effects on the moduli properties governing terrain mechanics. These methods then become very specialized to specific regions and environmental conditions which are inevitably subject to change. Radio wave-based sensing modes have been shown in studies to have success in observing different terrain surface and subsurface conditions such as compaction and moisture presence. We study the usability of emerging, portable and front mountable radar imaging sensors to provide real-time radio spectra information of the in-coming terrain area. In this study, we use a radar transceiver array operating in the 6.2-6.9 GHz spectral range to develop a radar image/soil moisture dataset, where beamforming is used to recover radar images of lab soil samples of various moisture content levels. The radar images are constructed at various distances from the soil surface and various spatial resolutions to support a local path planning scenario. Support vector machine (SVM) classifier and support vector regression (SVR) models are trained on the dataset and tested on lab data and in-field data. Classifier and regression model results indicate that normalized local radar image statistics are able to distinguish moisture levels at various distances and spatial resolutions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semantic Digital Surface Map Towards Collaborative Off-Road Vehicle Autonomy</title>
+      <link>/publication/20-gvsets-mapping/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-gvsets-mapping/</guid>
+      <description>&lt;p&gt;Abstract:
+The fundamental aspect of unmanned ground vehicle (UGV) navigation, especially over off-road environments, are representations of terrain describing geometry, types, and traversability. One of the typical representations of the environment is digital surface models (DSMs) which efficiently encode geometric information. In this research, we propose a collaborative approach for UGV navigation through unmanned aerial vehicle (UAV) mapping to create semantic DSMs, by leveraging the UAV wide field of view and nadir perspective for map surveying. Semantic segmentation models for terrain recognition are affected by sensing modality as well as dataset availability. We explored and developed semantic segmentation deep convolutional neural networks (CNN) models to construct semantic DSMs. We further conducted a thorough quantitative and qualitative analysis regarding image modalities (between RGB, RGB+DSM and RG+DSM) and dataset availability effects on the performance of segmentation CNN models.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Concrete Defects Inspection and 3D Mapping Using CityFlyer Quadrotor Robot</title>
+      <link>/publication/20-inspection-drone/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-inspection-drone/</guid>
+      <description>&lt;p&gt;Abstract:
+The concrete aging problem has gained more attention in recent years as more bridges and tunnels in the United States lack proper maintenance. Though the Federal Highway Administration requires these public concrete structures to be inspected regularly, on-site manual inspection by human operators is time-consuming and labor-intensive. Conventional inspection approaches for concrete inspection, using RGB imagebased thresholding methods, are not able to determine metric information as well as accurate location information for assessed defects for conditions. To address this challenge, we propose a deep neural network (DNN) based concrete inspection system using a quadrotor flying robot (referred to as CityFlyer) mounted with an RGB-D camera. The inspection system introduces several novel modules. Firstly, a visual-inertial fusion approach is introduced to perform camera and robot positioning and structure 3D metric reconstruction. The reconstructed map is used to retrieve the location and metric information of the defects. Secondly, we introduce a DNN model, namely AdaNet, to detect concrete spalling and cracking, with the capability of maintaining robustness under various distances between the camera and concrete surface. In order to train the model, we craft a new dataset, i.e., the concrete structure spalling and cracking (CSSC) dataset, which is released publicly to the research community. Finally, we introduce a 3D semantic mapping method using the annotated framework to reconstruct the concrete structure for visualization. We performed comparative studies and demonstrated that our AdaNet can achieve 8.41% higher detection accuracy than ResNets and VGGs. Moreover, we conducted five field tests, of which three are manual hand-held tests and two are drone-based field tests. These results indicate that our system is capable of performing metric field inspection, and can serve as an effective tool for civil engineers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Driver Drowsiness Behavior Detection and Analysis Using Vision-Based Multimodal Features for Driving Safety</title>
+      <link>/publication/20-driver-drowsiness-sae/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-driver-drowsiness-sae/</guid>
+      <description>&lt;p&gt;Abstract:
+Driving inattention caused by drowsiness has been a significant reason for vehicle crash accidents, and there is a critical need to augment driving safety by monitoring driver drowsiness behaviors. For real-time drowsy driving awareness, we propose a vision-based driver drowsiness monitoring system (DDMS) for driver drowsiness behavior recognition and analysis. First, an infrared camera is deployed in-vehicle to capture the driver’s facial and head information in naturalistic driving scenarios, in which the driver may or may not wear glasses or sunglasses. Second, we propose and design a multi-modal features representation approach based on facial landmarks, and head pose which is retrieved in a convolutional neural network (CNN) regression model. Finally, an extreme learning machine (ELM) model is proposed to fuse the facial landmark, recognition model and pose orientation for drowsiness detection. The DDMS gives promptly warning to the driver once a drowsiness event is detected. The proposed CNN and ELM models are trained in a drowsy driving dataset and are validated on public datasets and field tests. Comparing to the end-to-end CNN recognition model, the proposed multi-modal fusion with the ELM detection model allows faster and more accurate detection with minimal intervention. The experimental result demonstrates that DDMS is able to provide real-time and effective drowsy driving alerts under various light conditions to augment driving safety.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

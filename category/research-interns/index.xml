@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research Interns | AutoAI Lab</title>
+    <link>/category/research-interns/</link>
+      <atom:link href="/category/research-interns/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research Interns</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Research Interns</title>
+      <link>/category/research-interns/</link>
+    </image>
+    
+    <item>
+      <title>Amogh V. Reddy</title>
+      <link>/post/amogh-v.-reddy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/amogh-v.-reddy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shubhankar S. Kulkarni</title>
+      <link>/post/shubhankar-s.-kulkarni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/shubhankar-s.-kulkarni/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

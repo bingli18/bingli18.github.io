@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haitao Luo | AutoAI Lab</title>
+    <link>/author/haitao-luo/</link>
+      <atom:link href="/author/haitao-luo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Haitao Luo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Haitao Luo</title>
+      <link>/author/haitao-luo/</link>
+    </image>
+    
+    <item>
+      <title>3D Mapping and Stability Prediction for Autonomous Wheelchairs</title>
+      <link>/publication/20-wheelchair-stability-cyber/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-wheelchair-stability-cyber/</guid>
+      <description>&lt;p&gt;Abstract:
+Autonomous wheelchairs can address a very large need in many populations by serving as the gateway to a much higher degree of independence and mobility capability. This is due to the fact that the big picture idea for autonomous wheelchairs integration into the transportation chain is to allow for individuals to be able to utilize the Intelligent wheelchair to reach the vehicle (regardless of terrain), mount into autonomous wheelchair that navigates to desired destination, and finally autonomous wheelchair dismounts. This will enable a higher degree of mobility for a handicapped population that experiences a large quantity of restrictions as a result of their circumstances. In order for this potential to be achieved numerous precautions must be integrated into the control system, such as stability maintenance. This paper focuses on mapping the environment through the use of a LiDAR sensor and predicting the stability of the given wheelchair. We utilize RTAB Mapping in combination with LiDAR odometry to construct a 3D map of the environment. Then Poisson reconstruction is deployed to convert the built 3D pointcloud into triangular mesh that allows for the norms to the surface to be calculated, which allows for stability prediction. This paper, not only outlines a novel pipeline but also deployed the pipeline on the recently released Intel RealSense L515 sensor and leverages its unique capabilities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Modeling and Prediction of Rollover Stability for All-Terrain Vehicles</title>
+      <link>/publication/20-gvsets-atv-stability/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-gvsets-atv-stability/</guid>
+      <description>&lt;p&gt;Abstract:
+With the particular passage capability, all-terrain vehicle (ATV) has been widely used for off-road scenarios. In this research, we conduct a lateral sway stability analysis for the suspension mechanism of a general vehicle and establish a mathematical model of static and dynamic stability based on the maximum lateral sway angle and lateral sway acceleration, by considering the combined angular stiffness of independent suspension, angular stiffness of the lateral stabilizer bar and vertical stiffness of tires. 3D point cloud data of a terrain environment is collected using an RGB-Depth camera, and a triangular topography map is constructed. The results in ADAMS show that the proposed stability model can accurately predict the critical tipping state of the vehicle, and the method deployed for real-world terrain modeling and simulation analysis is generalizable for the stability assessment of the interaction between ATV and real-world terrain.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predicting Wheelchair Stability While Crossing a Curb Using RGB-Depth Vision</title>
+      <link>/publication/20-wheelchair-curb-icchp/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-wheelchair-curb-icchp/</guid>
+      <description>&lt;p&gt;Abstract:
+Handicapped individuals often rely heavily on various assistive technologies including wheelchairs and the purpose of these technologies is to enable greater levels of independence for the user. In the development of autonomous wheelchairs, it is imperative that the wheelchair maintains appropriate stability for the user in an outdoor urban environment. This paper proposes an RGB-Depth based perception algorithm for 3D mapping of the environment in addition to dynamic modeling of the wheelchair for stability analysis and prediction. We utilize RTAB Mapping in combination with Poisson Reconstruction that produced triangular mesh from which an accurate prediction of the stability of the wheelchair can be made based on the normals and the critical angle calculated from the dynamic model of the wheelchair.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

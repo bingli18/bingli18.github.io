@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhanggang Lu | AutoAI Lab</title>
+    <link>/author/zhanggang-lu/</link>
+      <atom:link href="/author/zhanggang-lu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhanggang Lu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Zhanggang Lu</title>
+      <link>/author/zhanggang-lu/</link>
+    </image>
+    
+    <item>
+      <title>An Autonomous Vehicle Following Approach-The Virtual Flexible Bar Model</title>
+      <link>/publication/13-vehicle-following/</link>
+      <pubDate>Tue, 08 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/13-vehicle-following/</guid>
+      <description>&lt;p&gt;Abstract:
+An improved virtual flexible bar algorithm which aims at improving the trajectory tracking accuracy of automatic vehicle following system is proposed in this paper. To achieve successful vehicle following, the algorithm mainly consists two parts: the flexible bar which can fit the leader vehicle&amp;rsquo;s trajectory and the force acting in the flexible bar which pull the follower vehicle to track the leader&amp;rsquo;s trajectory besides adjusting the velocity and acceleration of the follower according to the motion state of the leader. In order to maintain the smooth motion of the follower and make sure that the follower could carry out the commands transmitted from the controller accurately, an adaptive trajectory tracking control is also implemented. The simulated experimental results validate that the follower is able to trail the trajectories of the leader vehicle keep the error within an satisfied limits meanwhile maintaining a safe following distance.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

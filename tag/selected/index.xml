@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>selected | AutoAI Lab</title>
+    <link>/tag/selected/</link>
+      <atom:link href="/tag/selected/index.xml" rel="self" type="application/rss+xml" />
+    <description>selected</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>selected</title>
+      <link>/tag/selected/</link>
+    </image>
+    
+    <item>
+      <title>Advancing Self-Supervised Monocular Depth Learning with Sparse LiDAR</title>
+      <link>/publication/21-depth-prediction-corl/</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-depth-prediction-corl/</guid>
+      <description>&lt;p&gt;Abstract:
+Self-supervised monocular depth prediction provides a cost-effective solution to obtain the 3D location of each pixel. However, the existing approaches usually lead to unsatisfactory accuracy, which is critical for autonomous robots. In this paper, we propose FusionDepth, a novel two-stage network to advance the self-supervised monocular dense depth learning by leveraging low-cost sparse (e.g. 4-beam) LiDAR. Unlike the existing methods that use sparse LiDAR mainly in a manner of time-consuming iterative post-processing, our model fuses monocular image features and sparse LiDAR features to predict initial depth maps. Then, an efficient feed-forward refine network is further designed to correct the errors in these initial depth maps in pseudo-3D space with real-time performance. Extensive experiments show that our proposed model significantly outperforms all the state-of-the-art self-supervised methods, as well as the sparse-LiDAR-based methods on both self-supervised monocular depth prediction and completion tasks. With the accurate dense depth prediction, our model outperforms the state-of-the-art sparse-LiDAR-based method (Pseudo-LiDAR++) by more than 68% for the downstream task monocular 3D object detection on the KITTI Leaderboard.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multimodal Semi-Supervised Learning for 3D Objects</title>
+      <link>/publication/21-object-contrastive-bmvc/</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-object-contrastive-bmvc/</guid>
+      <description>&lt;p&gt;Abstract:
+In recent years, semi-supervised learning has been widely explored and shows excellent data efficiency for 2D data. There is an emerging need to improve data efficiency for 3D tasks due to the scarcity of labeled 3D data. This paper explores how the coherence of different modelities of 3D data (e.g. point cloud, image, and mesh) can be used to improve data efficiency for both 3D classification and retrieval tasks. We propose a novel multimodal semi-supervised learning framework by introducing instance-level consistency constraint and a novel multimodal contrastive prototype (M2CP) loss. The instance-level consistency enforces the network to generate consistent representations for multimodal data of the same object regardless of its modality. The M2CP maintains a multimodal prototype for each class and learns features with small intra-class variations by minimizing the feature distance of each object to its prototype while maximizing the distance to the others. Our proposed framework significantly outperforms all the state-of-the-art counterparts for both classification and retrieval tasks by a large margin on the modelNet10 and ModelNet40 datasets.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Method, Apparatus and Computer Program Product for Mapping and Modeling a Three Dimensional Structure</title>
+      <link>/publication/20-mapping-patent/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-mapping-patent/</guid>
+      <description>&lt;p&gt;Abstract:
+Embodiments described herein may provide a method for generating a three-dimensional vector model of the interior of a structure. Methods may include: receiving sensor data indicative of a trajectory; receiving sensor data defining structural surfaces within a structure; generating a three-dimensional point cloud from the sensor data defining structural surfaces within the structure; segmenting the three-dimensional point cloud into two or more segments based, at least in part, on the sensor data indicative of trajectory; generating a three-dimensional surface model of an interior of the structure based on the segmented three-dimensional point cloud with semantic recognition and labelling; and providing the three-dimensional surface model of an interior of the structure to an advanced driver assistance system to facilitate autonomous vehicle parking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Neural Network based Visual Inspection with 3D Metric Measurement of Concrete Defects using Wall-climbing Robot</title>
+      <link>/publication/19-visual-inspection-iros/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-visual-inspection-iros/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a novel metric inspection robot system using a deep neural network to detect and measure surface flaws (i.e., crack and spalling) on concrete structures performed by a wall-climbing robot. The system consists of four modules: robotics data collection module to obtain RGB-D images and IMU measurement, visual-inertial SLAM module to generate pose coupled key-frames with depth information, InspectionNet module to classify each pixel into three classes (back-ground, crack and spalling), and 3D registration and map fusion module to register the flaw patch into registered 3D model overlaid and highlighted with detected flaws for spatial-contextual visualization. The system enables the metric model of each surface flaw patch with pixel-level accuracy and determines its location in 3D space that is significant for structural health assessment and monitoring. The InspectionNet achieves an average accuracy of 87.64% for crack and spalling inspection. We also demonstrate our InspectionNet is robust to view angle, scale and illumination variation. Finally, we design a metric voxel volume map to highlight the flaw in 3D model and provide location and metric information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vision-Based Mobile Indoor Assistive Navigation Aid for Blind People</title>
+      <link>/publication/19-visual-mobile-navi-tmc/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-visual-mobile-navi-tmc/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a new holistic vision-based mobile assistive navigation system to help blind and visually impaired people with indoor independent travel. The system detects dynamic obstacles and adjusts path planning in real-time to improve navigation safety. First, we develop an indoor map editor to parse geometric information from architectural models and generate a semantic map consisting of a global 2D traversable grid map layer and context-aware layers. By leveraging the visual positioning service (VPS) within the Google Tango device, we design a map alignment algorithm to bridge the visual area description file (ADF) and semantic map to achieve semantic localization. Using the on-board RGB-D camera, we develop an efficient obstacle detection and avoidance approach based on a time-stamped map Kalman filter (TSM-KF) algorithm. A multi-modal human-machine interface (HMI) is designed with speech-audio interaction and robust haptic interaction through an electronic SmartCane. Finally, field experiments by blindfolded and blind subjects demonstrate that the proposed system provides an effective tool to help blind individuals with indoor navigation and wayfinding.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semantic Metric 3D Reconstruction for Concrete Inspection</title>
+      <link>/publication/18-metric-recon-cvprw/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/18-metric-recon-cvprw/</guid>
+      <description>&lt;p&gt;Abstract:
+In this paper, we exploit the concrete surface flaw inspection through the fusion of visual positioning and semantic segmentation approach. The fused inspection result is represented by a 3D metric map with a spatial area, width, and depth information, which shows the advantage over general inspection in image space without metric info. We also relieve the human labor with an automatic labeling approach. The system is composed of three hybrid parts: visual positioning to enable pose association, crack/spalling inspection using a deep neural network (pixel level), and a 3D random field filter for fusion to achieve a global 3D metric map. To improve the infrastructure inspection, we released a new data set for concrete crack and spalling segmentation which is built on CSSC dataset [27]. To leverage the effectiveness of the large-scale SLAM aided semantic inspection, we performed three field tests and one baseline test. Experimental results show that our proposed approach significantly improves the capability of 3D metric concrete inspection via deploying visual SLAM. Furthermore, we achieve an 82.4% MaxF1 score for crack detection and 88.64% MaxF1 score for spalling detection on the relabeled dataset.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

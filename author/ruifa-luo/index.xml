@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruifa Luo | AutoAI Lab</title>
+    <link>/author/ruifa-luo/</link>
+      <atom:link href="/author/ruifa-luo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ruifa Luo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 25 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Ruifa Luo</title>
+      <link>/author/ruifa-luo/</link>
+    </image>
+    
+    <item>
+      <title>Multi-Scale Fusion With Matching Attention Model: A Novel Decoding Network Cooperated With NAS for Real-Time Semantic Segmentation</title>
+      <link>/publication/21-nas-attention-tits/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-nas-attention-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper proposes a real-time multi-scale semantic segmentation network (MsNet). MsNet is a combination of our novel multi-scale fusion with matching attention model (MFMA) as the decoding network and the network searched by asymptotic neural architecture search (ANAS) or MobileNetV3 as the encoding network. The MFMA not only extracts low level spatial features from multi-scale inputs but also decodes the contextual features extracted by ANAS. Specifically, considering the advantages and disadvantages of the addition fusion and concatenation fusion, we design multi-scale fusion (MF) that balances speed and accuracy. Then we creatively design two matching attention mechanisms (MA), including matching attention with low calculation (MALC) mechanism and matching attention with strong global context modeling (MASG) mechanism, to match varying resolutions and information of features at different levels of a network. Besides, the ANAS performs the deep neural network search by employing an asymptotic method and provide an efficient encoding network for MsNet, releasing researchers from those tedious mechanical trials. Through extensive experiments, we prove that MFMA, which can be applied to numerous recognition tasks, possesses excellent decoding ability. And we demonstrate the effectiveness and necessity of implementing the matching attention mechanism. Finally, the proposed two versions, MsNet-ANAS and MsNet-M achieve a new state-of-the-art trade-off between accuracy and speed on the CamVid and Cityscapes datasets. More remarkably, on the Nvidia Tesla V100 GPU, our MsNet-ANAS achieves 74.1% mIoU with the speed of 184.2 FPS on the CamVid while 72.9% mIoU with the speed of 119.9 FPS on the Cityscapes.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

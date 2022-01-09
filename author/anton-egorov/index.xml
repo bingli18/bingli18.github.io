@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anton Egorov | AutoAI Lab</title>
+    <link>/author/anton-egorov/</link>
+      <atom:link href="/author/anton-egorov/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anton Egorov</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Anton Egorov</title>
+      <link>/author/anton-egorov/</link>
+    </image>
+    
+    <item>
+      <title>PSE-Match: A Viewpoint-Free Place Recognition Method With Parallel Semantic Embedding</title>
+      <link>/publication/21-place-recognition-tits/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-place-recognition-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+Accurate localization on the autonomous driving cars is essential for autonomy and driving safety, especially for complex urban streets and search-and-rescue subterranean environments where high-accurate GPS is not available. However current odometry estimation may introduce the drifting problems in long-term navigation without robust global localization. The main challenges involve scene divergence under the interference of dynamic environments and effective perception of observation and object layout variance from different viewpoints. To tackle these challenges, we present PSE-Match, a viewpoint-free place recognition method based on parallel semantic analysis of isolated semantic attributes from 3D point-cloud models. Compared with the original point cloud, the observed variance of semantic attributes is smaller. PSE-Match incorporates a divergence place learning network to capture different semantic attributes parallelly through the spherical harmonics domain. Using both existing benchmark datasets and two in-field collected datasets, our experiments show that the proposed method achieves above 70% average recall with top one retrieval and above 95% average recall with top ten retrieval cases. And PSE-Match has also demonstrated an obvious generalization ability with limited training dataset.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

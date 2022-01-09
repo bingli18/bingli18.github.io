@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lixia Rong | AutoAI Lab</title>
+    <link>/author/lixia-rong/</link>
+      <atom:link href="/author/lixia-rong/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lixia Rong</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 03 Jun 2008 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Lixia Rong</title>
+      <link>/author/lixia-rong/</link>
+    </image>
+    
+    <item>
+      <title>3D Reconstruction Embedded System Based on Laser Scanner for Mobile Robot</title>
+      <link>/publication/08-3d-recon-iciea/</link>
+      <pubDate>Tue, 03 Jun 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/08-3d-recon-iciea/</guid>
+      <description>&lt;p&gt;Abstract:
+For 3D reconstruction technology based on laser ranging for mobile robot, this paper presents the design of real-time embedded system for 3D data processing. Firstly, this paper introduces the home and abroad research situation of laser ranging for mobile robot, and analysis the method of 3D data acquisition with 2D laser scanner and ID driving motor module. Secondly, this paper introduces the hardware design and system building of multi-module embedded system, which consists of DSP data acquisition module, FPGA data processing module and ARM control. The ARM system is the main control system and realizes 3D reconstruction function. CAN bus communication is selected between these modules. Thirdly, this paper introduces the design of communication programming under ARM control system. At last, this paper presents the 3D reconstruction method with laser scanner and driving motor by Mesa3D based on RTLinux system.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

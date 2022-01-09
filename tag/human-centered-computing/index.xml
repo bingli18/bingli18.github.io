@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Human-Centered Computing | AutoAI Lab</title>
+    <link>/tag/human-centered-computing/</link>
+      <atom:link href="/tag/human-centered-computing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Human-Centered Computing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Human-Centered Computing</title>
+      <link>/tag/human-centered-computing/</link>
+    </image>
+    
+    <item>
+      <title>Predicting Wheelchair Stability While Crossing a Curb Using RGB-Depth Vision</title>
+      <link>/publication/20-wheelchair-curb-icchp/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-wheelchair-curb-icchp/</guid>
+      <description>&lt;p&gt;Abstract:
+Handicapped individuals often rely heavily on various assistive technologies including wheelchairs and the purpose of these technologies is to enable greater levels of independence for the user. In the development of autonomous wheelchairs, it is imperative that the wheelchair maintains appropriate stability for the user in an outdoor urban environment. This paper proposes an RGB-Depth based perception algorithm for 3D mapping of the environment in addition to dynamic modeling of the wheelchair for stability analysis and prediction. We utilize RTAB Mapping in combination with Poisson Reconstruction that produced triangular mesh from which an accurate prediction of the stability of the wheelchair can be made based on the normals and the critical angle calculated from the dynamic model of the wheelchair.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Driver Drowsiness Behavior Detection and Analysis Using Vision-Based Multimodal Features for Driving Safety</title>
+      <link>/publication/20-driver-drowsiness-sae/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-driver-drowsiness-sae/</guid>
+      <description>&lt;p&gt;Abstract:
+Driving inattention caused by drowsiness has been a significant reason for vehicle crash accidents, and there is a critical need to augment driving safety by monitoring driver drowsiness behaviors. For real-time drowsy driving awareness, we propose a vision-based driver drowsiness monitoring system (DDMS) for driver drowsiness behavior recognition and analysis. First, an infrared camera is deployed in-vehicle to capture the driver’s facial and head information in naturalistic driving scenarios, in which the driver may or may not wear glasses or sunglasses. Second, we propose and design a multi-modal features representation approach based on facial landmarks, and head pose which is retrieved in a convolutional neural network (CNN) regression model. Finally, an extreme learning machine (ELM) model is proposed to fuse the facial landmark, recognition model and pose orientation for drowsiness detection. The DDMS gives promptly warning to the driver once a drowsiness event is detected. The proposed CNN and ELM models are trained in a drowsy driving dataset and are validated on public datasets and field tests. Comparing to the end-to-end CNN recognition model, the proposed multi-modal fusion with the ELM detection model allows faster and more accurate detection with minimal intervention. The experimental result demonstrates that DDMS is able to provide real-time and effective drowsy driving alerts under various light conditions to augment driving safety.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vision-Based Mobile Indoor Assistive Navigation Aid for Blind People</title>
+      <link>/publication/19-visual-mobile-navi-tmc/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-visual-mobile-navi-tmc/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a new holistic vision-based mobile assistive navigation system to help blind and visually impaired people with indoor independent travel. The system detects dynamic obstacles and adjusts path planning in real-time to improve navigation safety. First, we develop an indoor map editor to parse geometric information from architectural models and generate a semantic map consisting of a global 2D traversable grid map layer and context-aware layers. By leveraging the visual positioning service (VPS) within the Google Tango device, we design a map alignment algorithm to bridge the visual area description file (ADF) and semantic map to achieve semantic localization. Using the on-board RGB-D camera, we develop an efficient obstacle detection and avoidance approach based on a time-stamped map Kalman filter (TSM-KF) algorithm. A multi-modal human-machine interface (HMI) is designed with speech-audio interaction and robust haptic interaction through an electronic SmartCane. Finally, field experiments by blindfolded and blind subjects demonstrate that the proposed system provides an effective tool to help blind individuals with indoor navigation and wayfinding.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Adaptive Stair-ascending Gait Generation Approach Based on Depth Camera for Lower Limb Exoskeleton.” Review of Scientific Instruments</title>
+      <link>/publication/19-depth-gait/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-depth-gait/</guid>
+      <description>&lt;p&gt;Abstract:
+The mobility on stairways is a daily challenge for seniors and people with dyskinesia. Lower limb exoskeletons can be effective assistants to improve their life quality. In this paper, we present an adaptive stair-ascending gait generation algorithm based on a depth camera for lower limb exoskeletons. We first construct a linked-list-based stairway model with the point cloud captured from the depth camera. Then, an optimal foothold point is calculated based on the linked-list stair model for gait generation. Finally, the exoskeleton takes the stair-ascending gait of healthy people as a reference and generates appropriate gait for the stair. The proposed gait generation algorithm is initially validated through holistic simulation analyses. We tested the stairway modeling algorithm on varieties of indoor and outdoor stairways and evaluated the gait generation algorithm on stairs of different height. The subjects’ stair walking tests with lower limb exoskeletons show the effectiveness of the proposed stairway modeling and gait generation approaches.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Assistive Indoor Navigation System for the Visually Impaired in Multi-Floor Environments</title>
+      <link>/publication/17-indoor-navi-cyber/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-indoor-navi-cyber/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents an innovative wearable system to assist visually impaired people navigate indoors in real time. Our proposed system incorporates state-of-the-art handheld devices from Google&amp;rsquo;s Project Tango and integrates path planner and obstacle avoidance submodules, as well as human-computer interaction techniques, to provide assistance to the user. Our system preprocesses a priori knowledge of the environment extracted from CAD files and spatial information from Google&amp;rsquo;s Area Description Files. The system can then reallocate resources to navigation and human-computer interaction tasks during execution. The system is capable of exploring complex environments spanning multiple floors and has been tested and demonstrated in a variety of indoor environments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CCNY Smart Cane</title>
+      <link>/publication/17-smart-cane-cyber/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-smart-cane-cyber/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents SmartCane - the CCNY Smart Cane system, a robotic white cane and mobile device navigation software for visually impaired people. The system includes software for Google Tango devices that utilizes simultaneous localization and mapping (SLAM) to plan a path and guide a visually impaired user to waypoints within indoor environments. A control panel is mounted on the standard white cane that enables visually impaired users to communicate with the navigation software and is additionally used to provide navigation instructions via haptic feedback. Based on the motion-tracking and localization capabilities of the Google Tango, the SmartCane is able to generate a safe path to the destination waypoint indicated by the user.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guided Text Spotting for Assistive Blind Navigation in Unfamiliar Indoor Environments</title>
+      <link>/publication/16-text-recog-isvc/</link>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-text-recog-isvc/</guid>
+      <description>&lt;p&gt;Abstract:
+Scene text in indoor environments usually preserves and communicates important contextual information which can significantly enhance the independent travel of blind and visually impaired people. In this paper, we present an assistive text spotting navigation system based on an RGB-D mobile device for blind or severely visually impaired people. Specifically, a novel spatial-temporal text localization algorithm is proposed to localize and prune text regions, by integrating stroke-specific features with a subsequent text tracking process. The density of extracted text-specific feature points serves as an efficient text indicator to guide the user closer to text-likely regions for better recognition performance. Next, detected text regions are binarized and recognized by off-the-shelf optical character recognition methods. Significant non-text indicator signage can also be matched to provide additional environment information. Both recognized results are then transferred to speech feedback for user interaction. Our proposed video text localization approach is quantitatively evaluated on the ICDAR 2013 dataset, and the experimental results demonstrate the effectiveness of our proposed method.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Wearable Indoor Navigation System with Context-based Decision Making For Visually Impaired</title>
+      <link>/publication/16-wearable-navi-sys/</link>
+      <pubDate>Tue, 15 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-wearable-navi-sys/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a wearable indoor navigation system that helps visually impaired user to perform indoor navigation. The system takes advantage of the Simultaneous Localization and Mapping (SLAM) and semantic path planning to accomplish localization and navigation tasks while collaborating with the visually impaired user. It integrates multiple sensors and feedback devices as an RGB-D camera, an IMU and a web camera; and it applies the RGB-D based visual odometry algorithm to estimate the user&amp;rsquo;s location and orientation, and uses the IMU to refine the orientation error. Major landmarks such as room numbers and corridor corners are detected by the web camera and RGB-D camera, and matched to the digitalized floor map so as to localize the user. The path and motion guidance are generated afterwards to guide the user to a desired destination. To improve the fitting between the rigid commands and optimal machine decisions for human beings, we propose a context based decision making mechanism on path planning that resolves users&amp;rsquo; confusions caused by incorrect observations. The software modules are implemented in Robotics Operating System (ROS) and the navigation system are tested with blindfolded sight persons. The field experiments confirm the feasibility of the system prototype and the proposed mechanism.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ISANA: Wearable Context-Aware Indoor Assistive Navigation with Obstacle Avoidance for the Blind</title>
+      <link>/publication/16-isana-navi-eccvw/</link>
+      <pubDate>Thu, 03 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-isana-navi-eccvw/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a novel mobile wearable context-aware indoor maps and navigation system with obstacle avoidance for the blind. The system includes an indoor map editor and an App on Tango devices with multiple modules. The indoor map editor parses spatial semantic information from a building architectural model, and represents it as a high-level semantic map to support context awareness. An obstacle avoidance module detects objects in front using a depth sensor. Based on the ego-motion tracking within the Tango, localization alignment on the semantic map, and obstacle detection, the system automatically generates a safe path to a desired destination. A speech-audio interface delivers user input, guidance and alert cues in real-time using a priority-based mechanism to reduce the user’s cognitive load. Field tests involving blindfolded and blind subjects demonstrate that the proposed prototype performs context-aware and safety indoor assistive navigation effectively.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

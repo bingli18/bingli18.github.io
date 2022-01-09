@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rich Valde | AutoAI Lab</title>
+    <link>/author/rich-valde/</link>
+      <atom:link href="/author/rich-valde/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rich Valde</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 21 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Rich Valde</title>
+      <link>/author/rich-valde/</link>
+    </image>
+    
+    <item>
+      <title>Method, Apparatus and Computer Program Product for Mapping and Modeling a Three Dimensional Structure</title>
+      <link>/publication/20-mapping-patent/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-mapping-patent/</guid>
+      <description>&lt;p&gt;Abstract:
+Embodiments described herein may provide a method for generating a three-dimensional vector model of the interior of a structure. Methods may include: receiving sensor data indicative of a trajectory; receiving sensor data defining structural surfaces within a structure; generating a three-dimensional point cloud from the sensor data defining structural surfaces within the structure; segmenting the three-dimensional point cloud into two or more segments based, at least in part, on the sensor data indicative of trajectory; generating a three-dimensional surface model of an interior of the structure based on the segmented three-dimensional point cloud with semantic recognition and labelling; and providing the three-dimensional surface model of an interior of the structure to an advanced driver assistance system to facilitate autonomous vehicle parking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collaborative Mapping and Autonomous Parking for Multi-Story Parking Garage</title>
+      <link>/publication/18-colla-mapping-tits/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/18-colla-mapping-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+We present a novel collaborative mapping and autonomous parking system for semi-structured multi-story parking garages, based on cooperative 3-D LiDAR point cloud registration and Bayesian probabilistic updating. First, an inertial-enhanced (IE) generalized iterative closest point (G-ICP) approach is presented to perform high accuracy registration for LiDAR odometry, which is loosely coupled with inertial measurement unit using multi-state extended Kalman filter fusion. Second, the IE G-ICP is utilized to reconstruct the 3-D point cloud model for each vehicle, and then the individual model maps are merged and updated into a global probabilistic 2-D grid map. A collaborative multiple layer semantic map is constructed to support autonomous parking. Finally, we propose a collaborative navigation approach for path planning when there are multiple vehicles in the parking garage through vehicle-to-vehicle communication. A global path planner is designed to explore the minimum cost path based on the semantic map, and local motion planning is performed using a random exploring algorithm for obstacle avoidance and path smoothing. Our pilot experimental evaluation provides a proof of concept for indoor autonomous parking by collaborative perception, map merging, and updating methodologies.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

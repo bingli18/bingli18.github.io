@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaoming Zhao | AutoAI Lab</title>
+    <link>/author/xiaoming-zhao/</link>
+      <atom:link href="/author/xiaoming-zhao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaoming Zhao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 16 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Xiaoming Zhao</title>
+      <link>/author/xiaoming-zhao/</link>
+    </image>
+    
+    <item>
+      <title>An Adaptive Stair-ascending Gait Generation Approach Based on Depth Camera for Lower Limb Exoskeleton.” Review of Scientific Instruments</title>
+      <link>/publication/19-depth-gait/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-depth-gait/</guid>
+      <description>&lt;p&gt;Abstract:
+The mobility on stairways is a daily challenge for seniors and people with dyskinesia. Lower limb exoskeletons can be effective assistants to improve their life quality. In this paper, we present an adaptive stair-ascending gait generation algorithm based on a depth camera for lower limb exoskeletons. We first construct a linked-list-based stairway model with the point cloud captured from the depth camera. Then, an optimal foothold point is calculated based on the linked-list stair model for gait generation. Finally, the exoskeleton takes the stair-ascending gait of healthy people as a reference and generates appropriate gait for the stair. The proposed gait generation algorithm is initially validated through holistic simulation analyses. We tested the stairway modeling algorithm on varieties of indoor and outdoor stairways and evaluated the gait generation algorithm on stairs of different height. The subjects’ stair walking tests with lower limb exoskeletons show the effectiveness of the proposed stairway modeling and gait generation approaches.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

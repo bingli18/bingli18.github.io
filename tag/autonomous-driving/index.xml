@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autonomous Driving | AutoAI Lab</title>
+    <link>/tag/autonomous-driving/</link>
+      <atom:link href="/tag/autonomous-driving/index.xml" rel="self" type="application/rss+xml" />
+    <description>Autonomous Driving</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Autonomous Driving</title>
+      <link>/tag/autonomous-driving/</link>
+    </image>
+    
+    <item>
+      <title>Advancing Self-Supervised Monocular Depth Learning with Sparse LiDAR</title>
+      <link>/publication/21-depth-prediction-corl/</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-depth-prediction-corl/</guid>
+      <description>&lt;p&gt;Abstract:
+Self-supervised monocular depth prediction provides a cost-effective solution to obtain the 3D location of each pixel. However, the existing approaches usually lead to unsatisfactory accuracy, which is critical for autonomous robots. In this paper, we propose FusionDepth, a novel two-stage network to advance the self-supervised monocular dense depth learning by leveraging low-cost sparse (e.g. 4-beam) LiDAR. Unlike the existing methods that use sparse LiDAR mainly in a manner of time-consuming iterative post-processing, our model fuses monocular image features and sparse LiDAR features to predict initial depth maps. Then, an efficient feed-forward refine network is further designed to correct the errors in these initial depth maps in pseudo-3D space with real-time performance. Extensive experiments show that our proposed model significantly outperforms all the state-of-the-art self-supervised methods, as well as the sparse-LiDAR-based methods on both self-supervised monocular depth prediction and completion tasks. With the accurate dense depth prediction, our model outperforms the state-of-the-art sparse-LiDAR-based method (Pseudo-LiDAR++) by more than 68% for the downstream task monocular 3D object detection on the KITTI Leaderboard.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PSE-Match: A Viewpoint-Free Place Recognition Method With Parallel Semantic Embedding</title>
+      <link>/publication/21-place-recognition-tits/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-place-recognition-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+Accurate localization on the autonomous driving cars is essential for autonomy and driving safety, especially for complex urban streets and search-and-rescue subterranean environments where high-accurate GPS is not available. However current odometry estimation may introduce the drifting problems in long-term navigation without robust global localization. The main challenges involve scene divergence under the interference of dynamic environments and effective perception of observation and object layout variance from different viewpoints. To tackle these challenges, we present PSE-Match, a viewpoint-free place recognition method based on parallel semantic analysis of isolated semantic attributes from 3D point-cloud models. Compared with the original point cloud, the observed variance of semantic attributes is smaller. PSE-Match incorporates a divergence place learning network to capture different semantic attributes parallelly through the spherical harmonics domain. Using both existing benchmark datasets and two in-field collected datasets, our experiments show that the proposed method achieves above 70% average recall with top one retrieval and above 95% average recall with top ten retrieval cases. And PSE-Match has also demonstrated an obvious generalization ability with limited training dataset.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-Scale Fusion With Matching Attention Model: A Novel Decoding Network Cooperated With NAS for Real-Time Semantic Segmentation</title>
+      <link>/publication/21-nas-attention-tits/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-nas-attention-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper proposes a real-time multi-scale semantic segmentation network (MsNet). MsNet is a combination of our novel multi-scale fusion with matching attention model (MFMA) as the decoding network and the network searched by asymptotic neural architecture search (ANAS) or MobileNetV3 as the encoding network. The MFMA not only extracts low level spatial features from multi-scale inputs but also decodes the contextual features extracted by ANAS. Specifically, considering the advantages and disadvantages of the addition fusion and concatenation fusion, we design multi-scale fusion (MF) that balances speed and accuracy. Then we creatively design two matching attention mechanisms (MA), including matching attention with low calculation (MALC) mechanism and matching attention with strong global context modeling (MASG) mechanism, to match varying resolutions and information of features at different levels of a network. Besides, the ANAS performs the deep neural network search by employing an asymptotic method and provide an efficient encoding network for MsNet, releasing researchers from those tedious mechanical trials. Through extensive experiments, we prove that MFMA, which can be applied to numerous recognition tasks, possesses excellent decoding ability. And we demonstrate the effectiveness and necessity of implementing the matching attention mechanism. Finally, the proposed two versions, MsNet-ANAS and MsNet-M achieve a new state-of-the-art trade-off between accuracy and speed on the CamVid and Cityscapes datasets. More remarkably, on the Nvidia Tesla V100 GPU, our MsNet-ANAS achieves 74.1% mIoU with the speed of 184.2 FPS on the CamVid while 72.9% mIoU with the speed of 119.9 FPS on the Cityscapes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nondestructive Evaluation of Terrain Using mmWave Radar Imaging</title>
+      <link>/publication/21-mmwave-radar-sae/</link>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-mmwave-radar-sae/</guid>
+      <description>&lt;p&gt;Abstract:
+Military ground vehicles operate in off-road environments traversing different terrains under various environmental conditions. There has been an increasing interest towards autonomous off-road vehicle navigation, leading to the needs of terrain traversability assessment through sensing. These methods utilized data-driven approaches on classical robotic perception sensing modalities (RGB cameras, Lidar, and depth cameras) positioned in front of ground vehicles in order to observe approaching terrain. Classical robotic sensing modalities, though effective for describing environment geometry and object detection and tracking, aren’t able to directly observe features related to compaction and moisture content which have significant effects on the moduli properties governing terrain mechanics. These methods then become very specialized to specific regions and environmental conditions which are inevitably subject to change. Radio wave-based sensing modes have been shown in studies to have success in observing different terrain surface and subsurface conditions such as compaction and moisture presence. We study the usability of emerging, portable and front mountable radar imaging sensors to provide real-time radio spectra information of the in-coming terrain area. In this study, we use a radar transceiver array operating in the 6.2-6.9 GHz spectral range to develop a radar image/soil moisture dataset, where beamforming is used to recover radar images of lab soil samples of various moisture content levels. The radar images are constructed at various distances from the soil surface and various spatial resolutions to support a local path planning scenario. Support vector machine (SVM) classifier and support vector regression (SVR) models are trained on the dataset and tested on lab data and in-field data. Classifier and regression model results indicate that normalized local radar image statistics are able to distinguish moisture levels at various distances and spatial resolutions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semantic Digital Surface Map Towards Collaborative Off-Road Vehicle Autonomy</title>
+      <link>/publication/20-gvsets-mapping/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-gvsets-mapping/</guid>
+      <description>&lt;p&gt;Abstract:
+The fundamental aspect of unmanned ground vehicle (UGV) navigation, especially over off-road environments, are representations of terrain describing geometry, types, and traversability. One of the typical representations of the environment is digital surface models (DSMs) which efficiently encode geometric information. In this research, we propose a collaborative approach for UGV navigation through unmanned aerial vehicle (UAV) mapping to create semantic DSMs, by leveraging the UAV wide field of view and nadir perspective for map surveying. Semantic segmentation models for terrain recognition are affected by sensing modality as well as dataset availability. We explored and developed semantic segmentation deep convolutional neural networks (CNN) models to construct semantic DSMs. We further conducted a thorough quantitative and qualitative analysis regarding image modalities (between RGB, RGB+DSM and RG+DSM) and dataset availability effects on the performance of segmentation CNN models.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Modeling and Prediction of Rollover Stability for All-Terrain Vehicles</title>
+      <link>/publication/20-gvsets-atv-stability/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-gvsets-atv-stability/</guid>
+      <description>&lt;p&gt;Abstract:
+With the particular passage capability, all-terrain vehicle (ATV) has been widely used for off-road scenarios. In this research, we conduct a lateral sway stability analysis for the suspension mechanism of a general vehicle and establish a mathematical model of static and dynamic stability based on the maximum lateral sway angle and lateral sway acceleration, by considering the combined angular stiffness of independent suspension, angular stiffness of the lateral stabilizer bar and vertical stiffness of tires. 3D point cloud data of a terrain environment is collected using an RGB-Depth camera, and a triangular topography map is constructed. The results in ADAMS show that the proposed stability model can accurately predict the critical tipping state of the vehicle, and the method deployed for real-world terrain modeling and simulation analysis is generalizable for the stability assessment of the interaction between ATV and real-world terrain.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Driver Drowsiness Behavior Detection and Analysis Using Vision-Based Multimodal Features for Driving Safety</title>
+      <link>/publication/20-driver-drowsiness-sae/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-driver-drowsiness-sae/</guid>
+      <description>&lt;p&gt;Abstract:
+Driving inattention caused by drowsiness has been a significant reason for vehicle crash accidents, and there is a critical need to augment driving safety by monitoring driver drowsiness behaviors. For real-time drowsy driving awareness, we propose a vision-based driver drowsiness monitoring system (DDMS) for driver drowsiness behavior recognition and analysis. First, an infrared camera is deployed in-vehicle to capture the driver’s facial and head information in naturalistic driving scenarios, in which the driver may or may not wear glasses or sunglasses. Second, we propose and design a multi-modal features representation approach based on facial landmarks, and head pose which is retrieved in a convolutional neural network (CNN) regression model. Finally, an extreme learning machine (ELM) model is proposed to fuse the facial landmark, recognition model and pose orientation for drowsiness detection. The DDMS gives promptly warning to the driver once a drowsiness event is detected. The proposed CNN and ELM models are trained in a drowsy driving dataset and are validated on public datasets and field tests. Comparing to the end-to-end CNN recognition model, the proposed multi-modal fusion with the ELM detection model allows faster and more accurate detection with minimal intervention. The experimental result demonstrates that DDMS is able to provide real-time and effective drowsy driving alerts under various light conditions to augment driving safety.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Method, Apparatus and Computer Program Product for Mapping and Modeling a Three Dimensional Structure</title>
+      <link>/publication/20-mapping-patent/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/20-mapping-patent/</guid>
+      <description>&lt;p&gt;Abstract:
+Embodiments described herein may provide a method for generating a three-dimensional vector model of the interior of a structure. Methods may include: receiving sensor data indicative of a trajectory; receiving sensor data defining structural surfaces within a structure; generating a three-dimensional point cloud from the sensor data defining structural surfaces within the structure; segmenting the three-dimensional point cloud into two or more segments based, at least in part, on the sensor data indicative of trajectory; generating a three-dimensional surface model of an interior of the structure based on the segmented three-dimensional point cloud with semantic recognition and labelling; and providing the three-dimensional surface model of an interior of the structure to an advanced driver assistance system to facilitate autonomous vehicle parking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collaborative Mapping and Autonomous Parking for Multi-Story Parking Garage</title>
+      <link>/publication/18-colla-mapping-tits/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/18-colla-mapping-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+We present a novel collaborative mapping and autonomous parking system for semi-structured multi-story parking garages, based on cooperative 3-D LiDAR point cloud registration and Bayesian probabilistic updating. First, an inertial-enhanced (IE) generalized iterative closest point (G-ICP) approach is presented to perform high accuracy registration for LiDAR odometry, which is loosely coupled with inertial measurement unit using multi-state extended Kalman filter fusion. Second, the IE G-ICP is utilized to reconstruct the 3-D point cloud model for each vehicle, and then the individual model maps are merged and updated into a global probabilistic 2-D grid map. A collaborative multiple layer semantic map is constructed to support autonomous parking. Finally, we propose a collaborative navigation approach for path planning when there are multiple vehicles in the parking garage through vehicle-to-vehicle communication. A global path planner is designed to explore the minimum cost path based on the semantic map, and local motion planning is performed using a random exploring algorithm for obstacle avoidance and path smoothing. Our pilot experimental evaluation provides a proof of concept for indoor autonomous parking by collaborative perception, map merging, and updating methodologies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Random Multi-trajectory Generation Method for Online Emergency Threat Management (Analysis and Application in Path Planning Algorithm)</title>
+      <link>/publication/17-multi-traj-path-plan/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-multi-traj-path-plan/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a novel randomized path planning algorithm, which is a goal and homology biased sampling based algorithm called Multiple Guiding Attraction based Random Tree, and robots can use it to tackle pop-up and moving threats under kinodynamic constraints. Our proposed method considers the kinematics and dynamics constraints, using obstacle information to perform informed sampling and redistribution around collision region toward valid routing. We pioneeringly propose a multiple path planning method using ‘Extending Forbidden’ algorithm, rather than using variant cost principles for online threat management. The threat management method performs online path switching between the planned multiple paths, which is proved with better time performance than conventional approaches. The proposed method has advantage in exploration in obstacle crowded environment, where narrow corridor fails using the general sampling based exploration methods. We perform detailed comparative experiments with peer approaches in cluttered environment, and point out the advantages in time and mission performance.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

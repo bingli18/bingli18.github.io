@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aries Arditi | AutoAI Lab</title>
+    <link>/author/aries-arditi/</link>
+      <atom:link href="/author/aries-arditi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aries Arditi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Aries Arditi</title>
+      <link>/author/aries-arditi/</link>
+    </image>
+    
+    <item>
+      <title>Vision-Based Mobile Indoor Assistive Navigation Aid for Blind People</title>
+      <link>/publication/19-visual-mobile-navi-tmc/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-visual-mobile-navi-tmc/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a new holistic vision-based mobile assistive navigation system to help blind and visually impaired people with indoor independent travel. The system detects dynamic obstacles and adjusts path planning in real-time to improve navigation safety. First, we develop an indoor map editor to parse geometric information from architectural models and generate a semantic map consisting of a global 2D traversable grid map layer and context-aware layers. By leveraging the visual positioning service (VPS) within the Google Tango device, we design a map alignment algorithm to bridge the visual area description file (ADF) and semantic map to achieve semantic localization. Using the on-board RGB-D camera, we develop an efficient obstacle detection and avoidance approach based on a time-stamped map Kalman filter (TSM-KF) algorithm. A multi-modal human-machine interface (HMI) is designed with speech-audio interaction and robust haptic interaction through an electronic SmartCane. Finally, field experiments by blindfolded and blind subjects demonstrate that the proposed system provides an effective tool to help blind individuals with indoor navigation and wayfinding.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Assistive Indoor Navigation System for the Visually Impaired in Multi-Floor Environments</title>
+      <link>/publication/17-indoor-navi-cyber/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-indoor-navi-cyber/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents an innovative wearable system to assist visually impaired people navigate indoors in real time. Our proposed system incorporates state-of-the-art handheld devices from Google&amp;rsquo;s Project Tango and integrates path planner and obstacle avoidance submodules, as well as human-computer interaction techniques, to provide assistance to the user. Our system preprocesses a priori knowledge of the environment extracted from CAD files and spatial information from Google&amp;rsquo;s Area Description Files. The system can then reallocate resources to navigation and human-computer interaction tasks during execution. The system is capable of exploring complex environments spanning multiple floors and has been tested and demonstrated in a variety of indoor environments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guided Text Spotting for Assistive Blind Navigation in Unfamiliar Indoor Environments</title>
+      <link>/publication/16-text-recog-isvc/</link>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-text-recog-isvc/</guid>
+      <description>&lt;p&gt;Abstract:
+Scene text in indoor environments usually preserves and communicates important contextual information which can significantly enhance the independent travel of blind and visually impaired people. In this paper, we present an assistive text spotting navigation system based on an RGB-D mobile device for blind or severely visually impaired people. Specifically, a novel spatial-temporal text localization algorithm is proposed to localize and prune text regions, by integrating stroke-specific features with a subsequent text tracking process. The density of extracted text-specific feature points serves as an efficient text indicator to guide the user closer to text-likely regions for better recognition performance. Next, detected text regions are binarized and recognized by off-the-shelf optical character recognition methods. Significant non-text indicator signage can also be matched to provide additional environment information. Both recognized results are then transferred to speech feedback for user interaction. Our proposed video text localization approach is quantitatively evaluated on the ICDAR 2013 dataset, and the experimental results demonstrate the effectiveness of our proposed method.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Demo: Assisting Visually Impaired People Navigate Indoors</title>
+      <link>/publication/16-demo-navi-ijcai/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-demo-navi-ijcai/</guid>
+      <description>&lt;p&gt;Abstract:
+Research in Artificial Intelligence, Robotics and Computer Vision has recently made great strides in improving indoor localization. Publicly available technology now allows for indoor localization with very small margins of error. In this demo, we show a system that uses state-of the-art technology to assist visually impaired people navigate indoors. Our system takes advantage of spatial representations from CAD files, or floor plan images, to extract valuable information that later can be used to improve navigation and human-computer interaction. Using depth information, our system is capable of detecting obstacles and guiding the user to avoid them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ISANA: Wearable Context-Aware Indoor Assistive Navigation with Obstacle Avoidance for the Blind</title>
+      <link>/publication/16-isana-navi-eccvw/</link>
+      <pubDate>Thu, 03 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/16-isana-navi-eccvw/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a novel mobile wearable context-aware indoor maps and navigation system with obstacle avoidance for the blind. The system includes an indoor map editor and an App on Tango devices with multiple modules. The indoor map editor parses spatial semantic information from a building architectural model, and represents it as a high-level semantic map to support context awareness. An obstacle avoidance module detects objects in front using a depth sensor. Based on the ego-motion tracking within the Tango, localization alignment on the semantic map, and obstacle detection, the system automatically generates a safe path to a desired destination. A speech-audio interface delivers user input, guidance and alert cues in real-time using a priority-based mechanism to reduce the user’s cognitive load. Field tests involving blindfolded and blind subjects demonstrate that the proposed prototype performs context-aware and safety indoor assistive navigation effectively.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaohai Li | AutoAI Lab</title>
+    <link>/author/xiaohai-li/</link>
+      <atom:link href="/author/xiaohai-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaohai Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 14 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Xiaohai Li</title>
+      <link>/author/xiaohai-li/</link>
+    </image>
+    
+    <item>
+      <title>An Assistive Navigation Framework for the Visually Impaired</title>
+      <link>/publication/15-assistive-navi-thms/</link>
+      <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/15-assistive-navi-thms/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper provides a framework for context-aware navigation services for vision impaired people. Integrating advanced intelligence into navigation requires knowledge of the semantic properties of the objects around the user&amp;rsquo;s environment. This interaction is required to enhance communication about objects and places to improve travel decisions. Our intelligent system is a human-in-the-loop cyber-physical system that interprets ubiquitous semantic entities by interacting with the physical world and the cyber domain, viz., 1) visual cues and distance sensing of material objects as line-of-sight interaction to interpret location-context information, and 2) data (tweets) from social media as event-based interaction to interpret situational vibes. The case study elaborates our proposed localization methods (viz., topological, landmark, metric, crowdsourced, and sound localization) for applications in way finding, way confirmation, user tracking, socialization, and situation alerts. Our pilot evaluation provides a proof of concept for an assistive navigation system.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

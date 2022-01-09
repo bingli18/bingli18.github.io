@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shouqian Yu | AutoAI Lab</title>
+    <link>/author/shouqian-yu/</link>
+      <atom:link href="/author/shouqian-yu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shouqian Yu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Dec 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Shouqian Yu</title>
+      <link>/author/shouqian-yu/</link>
+    </image>
+    
+    <item>
+      <title>Tension Distribution Algorithm of a 7-DOF Cable-Driven Robotic Arm Based on Dynamic Minimum Pre-Tightening Force</title>
+      <link>/publication/11-robotic-arm-robio/</link>
+      <pubDate>Wed, 07 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/11-robotic-arm-robio/</guid>
+      <description>&lt;p&gt;Abstract:
+From shoulder to wrist, a person&amp;rsquo;s arm has a total of seven degrees of freedom (DOFs), which is the minimum number of DOF for the robot that needs to avoid obstacles and internal singularity. Compared to the traditional 7-DOF robot, the 7-DOF cable-driven robotic arm (CDRA) similar to human muscles parallel drive mode is the hybrid structure of serial-parallel, which possesses a number of promising advantages, such as simple and light-weight mechanical structure, high-loading capacity, and large reachable workspace. Since the cable can only generate tension and cannot stand pressure, cable-driven mechanism must be a redundant drive structure. Both the shoulder and wrist joint are redundant drive mechanism, and the tension of four cables has multiple solutions in the same posture. Hence, iteration Newton-Euler method is adopted to conduct dynamic analysis. Cable tension distribution algorithm based on null space method by solving Pseudo-inverse matrix is proposed, and in order to keep the cable tensional and also reduce energy consumption, the index of dynamic minimum pre-tightening force is originally proposed to realtime adjust the driving force of each cable. To show the accuracy and effectiveness of the proposed cable tension distribution algorithm, several simulation results are illustrated. These lay a good theory foundation for further research on effective control and performance improvement of the CDRA.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

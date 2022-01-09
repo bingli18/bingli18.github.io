@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qingtian Chen | AutoAI Lab</title>
+    <link>/author/qingtian-chen/</link>
+      <atom:link href="/author/qingtian-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Qingtian Chen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Qingtian Chen</title>
+      <link>/author/qingtian-chen/</link>
+    </image>
+    
+    <item>
+      <title>Vision-Based Mobile Indoor Assistive Navigation Aid for Blind People</title>
+      <link>/publication/19-visual-mobile-navi-tmc/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-visual-mobile-navi-tmc/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a new holistic vision-based mobile assistive navigation system to help blind and visually impaired people with indoor independent travel. The system detects dynamic obstacles and adjusts path planning in real-time to improve navigation safety. First, we develop an indoor map editor to parse geometric information from architectural models and generate a semantic map consisting of a global 2D traversable grid map layer and context-aware layers. By leveraging the visual positioning service (VPS) within the Google Tango device, we design a map alignment algorithm to bridge the visual area description file (ADF) and semantic map to achieve semantic localization. Using the on-board RGB-D camera, we develop an efficient obstacle detection and avoidance approach based on a time-stamped map Kalman filter (TSM-KF) algorithm. A multi-modal human-machine interface (HMI) is designed with speech-audio interaction and robust haptic interaction through an electronic SmartCane. Finally, field experiments by blindfolded and blind subjects demonstrate that the proposed system provides an effective tool to help blind individuals with indoor navigation and wayfinding.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CCNY Smart Cane</title>
+      <link>/publication/17-smart-cane-cyber/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-smart-cane-cyber/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents SmartCane - the CCNY Smart Cane system, a robotic white cane and mobile device navigation software for visually impaired people. The system includes software for Google Tango devices that utilizes simultaneous localization and mapping (SLAM) to plan a path and guide a visually impaired user to waypoints within indoor environments. A control panel is mounted on the standard white cane that enables visually impaired users to communicate with the navigation software and is additionally used to provide navigation instructions via haptic feedback. Based on the motion-tracking and localization capabilities of the Google Tango, the SmartCane is able to generate a safe path to the destination waypoint indicated by the user.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

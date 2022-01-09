@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hongfan Wang | AutoAI Lab</title>
+    <link>/author/hongfan-wang/</link>
+      <atom:link href="/author/hongfan-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hongfan Wang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 29 Jun 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Hongfan Wang</title>
+      <link>/author/hongfan-wang/</link>
+    </image>
+    
+    <item>
+      <title>Robotic Impact-Echo Non-Destructive Evaluation based on FFT and SVM</title>
+      <link>/publication/14-impact-echo-wcica/</link>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/14-impact-echo-wcica/</guid>
+      <description>&lt;p&gt;Abstract:
+Previous research has shown that the impact-echo emission signals contain information about the flaws of structural integrity and deterioration levels of concrete bridges. This paper presents a method of using the mobile robot equipped with an impact-echo Non-Destructive Evaluation (NDE) device to autonomously collect data, perform automatic classification and 3D visualization of the detected flaws. This method is based on Power Spectral Density (PSD) analysis for the Fast Fourier Transform (FFT) of the impact-echo signals, and Support Vector Machine (SVM) classification. Therefore, health condition of concrete bridge decks can be automatically recorded, analyzed and visualized in 3D.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

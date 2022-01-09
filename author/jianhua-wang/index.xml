@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jianhua Wang | AutoAI Lab</title>
+    <link>/author/jianhua-wang/</link>
+      <atom:link href="/author/jianhua-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jianhua Wang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 16 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Jianhua Wang</title>
+      <link>/author/jianhua-wang/</link>
+    </image>
+    
+    <item>
+      <title>An Adaptive Stair-ascending Gait Generation Approach Based on Depth Camera for Lower Limb Exoskeleton.” Review of Scientific Instruments</title>
+      <link>/publication/19-depth-gait/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/19-depth-gait/</guid>
+      <description>&lt;p&gt;Abstract:
+The mobility on stairways is a daily challenge for seniors and people with dyskinesia. Lower limb exoskeletons can be effective assistants to improve their life quality. In this paper, we present an adaptive stair-ascending gait generation algorithm based on a depth camera for lower limb exoskeletons. We first construct a linked-list-based stairway model with the point cloud captured from the depth camera. Then, an optimal foothold point is calculated based on the linked-list stair model for gait generation. Finally, the exoskeleton takes the stair-ascending gait of healthy people as a reference and generates appropriate gait for the stair. The proposed gait generation algorithm is initially validated through holistic simulation analyses. We tested the stairway modeling algorithm on varieties of indoor and outdoor stairways and evaluated the gait generation algorithm on stairs of different height. The subjects’ stair walking tests with lower limb exoskeletons show the effectiveness of the proposed stairway modeling and gait generation approaches.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Autonomous Vehicle Following Approach-The Virtual Flexible Bar Model</title>
+      <link>/publication/13-vehicle-following/</link>
+      <pubDate>Tue, 08 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/13-vehicle-following/</guid>
+      <description>&lt;p&gt;Abstract:
+An improved virtual flexible bar algorithm which aims at improving the trajectory tracking accuracy of automatic vehicle following system is proposed in this paper. To achieve successful vehicle following, the algorithm mainly consists two parts: the flexible bar which can fit the leader vehicle&amp;rsquo;s trajectory and the force acting in the flexible bar which pull the follower vehicle to track the leader&amp;rsquo;s trajectory besides adjusting the velocity and acceleration of the follower according to the motion state of the leader. In order to maintain the smooth motion of the follower and make sure that the follower could carry out the commands transmitted from the controller accurately, an adaptive trajectory tracking control is also implemented. The simulated experimental results validate that the follower is able to trail the trajectories of the leader vehicle keep the error within an satisfied limits meanwhile maintaining a safe following distance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3D Reconstruction Embedded System Based on Laser Scanner for Mobile Robot</title>
+      <link>/publication/08-3d-recon-iciea/</link>
+      <pubDate>Tue, 03 Jun 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/08-3d-recon-iciea/</guid>
+      <description>&lt;p&gt;Abstract:
+For 3D reconstruction technology based on laser ranging for mobile robot, this paper presents the design of real-time embedded system for 3D data processing. Firstly, this paper introduces the home and abroad research situation of laser ranging for mobile robot, and analysis the method of 3D data acquisition with 2D laser scanner and ID driving motor module. Secondly, this paper introduces the hardware design and system building of multi-module embedded system, which consists of DSP data acquisition module, FPGA data processing module and ARM control. The ARM system is the main control system and realizes 3D reconstruction function. CAN bus communication is selected between these modules. Thirdly, this paper introduces the design of communication programming under ARM control system. At last, this paper presents the 3D reconstruction method with laser scanner and driving motor by Mesa3D based on RTLinux system.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

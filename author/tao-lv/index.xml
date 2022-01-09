@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tao Lv | AutoAI Lab</title>
+    <link>/author/tao-lv/</link>
+      <atom:link href="/author/tao-lv/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tao Lv</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Jun 2008 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Tao Lv</title>
+      <link>/author/tao-lv/</link>
+    </image>
+    
+    <item>
+      <title>Construction and Realization of a 3D Perceptual System Based on 2D Laser Radar</title>
+      <link>/publication/08-perceptual-sys-iciea/</link>
+      <pubDate>Thu, 05 Jun 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/08-perceptual-sys-iciea/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents a 3D perceptual system based on 2D laser radar LMS291. The proposed system utilizes intelligent module to add a degree of freedom to LMS291. A new method of synchronization between LMS291 and intelligent module was proposed. We added Visual C++ multi-media timer to the timestamp method, the purpose we use this method is to change the level resolution conveniently, and control the number of the points we acquired, because in some condition we need speedy scanning to rebuild the reconstructed image of the terrain quickly. And we use Matlab to reconstruct the 2D and 3D images. To repair the singular points we selected absolute mean value method. The experiment shows that absolute mean value method works more accurately and effectively And this system we designed can be used for image reconstruction in unstructured environment by experiments.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

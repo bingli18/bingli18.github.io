@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qiang Song | AutoAI Lab</title>
+    <link>/author/qiang-song/</link>
+      <atom:link href="/author/qiang-song/index.xml" rel="self" type="application/rss+xml" />
+    <description>Qiang Song</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Qiang Song</title>
+      <link>/author/qiang-song/</link>
+    </image>
+    
+    <item>
+      <title>Rise-Rover: A Wall-Climbing Robot with High Reliability and Load-Carrying Capacity</title>
+      <link>/publication/15-wall-climbing-clawar/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/15-wall-climbing-clawar/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents Rise-Rover, a new generation wall-climbing robot with high reliability and load-carrying capacity on vertical surfaces for Non-Destructive Testing (NDT) of concrete and steel infrastructure. One Rise-Rover drivetrain module can operate on both smooth and rough vertical/inclined surfaces independently. The on-board electronics and PID controller monitor the pressure reading and adjust impeller speed to provide stable suction force for the wall-climbing robot. The use of duct fan and tether further increase the operation reliability. Rise-Rover is remotely controlled by Android smartphone via Wifi, and the User Interface (UI) provides good usability and convenience. The experimental test verified the good performance of the Rise-Rover prototype.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wall-climbing Robot for Non-destructive Evaluation using Impact-echo and Metric learning SVM</title>
+      <link>/publication/17-wall-climbing-inspection/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-wall-climbing-inspection/</guid>
+      <description>&lt;p&gt;Abstract:
+The impact-echo (IE) acoustic inspection method is a non-destructive evaluation technique, which has been widely applied to detect the defects, structural deterioration level, and thickness of plate-like concrete structures. This paper presents a novel climbing robot, namely Rise-Rover, to perform automated IE signal collection from concrete structures with IE signal analyzing based on machine learning techniques. Rise-Rover is our new generation robot, and it has a novel and enhanced absorption system to support heavy load, and crawler-like suction cups to maintain high mobility performance while crossing small grooves. Moreover, the design enables a seamless transition between ground and wall. This paper applies the fast Fourier transform and wavelet transform for feature detection from collected IE signals. A distance metric learning based support vector machine approach is newly proposed to automatically classify the IE signals. With the visual-inertial odometry of the robot, the detected flaws of inspection area on the concrete plates are visualized in 2D/3D. Field tests on a concrete bridge deck demonstrate the efficiency of the proposed robot system in automatic health condition assessment for concrete structures.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
