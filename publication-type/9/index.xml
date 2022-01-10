@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>9 | AutoAI Lab</title>
+    <link>/publication-type/9/</link>
+      <atom:link href="/publication-type/9/index.xml" rel="self" type="application/rss+xml" />
+    <description>9</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>9</title>
+      <link>/publication-type/9/</link>
+    </image>
+    
+    <item>
+      <title>An Assistive Indoor Navigation System for the Visually Impaired in Multi-Floor Environments (Best Conference Paper Award)</title>
+      <link>/publication/17-indoor-navi-cyber/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/17-indoor-navi-cyber/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents an innovative wearable system to assist visually impaired people navigate indoors in real time. Our proposed system incorporates state-of-the-art handheld devices from Google&amp;rsquo;s Project Tango and integrates path planner and obstacle avoidance submodules, as well as human-computer interaction techniques, to provide assistance to the user. Our system preprocesses a priori knowledge of the environment extracted from CAD files and spatial information from Google&amp;rsquo;s Area Description Files. The system can then reallocate resources to navigation and human-computer interaction tasks during execution. The system is capable of exploring complex environments spanning multiple floors and has been tested and demonstrated in a variety of indoor environments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rise-Rover: A Wall-Climbing Robot with High Reliability and Load-Carrying Capacity (Industrial Robot Innovation Award)</title>
+      <link>/publication/15-wall-climbing-clawar/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/15-wall-climbing-clawar/</guid>
+      <description>&lt;p&gt;Abstract:
+This paper presents Rise-Rover, a new generation wall-climbing robot with high reliability and load-carrying capacity on vertical surfaces for Non-Destructive Testing (NDT) of concrete and steel infrastructure. One Rise-Rover drivetrain module can operate on both smooth and rough vertical/inclined surfaces independently. The on-board electronics and PID controller monitor the pressure reading and adjust impeller speed to provide stable suction force for the wall-climbing robot. The use of duct fan and tether further increase the operation reliability. Rise-Rover is remotely controlled by Android smartphone via Wifi, and the User Interface (UI) provides good usability and convenience. The experimental test verified the good performance of the Rise-Rover prototype.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
