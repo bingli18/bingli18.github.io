@@ -83,12 +83,12 @@
   </url>
   
   <url>
-    <loc>/publication/21-m2cp-learning-bmvc/</loc>
+    <loc>/author/liang-yang/</loc>
     <lastmod>2021-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/yang-liang/</loc>
+    <loc>/publication/21-m2cp-learning-bmvc/</loc>
     <lastmod>2021-09-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -124,11 +124,6 @@
   
   <url>
     <loc>/author/bangquan-xie/</loc>
-    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/liang-yang/</loc>
     <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -627,6 +622,10 @@
   
   <url>
     <loc>/post/bing-li/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/jesse-leaman/</loc>
   </url>
   
   <url>
