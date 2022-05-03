@@ -41,7 +41,27 @@
       <link>/post/ziyue-feng/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/post/ziyue-feng/</guid>
-      <description></description>
+      <description>&lt;p&gt;Email: &lt;a href=&#34;mailto:zfeng@clemson.edu&#34;&gt;zfeng@clemson.edu&lt;/a&gt; Homepage: 
+&lt;a href=&#34;https://ziyue.cool&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ziyue.cool&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;biography&#34;&gt;Biography&lt;/h2&gt;
+&lt;p&gt;Ziyue Feng is a Ph.D. student at Clemson University. His research interests include, 3D Computer vision, Deep Learning,and Autonomous. He is now focusing on handeling dynamic objects in 3D perception.&lt;/p&gt;
+&lt;h2 id=&#34;interests&#34;&gt;Interests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Depth Estimation&lt;/li&gt;
+&lt;li&gt;3D Computer vision&lt;/li&gt;
+&lt;li&gt;Deep Learning&lt;/li&gt;
+&lt;li&gt;Autonomous&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;publications&#34;&gt;Publications:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;/publication/22-dynamicdepth/&#34;&gt;Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;/publication/21-depth-prediction-corl/&#34;&gt;Advancing Self-Supervised Monocular Depth Learning with Sparse LiDAR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;/publication/21-place-recognition-tits/&#34;&gt;PSE-Match: A Viewpoint-Free Place Recognition Method With Parallel Semantic Embedding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
