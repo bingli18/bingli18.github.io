@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bangquan Xie | AutoAI Lab</title>
-    <link>/author/bangquan-xie/</link>
-      <atom:link href="/author/bangquan-xie/index.xml" rel="self" type="application/rss+xml" />
-    <description>Bangquan Xie</description>
+    <title>Jun Lu | AutoAI Lab</title>
+    <link>/author/jun-lu/</link>
+      <atom:link href="/author/jun-lu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jun Lu</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
-      <title>Bangquan Xie</title>
-      <link>/author/bangquan-xie/</link>
+      <title>Jun Lu</title>
+      <link>/author/jun-lu/</link>
     </image>
     
     <item>
@@ -19,16 +19,6 @@
       <guid>/publication/22-spd-tnnls/</guid>
       <description>&lt;p&gt;Abstract:
 Current learning-based 3-D object detection accuracy is heavily impacted by the annotation quality. It is still a challenge to expect an overall high detection accuracy for all classes under different scenarios given the dataset sparsity. To mitigate this challenge, this article proposes a novel method called semi-supervised learning and progressive distillation (SPD), which uses semi-supervised learning (SSL) and knowledge distillation to improve label efficiency. The SPD uses two big backbones to hand the unlabeled/labeled input data augmented by the periodic IO augmentation (PA). Then the backbones are compressed using progressive distillation (PD). Precisely, PA periodically shifts the data augmentation operations between the input and output of the big backbone, aiming to improve the network’s generalization of the unseen and unlabeled data. Using the big backbone can benefit from large-scale augmented data better than the small one. And two backbones are trained by the data scale and ratio-sensitive loss (data-loss). It solves the over-flat caused by the large-scale unlabeled data from PA and helps the big backbone prevent overfitting on the limited-scale labeled data. Hence, using the PA and data loss during SSL training dramatically improves the label efficiency. Next, the trained big backbone set as the teacher CNN is progressively distilled to obtain a small student model, referenced as PD. PD mitigates the problem that student CNN performance degrades when the gap between the student and the teacher is oversized. Extensive experiments are conducted on the indoor datasets SUN RGB-D and ScanNetV2 and outdoor dataset KITTI. Using only 50% labeled data and a 27% smaller model size, SPD performs 0.32 higher than the fully supervised VoteNetqi2019deep which is adopted as our backbone. Besides, using only 2% labeled data, compared to the other fully supervised backbone PV-RCNNshi2020pv, SPD accomplishes a similar accuracy (84.1 and 84.83) and 30% less inference time.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Multi-Scale Fusion With Matching Attention Model: A Novel Decoding Network Cooperated With NAS for Real-Time Semantic Segmentation</title>
-      <link>/publication/21-nas-attention-tits/</link>
-      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/21-nas-attention-tits/</guid>
-      <description>&lt;p&gt;Abstract:
-This paper proposes a real-time multi-scale semantic segmentation network (MsNet). MsNet is a combination of our novel multi-scale fusion with matching attention model (MFMA) as the decoding network and the network searched by asymptotic neural architecture search (ANAS) or MobileNetV3 as the encoding network. The MFMA not only extracts low level spatial features from multi-scale inputs but also decodes the contextual features extracted by ANAS. Specifically, considering the advantages and disadvantages of the addition fusion and concatenation fusion, we design multi-scale fusion (MF) that balances speed and accuracy. Then we creatively design two matching attention mechanisms (MA), including matching attention with low calculation (MALC) mechanism and matching attention with strong global context modeling (MASG) mechanism, to match varying resolutions and information of features at different levels of a network. Besides, the ANAS performs the deep neural network search by employing an asymptotic method and provide an efficient encoding network for MsNet, releasing researchers from those tedious mechanical trials. Through extensive experiments, we prove that MFMA, which can be applied to numerous recognition tasks, possesses excellent decoding ability. And we demonstrate the effectiveness and necessity of implementing the matching attention mechanism. Finally, the proposed two versions, MsNet-ANAS and MsNet-M achieve a new state-of-the-art trade-off between accuracy and speed on the CamVid and Cityscapes datasets. More remarkably, on the Nvidia Tesla V100 GPU, our MsNet-ANAS achieves 74.1% mIoU with the speed of 184.2 FPS on the CamVid while 72.9% mIoU with the speed of 119.9 FPS on the Cityscapes.&lt;/p&gt;
 </description>
     </item>
     

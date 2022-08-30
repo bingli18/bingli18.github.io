@@ -5,12 +5,32 @@
     <link>/publication-type/2/</link>
       <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>2</title>
       <link>/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>SPD: Semi-Supervised Learning and Progressive Distillation for 3-D Detection</title>
+      <link>/publication/22-spd-tnnls/</link>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/22-spd-tnnls/</guid>
+      <description>&lt;p&gt;Abstract:
+Current learning-based 3-D object detection accuracy is heavily impacted by the annotation quality. It is still a challenge to expect an overall high detection accuracy for all classes under different scenarios given the dataset sparsity. To mitigate this challenge, this article proposes a novel method called semi-supervised learning and progressive distillation (SPD), which uses semi-supervised learning (SSL) and knowledge distillation to improve label efficiency. The SPD uses two big backbones to hand the unlabeled/labeled input data augmented by the periodic IO augmentation (PA). Then the backbones are compressed using progressive distillation (PD). Precisely, PA periodically shifts the data augmentation operations between the input and output of the big backbone, aiming to improve the network’s generalization of the unseen and unlabeled data. Using the big backbone can benefit from large-scale augmented data better than the small one. And two backbones are trained by the data scale and ratio-sensitive loss (data-loss). It solves the over-flat caused by the large-scale unlabeled data from PA and helps the big backbone prevent overfitting on the limited-scale labeled data. Hence, using the PA and data loss during SSL training dramatically improves the label efficiency. Next, the trained big backbone set as the teacher CNN is progressively distilled to obtain a small student model, referenced as PD. PD mitigates the problem that student CNN performance degrades when the gap between the student and the teacher is oversized. Extensive experiments are conducted on the indoor datasets SUN RGB-D and ScanNetV2 and outdoor dataset KITTI. Using only 50% labeled data and a 27% smaller model size, SPD performs 0.32 higher than the fully supervised VoteNetqi2019deep which is adopted as our backbone. Besides, using only 2% labeled data, compared to the other fully supervised backbone PV-RCNNshi2020pv, SPD accomplishes a similar accuracy (84.1 and 84.83) and 30% less inference time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modeling and Prediction of User Stability and Comfortability on Autonomous Wheelchairs With 3-D Mapping</title>
+      <link>/publication/22-wheelchair-thms/</link>
+      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/22-wheelchair-thms/</guid>
+      <description>&lt;p&gt;Abstract:
+Traditional manual wheelchairs have a fixed seat with no movement or angle adjustment, which can seriously affect the user&amp;rsquo;s comfort and greatly limit user experience. However, the electric wheelchair relies on strong intelligence and automatic features; it can not only realize the multidegree freedom adjustment of the human body and the seat but also has a rich and powerful man–machine control interface, which greatly facilitates and improves the user experience. This study upgraded a Permobil C400-powered wheelchair with multisensor data fusion technology to enrich its terrain recognition, tipping stability, and comfortability prediction. The tipping stability modeling of the wheelchair dummy system is carried out using multibody dynamics and vibration mechanics to obtain the tipping stability limit and the comfort evaluation of the wheelchair vibration acceleration on the human body during travel. Based on the elevation mapping method, the wheelchair can estimate the terrain from the local point of view at any point in time. At the same time, the RGB-D depth camera is connected to the robot operating system (ROS) system, and the open-source algorithm package RTAB-MAP is used to complete the MAP construction and collect the 3-D point-cloud terrain data. Then, the real 3-D terrain files are generated through the point-cloud stitching technology for stability simulation of the wheelchair–human system. The tipping stability and comfort indexes of the wheelchair–human system when passing over different physical terrains can be obtained. The experimental results show that the IMU data located on the human chest agree well with the simulation analysis data and are suitable for a variety of complex real-terrain conditions, verifying the accuracy of the wheelchair–human system dynamics model and the feasibility of the simulation analysis process. Thus, this modeling and simulation method can predict wheelchair stability and user comfortability well and ensure a high-performance experience.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>PSE-Match: A Viewpoint-Free Place Recognition Method With Parallel Semantic Embedding</title>

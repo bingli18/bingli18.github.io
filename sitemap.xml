@@ -88,12 +88,77 @@
   </url>
   
   <url>
-    <loc>/publication/21-depth-prediction-corl/</loc>
-    <lastmod>2021-09-20T00:00:00+00:00</lastmod>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ailin-wei/</loc>
+    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/bangquan-xie/</loc>
+    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jun-lu/</loc>
+    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/robotics/</loc>
+    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ruifa-luo/</loc>
+    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/22-spd-tnnls/</loc>
+    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/xiaoxiong-weng/</loc>
+    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/zongming-yang/</loc>
+    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/haitao-luo/</loc>
+    <lastmod>2022-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/human-centered-computing/</loc>
+    <lastmod>2022-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/johnell-o.-brooks/</loc>
+    <lastmod>2022-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/22-wheelchair-thms/</loc>
+    <lastmod>2022-01-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/peng-yin/</loc>
+    <lastmod>2022-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/21-depth-prediction-corl/</loc>
     <lastmod>2021-09-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -105,11 +170,6 @@
   <url>
     <loc>/author/zhimin-chen/</loc>
     <lastmod>2021-09-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/2/</loc>
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -128,37 +188,7 @@
   </url>
   
   <url>
-    <loc>/author/ailin-wei/</loc>
-    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/bangquan-xie/</loc>
-    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/21-nas-attention-tits/</loc>
-    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/robotics/</loc>
-    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/ruifa-luo/</loc>
-    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/xiaoxiong-weng/</loc>
-    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/zongming-yang/</loc>
     <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -184,11 +214,6 @@
   
   <url>
     <loc>/author/aryan-naveen/</loc>
-    <lastmod>2020-11-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/haitao-luo/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -220,11 +245,6 @@
   <url>
     <loc>/author/wei-li/</loc>
     <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/human-centered-computing/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
