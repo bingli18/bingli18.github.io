@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yong Chang | AutoAI Lab</title>
-    <link>/author/yong-chang/</link>
-      <atom:link href="/author/yong-chang/index.xml" rel="self" type="application/rss+xml" />
-    <description>Yong Chang</description>
+    <title>Jinglun Feng | AutoAI Lab</title>
+    <link>/author/jinglun-feng/</link>
+      <atom:link href="/author/jinglun-feng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jinglun Feng</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 19 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
-      <title>Yong Chang</title>
-      <link>/author/yong-chang/</link>
+      <title>Jinglun Feng</title>
+      <link>/author/jinglun-feng/</link>
     </image>
     
     <item>
@@ -19,16 +19,6 @@
       <guid>/publication/22-wall-climbing-jfr/</guid>
       <description>&lt;p&gt;Abstract:
 Human-made concrete structures require cutting-edge inspection tools to ensure the quality of the construction to meet the applicable building codes and to maintain the sustainability of the aging infrastructure. This paper introduces a wall-climbing robot for metric concrete inspection that can reach difficult-to-access locations with a close-up view for visual data collection and real-time flaws detection and localization. The wall-climbing robot is able to detect concrete surface flaws (i.e., cracks and spalls) and produce a defect-highlighted 3D model with extracted location clues and metric measurements. The system encompasses four modules, including a data collection module to capture RGB-D frames and inertial measurement unit data, a visual–inertial navigation system module to generate pose-coupled keyframes, a deep neural network module (namely InspectionNet) to classify each pixel into three classes (background, crack, and spall), and a semantic reconstruction module to integrate per-frame measurement into a global volumetric model with defects highlighted. We found that commercial RGB-D camera output depth is noisy with holes, and a Gussian-Bilateral filter for depth completion is introduced to inpaint the depth image. The method achieves the state-of-the-art depth completion accuracy even with large holes. Based on the semantic mesh, we introduce a coherent defect metric evaluation approach to compute the metric measurement of crack and spall area (e.g., length, width, area, and depth). Field experiments on a concrete bridge demonstrate that our wall-climbing robot is able to operate on a rough surface and can cross over shallow gaps. The robot is capable to detect and measure surface flaws under low illuminated environments and texture-less environments. Besides the robot system, we create the first publicly accessible concrete structure spalls and cracks data set that includes 820 labeled images and over 10,000 field-collected images and release it to the research community.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep Neural Network based Visual Inspection with 3D Metric Measurement of Concrete Defects using Wall-climbing Robot</title>
-      <link>/publication/19-visual-inspection-iros/</link>
-      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/19-visual-inspection-iros/</guid>
-      <description>&lt;p&gt;Abstract:
-This paper presents a novel metric inspection robot system using a deep neural network to detect and measure surface flaws (i.e., crack and spalling) on concrete structures performed by a wall-climbing robot. The system consists of four modules: robotics data collection module to obtain RGB-D images and IMU measurement, visual-inertial SLAM module to generate pose coupled key-frames with depth information, InspectionNet module to classify each pixel into three classes (back-ground, crack and spalling), and 3D registration and map fusion module to register the flaw patch into registered 3D model overlaid and highlighted with detected flaws for spatial-contextual visualization. The system enables the metric model of each surface flaw patch with pixel-level accuracy and determines its location in 3D space that is significant for structural health assessment and monitoring. The InspectionNet achieves an average accuracy of 87.64% for crack and spalling inspection. We also demonstrate our InspectionNet is robust to view angle, scale and illumination variation. Finally, we design a metric voxel volume map to highlight the flaw in 3D model and provide location and metric information.&lt;/p&gt;
 </description>
     </item>
     

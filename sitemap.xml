@@ -89,7 +89,47 @@
   
   <url>
     <loc>/publication-type/2/</loc>
-    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/22-wall-climbing-jfr/</loc>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/biao-jiang/</loc>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/guoyong-yang/</loc>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jinglun-feng/</loc>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jizhong-xiao/</loc>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/robotics/</loc>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/sensing/</loc>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/yong-chang/</loc>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -104,11 +144,6 @@
   
   <url>
     <loc>/author/jun-lu/</loc>
-    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/robotics/</loc>
     <lastmod>2022-02-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -203,11 +238,6 @@
   </url>
   
   <url>
-    <loc>/tag/sensing/</loc>
-    <lastmod>2021-04-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/20-wheelchair-stability-cyber/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
@@ -228,17 +258,7 @@
   </url>
   
   <url>
-    <loc>/author/biao-jiang/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/20-inspection-drone/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jizhong-xiao/</loc>
     <lastmod>2020-06-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -294,16 +314,6 @@
   
   <url>
     <loc>/publication/19-visual-inspection-iros/</loc>
-    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/guoyong-yang/</loc>
-    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/yong-chang/</loc>
     <lastmod>2019-11-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -724,6 +734,10 @@
   
   <url>
     <loc>/post/shaurya-panthri/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/siddharth-thorat/</loc>
   </url>
   
   <url>
