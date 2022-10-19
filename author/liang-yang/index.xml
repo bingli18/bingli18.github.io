@@ -5,12 +5,22 @@
     <link>/author/liang-yang/</link>
       <atom:link href="/author/liang-yang/index.xml" rel="self" type="application/rss+xml" />
     <description>Liang Yang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>Liang Yang</title>
       <link>/author/liang-yang/</link>
     </image>
+    
+    <item>
+      <title>Class-Level Confidence Based 3D Semi-Supervised Learning</title>
+      <link>/publication/23-3d-semi-learning-wacv/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/23-3d-semi-learning-wacv/</guid>
+      <description>&lt;p&gt;Abstract:
+Current pseudo-labeling strategies in 3D semi-supervised learning (SSL) fail to adaptively incorporate each class’s learning difficulty and learning status variance. In this work, we practically demonstrate that 3D unlabeled data class-level confidence can represent the learning status. Based on this finding, we present a novel class-level confidence based 3D SSL method. We firstly propose a dynamic thresholding method based on each class learning status obtained from class-level confidence. Then, a re-sampling strategy is designed to re-balance the learning status based on that the better learning status a class/instance has, the less sample probability it has. To show the generality of our method in 3D SSL task, we conduct extensive experiments on 3D SSL classification and detection tasks. Our method significantly outperforms state-of-the-art counterparts for both 3D SSL classification and detection tasks in all datasets.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth</title>
