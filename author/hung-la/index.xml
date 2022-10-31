@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hung La | AutoAI Lab</title>
+    <link>/author/hung-la/</link>
+      <atom:link href="/author/hung-la/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hung La</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Hung La</title>
+      <link>/author/hung-la/</link>
+    </image>
+    
+    <item>
+      <title>Embodied-AI Wheelchair Framework with Hands-free Interface and Manipulation</title>
+      <link>/publication/22-embodied-ai-smc/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/22-embodied-ai-smc/</guid>
+      <description>&lt;p&gt;Abstract:
+Assistive robots can be found in hospitals and rehabilitation clinics, where they help patients maintain a positive disposition. Our proposed robotic mobility solution combines state of the art hardware and software to provide a safer, more independent, and more productive lifestyle for people with some of the most severe disabilities. New hardware includes, a retractable roof, manipulator arm, a hard backpack, a number of sensors that collect environmental data and processors that generate 3D maps for a hands-free human-machine interface. The proposed new system receives input from the user via head tracking or voice command, and displays information through augmented reality into the user’s field of view. The software algorithm will use a novel cycle of self-learning artificial intelligence that achieves autonomous navigation while avoiding collisions with stationary and dynamic objects. The prototype will be assembled and tested over the next three years and a publicly available version could be ready two years thereafter.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

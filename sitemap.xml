@@ -4,36 +4,86 @@
   
   <url>
     <loc>/publication-type/1/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ailin-wei/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/bangquan-xie/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/bing-li/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/23-3d-semi-learning-wacv/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/deep-learning/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/liang-yang/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/robotics/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/22-focustr-iros/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/visual-computing/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/xiaoxiong-weng/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/zongming-yang/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/23-3d-semi-learning-wacv/</loc>
     <lastmod>2022-10-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,27 +93,12 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/selected/</loc>
     <lastmod>2022-10-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/visual-computing/</loc>
+    <loc>/author/yingwei-li/</loc>
     <lastmod>2022-10-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -128,11 +163,6 @@
   </url>
   
   <url>
-    <loc>/tag/robotics/</loc>
-    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/sensing/</loc>
     <lastmod>2022-03-19T00:00:00+00:00</lastmod>
   </url>
@@ -140,16 +170,6 @@
   <url>
     <loc>/author/yong-chang/</loc>
     <lastmod>2022-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/ailin-wei/</loc>
-    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/bangquan-xie/</loc>
-    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -164,16 +184,6 @@
   
   <url>
     <loc>/publication/22-spd-tnnls/</loc>
-    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/xiaoxiong-weng/</loc>
-    <lastmod>2022-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/zongming-yang/</loc>
     <lastmod>2022-02-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -200,6 +210,61 @@
   <url>
     <loc>/author/peng-yin/</loc>
     <lastmod>2022-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jesse-leaman/</loc>
+    <lastmod>2022-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/johnell-brooks/</loc>
+    <lastmod>2022-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/liren-kong/</loc>
+    <lastmod>2022-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/22-seeway-smc/</loc>
+    <lastmod>2022-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/22-embodied-ai-smc/</loc>
+    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/hung-la/</loc>
+    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/yasmine-elglaly/</loc>
+    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/22-end2end-driving-its/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/narahari-r.-malayanur/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/raja-m.-macherla/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/satya-r.-jaladi/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>

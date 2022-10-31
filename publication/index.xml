@@ -5,12 +5,22 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 25 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>SPD: Semi-Supervised Learning and Progressive Distillation for 3-D Detection</title>
+      <link>/publication/22-focustr-iros/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/22-focustr-iros/</guid>
+      <description>&lt;p&gt;Abstract:
+The feature pyramid, which is a vital component of the convolutional neural networks, plays a significant role in several perception tasks, including object detection for autonomous driving. However, how to better fuse multi-level and multi-sensor feature pyramids is still a significant challenge, especially for object detection. This paper presents a FocusTR (Focusing on the valuable features by multiple Transformers), which is a simple yet effective architecture, to fuse feature pyramid for the single-stream 2D detector and two-stream 3D detector. Specifically, FocusTR encompasses several novel self-attention mechanisms, including the spatial-wise boxAlign attention (SB) for low-level spatial locations, context-wise affinity attention (CA) for high-level context information, and level-wise attention for the multi-level feature. To alleviate self-attention’s computational complexity and slow training convergence, FocusTR introduces a low and high-level fusion (LHF) to reduce the computational parameters, and the Pre-LN to accelerate the training convergence.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Class-Level Confidence Based 3D Semi-Supervised Learning</title>
@@ -59,6 +69,36 @@ Current learning-based 3-D object detection accuracy is heavily impacted by the 
       <guid>/publication/22-wheelchair-thms/</guid>
       <description>&lt;p&gt;Abstract:
 Traditional manual wheelchairs have a fixed seat with no movement or angle adjustment, which can seriously affect the user&amp;rsquo;s comfort and greatly limit user experience. However, the electric wheelchair relies on strong intelligence and automatic features; it can not only realize the multidegree freedom adjustment of the human body and the seat but also has a rich and powerful man–machine control interface, which greatly facilitates and improves the user experience. This study upgraded a Permobil C400-powered wheelchair with multisensor data fusion technology to enrich its terrain recognition, tipping stability, and comfortability prediction. The tipping stability modeling of the wheelchair dummy system is carried out using multibody dynamics and vibration mechanics to obtain the tipping stability limit and the comfort evaluation of the wheelchair vibration acceleration on the human body during travel. Based on the elevation mapping method, the wheelchair can estimate the terrain from the local point of view at any point in time. At the same time, the RGB-D depth camera is connected to the robot operating system (ROS) system, and the open-source algorithm package RTAB-MAP is used to complete the MAP construction and collect the 3-D point-cloud terrain data. Then, the real 3-D terrain files are generated through the point-cloud stitching technology for stability simulation of the wheelchair–human system. The tipping stability and comfort indexes of the wheelchair–human system when passing over different physical terrains can be obtained. The experimental results show that the IMU data located on the human chest agree well with the simulation analysis data and are suitable for a variety of complex real-terrain conditions, verifying the accuracy of the wheelchair–human system dynamics model and the feasibility of the simulation analysis process. Thus, this modeling and simulation method can predict wheelchair stability and user comfortability well and ensure a high-performance experience.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SeeWay: Vision-Language Assistive Navigation for the Visually Impaired</title>
+      <link>/publication/22-seeway-smc/</link>
+      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/22-seeway-smc/</guid>
+      <description>&lt;p&gt;Abstract:
+Assistive navigation for blind or visually impaired (BVI) individuals is of significance to extend their mobility and safety in traveling, enhancing their employment opportunities and fostering personal fulfillment. Conventional research is mainly based on robotic navigation approaches through localization, mapping, and path planning frameworks. They require heavy manual annotation of semantic information in maps and its alignment with sensor mapping. Inspired by the fact that we human beings naturally rely on language instruction inquiry and visual scene understanding to navigate in an unfamiliar environment, this paper proposes a novel vision-language model-based approach for BVI navigation. It does not need heavy-labeled indoor maps and provides a Safe and Efficient E-Wayfinding (SeeWay) assistive solution for BVI individuals. The system consists of a scene-graph map construction module, a navigation path generation module for global path inference by vision-language navigation (VLN), and a navigation with obstacle avoidance module for real-time local navigation. The SeeWay system was deployed on portable iPhone devices with cloud computing assistance for the VLN model inference. The field tests show the effectiveness of the VLN global path finding and local path re-planning. Experiments and quantitative results reveal that heuristic-style instruction outperforms direction/detailed-style instructions for VLN success rate (SR), and the SR decreases as the navigation length increases.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Embodied-AI Wheelchair Framework with Hands-free Interface and Manipulation</title>
+      <link>/publication/22-embodied-ai-smc/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/22-embodied-ai-smc/</guid>
+      <description>&lt;p&gt;Abstract:
+Assistive robots can be found in hospitals and rehabilitation clinics, where they help patients maintain a positive disposition. Our proposed robotic mobility solution combines state of the art hardware and software to provide a safer, more independent, and more productive lifestyle for people with some of the most severe disabilities. New hardware includes, a retractable roof, manipulator arm, a hard backpack, a number of sensors that collect environmental data and processors that generate 3D maps for a hands-free human-machine interface. The proposed new system receives input from the user via head tracking or voice command, and displays information through augmented reality into the user’s field of view. The software algorithm will use a novel cycle of self-learning artificial intelligence that achieves autonomous navigation while avoiding collisions with stationary and dynamic objects. The prototype will be assembled and tested over the next three years and a publicly available version could be ready two years thereafter.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>End-To-End Training and Testing Gamification Framework to Learn Human Highway Driving</title>
+      <link>/publication/22-end2end-driving-its/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/22-end2end-driving-its/</guid>
+      <description>&lt;p&gt;Abstract:
+The current autonomous stack is well modularized and consists of perception, decision making and control in a handcrafted framework. With the advances in artificial intelligence (AI) and computing resources, researchers have been pushing the development of end-to-end AI for autonomous driving, at least in problems of small searching space such as in highway scenarios, and more and more photorealistic simulation will be critical for efficient learning. In this research, we propose a novel game-based end-to-end learning and testing framework for autonomous vehicle highway driving, by learning from human driving skills. Firstly, we utilize the popular game Grand Theft Auto V (GTA V) to collect highway driving data with our proposed programmable labels. Then, an end-to-end architecture predicts the steering and throttle values that control the vehicle by the image of the game screen. The predicted control values are sent to the game via a virtual controller to keep the vehicle in lane and avoid collisions with other vehicles on the road. The proposed solution is validated in GTA V games, and the results demonstrate the effectiveness of this end-to-end gamification framework for learning human driving skills.&lt;/p&gt;
 </description>
     </item>
     

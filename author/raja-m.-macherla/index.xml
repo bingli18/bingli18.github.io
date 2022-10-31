@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raja M. Macherla | AutoAI Lab</title>
+    <link>/author/raja-m.-macherla/</link>
+      <atom:link href="/author/raja-m.-macherla/index.xml" rel="self" type="application/rss+xml" />
+    <description>Raja M. Macherla</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Raja M. Macherla</title>
+      <link>/author/raja-m.-macherla/</link>
+    </image>
+    
+    <item>
+      <title>End-To-End Training and Testing Gamification Framework to Learn Human Highway Driving</title>
+      <link>/publication/22-end2end-driving-its/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/22-end2end-driving-its/</guid>
+      <description>&lt;p&gt;Abstract:
+The current autonomous stack is well modularized and consists of perception, decision making and control in a handcrafted framework. With the advances in artificial intelligence (AI) and computing resources, researchers have been pushing the development of end-to-end AI for autonomous driving, at least in problems of small searching space such as in highway scenarios, and more and more photorealistic simulation will be critical for efficient learning. In this research, we propose a novel game-based end-to-end learning and testing framework for autonomous vehicle highway driving, by learning from human driving skills. Firstly, we utilize the popular game Grand Theft Auto V (GTA V) to collect highway driving data with our proposed programmable labels. Then, an end-to-end architecture predicts the steering and throttle values that control the vehicle by the image of the game screen. The predicted control values are sent to the game via a virtual controller to keep the vehicle in lane and avoid collisions with other vehicles on the road. The proposed solution is validated in GTA V games, and the results demonstrate the effectiveness of this end-to-end gamification framework for learning human driving skills.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
