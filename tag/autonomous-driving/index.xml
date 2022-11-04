@@ -5,7 +5,7 @@
     <link>/tag/autonomous-driving/</link>
       <atom:link href="/tag/autonomous-driving/index.xml" rel="self" type="application/rss+xml" />
     <description>Autonomous Driving</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>Autonomous Driving</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth</title>
       <link>/publication/22-dynamicdepth/</link>
-      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
       <guid>/publication/22-dynamicdepth/</guid>
       <description>&lt;p&gt;Abstract:
 Conventional self-supervised monocular depth prediction methods are based on a static environment assumption, which leads to accuracy degradation in dynamic scenes due to the mismatch and occlusion problems introduced by object motions. Existing dynamic-object-focused methods only partially solved the mismatch problem at the training loss level. In this paper, we accordingly propose a novel multi-frame monocular depth prediction method to solve these problems at both the prediction and supervision loss levels. Our method, called DynamicDepth, is a new framework trained via a self-supervised cycle consistent learning scheme. A Dynamic Object Motion Disentanglement (DOMD) module is proposed to disentangle object motions to solve the mismatch problem. Moreover, novel occlusion-aware Cost Volume and Re-projection Loss are designed to alleviate the occlusion effects of object motions. Extensive analyses and experiments on the Cityscapes and KITTI datasets show that our method significantly outperforms the state-of-the-art monocular depth prediction methods, especially in the areas of dynamic objects. Our code will be made publicly available.&lt;/p&gt;

@@ -38,6 +38,11 @@
   </url>
   
   <url>
+    <loc>/publication/22-focustr-iros/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/liang-yang/</loc>
     <lastmod>2022-10-25T00:00:00+00:00</lastmod>
   </url>
@@ -54,11 +59,6 @@
   
   <url>
     <loc>/tag/robotics/</loc>
-    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/22-focustr-iros/</loc>
     <lastmod>2022-10-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,53 +83,53 @@
   </url>
   
   <url>
-    <loc>/publication/23-3d-semi-learning-wacv/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/longlong-jing/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/selected/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/yingwei-li/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/zhimin-chen/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/autonomous-driving/</loc>
-    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/22-dynamicdepth/</loc>
-    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/haiyan-wang/</loc>
-    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/longlong-jing/</loc>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/selected/</loc>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/yingli-tian/</loc>
-    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/ziyue-feng/</loc>
-    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/23-3d-semi-learning-wacv/</loc>
+    <lastmod>2022-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/yingwei-li/</loc>
+    <lastmod>2022-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/zhimin-chen/</loc>
+    <lastmod>2022-10-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
