@@ -24,9 +24,9 @@ Current pseudo-labeling strategies in 3D semi-supervised learning (SSL) fail to 
     
     <item>
       <title>End-To-End Training and Testing Gamification Framework to Learn Human Highway Driving</title>
-      <link>/publication/22-end2end-driving-its/</link>
+      <link>/publication/22-end2end-driving-itsc/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/22-end2end-driving-its/</guid>
+      <guid>/publication/22-end2end-driving-itsc/</guid>
       <description>&lt;p&gt;Abstract:
 The current autonomous stack is well modularized and consists of perception, decision making and control in a handcrafted framework. With the advances in artificial intelligence (AI) and computing resources, researchers have been pushing the development of end-to-end AI for autonomous driving, at least in problems of small searching space such as in highway scenarios, and more and more photorealistic simulation will be critical for efficient learning. In this research, we propose a novel game-based end-to-end learning and testing framework for autonomous vehicle highway driving, by learning from human driving skills. Firstly, we utilize the popular game Grand Theft Auto V (GTA V) to collect highway driving data with our proposed programmable labels. Then, an end-to-end architecture predicts the steering and throttle values that control the vehicle by the image of the game screen. The predicted control values are sent to the game via a virtual controller to keep the vehicle in lane and avoid collisions with other vehicles on the road. The proposed solution is validated in GTA V games, and the results demonstrate the effectiveness of this end-to-end gamification framework for learning human driving skills.&lt;/p&gt;
 </description>
