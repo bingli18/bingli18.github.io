@@ -5,12 +5,22 @@
     <link>/author/jesse-leaman/</link>
       <atom:link href="/author/jesse-leaman/index.xml" rel="self" type="application/rss+xml" />
     <description>Jesse Leaman</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 22 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>Jesse Leaman</title>
       <link>/author/jesse-leaman/</link>
     </image>
+    
+    <item>
+      <title>Embodied-AI Wheelchair Framework with Hands-free Interface and Manipulation</title>
+      <link>/publication/22-embodied-ai-smc/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/22-embodied-ai-smc/</guid>
+      <description>&lt;p&gt;Abstract:
+Assistive robots can be found in hospitals and rehabilitation clinics, where they help patients maintain a positive disposition. Our proposed robotic mobility solution combines state of the art hardware and software to provide a safer, more independent, and more productive lifestyle for people with some of the most severe disabilities. New hardware includes, a retractable roof, manipulator arm, a hard backpack, a number of sensors that collect environmental data and processors that generate 3D maps for a hands-free human-machine interface. The proposed new system receives input from the user via head tracking or voice command, and displays information through augmented reality into the user’s field of view. The software algorithm will use a novel cycle of self-learning artificial intelligence that achieves autonomous navigation while avoiding collisions with stationary and dynamic objects. The prototype will be assembled and tested over the next three years and a publicly available version could be ready two years thereafter.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SeeWay: Vision-Language Assistive Navigation for the Visually Impaired</title>
@@ -19,16 +29,6 @@
       <guid>/publication/22-seeway-smc/</guid>
       <description>&lt;p&gt;Abstract:
 Assistive navigation for blind or visually impaired (BVI) individuals is of significance to extend their mobility and safety in traveling, enhancing their employment opportunities and fostering personal fulfillment. Conventional research is mainly based on robotic navigation approaches through localization, mapping, and path planning frameworks. They require heavy manual annotation of semantic information in maps and its alignment with sensor mapping. Inspired by the fact that we human beings naturally rely on language instruction inquiry and visual scene understanding to navigate in an unfamiliar environment, this paper proposes a novel vision-language model-based approach for BVI navigation. It does not need heavy-labeled indoor maps and provides a Safe and Efficient E-Wayfinding (SeeWay) assistive solution for BVI individuals. The system consists of a scene-graph map construction module, a navigation path generation module for global path inference by vision-language navigation (VLN), and a navigation with obstacle avoidance module for real-time local navigation. The SeeWay system was deployed on portable iPhone devices with cloud computing assistance for the VLN model inference. The field tests show the effectiveness of the VLN global path finding and local path re-planning. Experiments and quantitative results reveal that heuristic-style instruction outperforms direction/detailed-style instructions for VLN success rate (SR), and the SR decreases as the navigation length increases.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Embodied-AI Wheelchair Framework with Hands-free Interface and Manipulation</title>
-      <link>/publication/22-embodied-ai-smc/</link>
-      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/22-embodied-ai-smc/</guid>
-      <description>&lt;p&gt;Abstract:
-Assistive robots can be found in hospitals and rehabilitation clinics, where they help patients maintain a positive disposition. Our proposed robotic mobility solution combines state of the art hardware and software to provide a safer, more independent, and more productive lifestyle for people with some of the most severe disabilities. New hardware includes, a retractable roof, manipulator arm, a hard backpack, a number of sensors that collect environmental data and processors that generate 3D maps for a hands-free human-machine interface. The proposed new system receives input from the user via head tracking or voice command, and displays information through augmented reality into the user’s field of view. The software algorithm will use a novel cycle of self-learning artificial intelligence that achieves autonomous navigation while avoiding collisions with stationary and dynamic objects. The prototype will be assembled and tested over the next three years and a publicly available version could be ready two years thereafter.&lt;/p&gt;
 </description>
     </item>
     
