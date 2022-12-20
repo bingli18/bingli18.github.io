@@ -33,6 +33,16 @@ The feature pyramid, which is a vital component of the convolutional neural netw
     </item>
     
     <item>
+      <title>AMMF: Attention-Based Multi-Phase Multi-Task Fusion for Small Contour Object 3D Detection</title>
+      <link>/publication/22-ammf-tits/</link>
+      <pubDate>Thu, 25 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/22-ammf-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+Recently significant progress has been made in 3D detection. However, it is still challenging to detect small contour objects under complex scenes. This paper proposes a novel Attention-based Multi-phase Multi-task Fusion (AMMF) that uses point-level, RoI-level, and multi-task fusions to complement the disadvantages of LiDAR and camera, to solve this challenge. First, at the feature extraction phase, AMMF uses the Low and High-level Fusion with Matching Attention (LHF-MA) and efficient FPN (eFPN) to perform point-level fusion for cross sensors and single sensor, respectively. Instead of merging each level and using expensive 3D CNN like other methods, LHF-MA fuses low-level spatial location and high-level contextual feature of 2D CNN customized feature extractors and ignores the fusion of middle levels, reducing the computational cost. Then, at the proposal generation phase, Progressive Proposal Fusion (PPF) with learned attention map is used to perform coarse-to-fine RoI-level fusion, instead of only combining coarse-grained features at high-level of network. PPF using progressively increasing IoU thresholds could avoid overfitting and improve the performance. Note that the matching attentions and learned attention maps are utilized to weigh the priority of different sensors. Moreover, to solve the sparseness of point-wise fusion between LiDAR BEV and RGB image, AMMF uses multi-task fusion that generates pseudo-LiDAR from camera by depth estimation task, to guide this point-wise fusion. Finally, AMMF performs excellently for detecting small contour objects like pedestrians, cyclists, and distant cars. On the KITTI, AMMF finishes 3.62% improvements in the moderate instance for pedestrians. It achieves a 2.21% improvement in the &amp;gt;50 instance of LEVEL-2 level for vehicle on the Waymo Open Dataset. And AMMF is further verified on our customized dataset consisting of challenging scenarios like strong illumination and heavy shadow cases.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Automated Wall-Climbing Robot for Concrete Construction Inspection</title>
       <link>/publication/22-wall-climbing-jfr/</link>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
