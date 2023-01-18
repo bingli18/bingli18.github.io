@@ -5,7 +5,7 @@
     <link>/author/haitao-luo/</link>
       <atom:link href="/author/haitao-luo/index.xml" rel="self" type="application/rss+xml" />
     <description>Haitao Luo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 23 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 23 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>Haitao Luo</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Modeling and Prediction of User Stability and Comfortability on Autonomous Wheelchairs With 3D Mapping</title>
       <link>/publication/22-wheelchair-thms/</link>
-      <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       <guid>/publication/22-wheelchair-thms/</guid>
       <description>&lt;p&gt;Abstract:
 Traditional manual wheelchairs have a fixed seat with no movement or angle adjustment, which can seriously affect the user&amp;rsquo;s comfort and greatly limit user experience. However, the electric wheelchair relies on strong intelligence and automatic features; it can not only realize the multidegree freedom adjustment of the human body and the seat but also has a rich and powerful man–machine control interface, which greatly facilitates and improves the user experience. This study upgraded a Permobil C400-powered wheelchair with multisensor data fusion technology to enrich its terrain recognition, tipping stability, and comfortability prediction. The tipping stability modeling of the wheelchair dummy system is carried out using multibody dynamics and vibration mechanics to obtain the tipping stability limit and the comfort evaluation of the wheelchair vibration acceleration on the human body during travel. Based on the elevation mapping method, the wheelchair can estimate the terrain from the local point of view at any point in time. At the same time, the RGB-D depth camera is connected to the robot operating system (ROS) system, and the open-source algorithm package RTAB-MAP is used to complete the MAP construction and collect the 3-D point-cloud terrain data. Then, the real 3-D terrain files are generated through the point-cloud stitching technology for stability simulation of the wheelchair–human system. The tipping stability and comfort indexes of the wheelchair–human system when passing over different physical terrains can be obtained. The experimental results show that the IMU data located on the human chest agree well with the simulation analysis data and are suitable for a variety of complex real-terrain conditions, verifying the accuracy of the wheelchair–human system dynamics model and the feasibility of the simulation analysis process. Thus, this modeling and simulation method can predict wheelchair stability and user comfortability well and ensure a high-performance experience.&lt;/p&gt;
