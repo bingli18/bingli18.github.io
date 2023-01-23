@@ -5,12 +5,21 @@
     <link>/author/liang-yang/</link>
       <atom:link href="/author/liang-yang/index.xml" rel="self" type="application/rss+xml" />
     <description>Liang Yang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 25 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>Liang Yang</title>
       <link>/author/liang-yang/</link>
     </image>
+    
+    <item>
+      <title>FourStr:When Multi-sensor Fusion Meets Semi-supervised Learning</title>
+      <link>/publication/23-fourstr-icra/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/23-fourstr-icra/</guid>
+      <description>&lt;p&gt;Abstract:&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth</title>
