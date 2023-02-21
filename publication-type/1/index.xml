@@ -5,7 +5,7 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 25 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>1</title>
@@ -13,28 +13,28 @@
     </image>
     
     <item>
+      <title>Class-Level Confidence Based 3D Semi-Supervised Learning</title>
+      <link>/publication/23-3d-semi-learning-wacv/</link>
+      <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/23-3d-semi-learning-wacv/</guid>
+      <description>&lt;p&gt;Abstract:
+Current pseudo-labeling strategies in 3D semi-supervised learning (SSL) fail to adaptively incorporate each class’s learning difficulty and learning status variance. In this work, we practically demonstrate that 3D unlabeled data class-level confidence can represent the learning status. Based on this finding, we present a novel class-level confidence based 3D SSL method. We firstly propose a dynamic thresholding method based on each class learning status obtained from class-level confidence. Then, a re-sampling strategy is designed to re-balance the learning status based on that the better learning status a class/instance has, the less sample probability it has. To show the generality of our method in 3D SSL task, we conduct extensive experiments on 3D SSL classification and detection tasks. Our method significantly outperforms state-of-the-art counterparts for both 3D SSL classification and detection tasks in all datasets.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>FourStr: When Multi-sensor Fusion Meets Semi-supervised Learning</title>
       <link>/publication/23-fourstr-icra/</link>
-      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       <guid>/publication/23-fourstr-icra/</guid>
       <description>&lt;p&gt;Abstract:&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Embodied-AI Wheelchair Framework with Hands-free Interface and Manipulation</title>
-      <link>/publication/22-embodied-ai-smc/</link>
-      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/22-embodied-ai-smc/</guid>
-      <description>&lt;p&gt;Abstract:
-Assistive robots can be found in hospitals and rehabilitation clinics, where they help patients maintain a positive disposition. Our proposed robotic mobility solution combines state of the art hardware and software to provide a safer, more independent, and more productive lifestyle for people with some of the most severe disabilities. New hardware includes, a retractable roof, manipulator arm, a hard backpack, a number of sensors that collect environmental data and processors that generate 3D maps for a hands-free human-machine interface. The proposed new system receives input from the user via head tracking or voice command, and displays information through augmented reality into the user’s field of view. The software algorithm will use a novel cycle of self-learning artificial intelligence that achieves autonomous navigation while avoiding collisions with stationary and dynamic objects. The prototype will be assembled and tested over the next three years and a publicly available version could be ready two years thereafter.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth</title>
       <link>/publication/22-dynamicdepth/</link>
-      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
       <guid>/publication/22-dynamicdepth/</guid>
       <description>&lt;p&gt;Abstract:
 Conventional self-supervised monocular depth prediction methods are based on a static environment assumption, which leads to accuracy degradation in dynamic scenes due to the mismatch and occlusion problems introduced by object motions. Existing dynamic-object-focused methods only partially solved the mismatch problem at the training loss level. In this paper, we accordingly propose a novel multi-frame monocular depth prediction method to solve these problems at both the prediction and supervision loss levels. Our method, called DynamicDepth, is a new framework trained via a self-supervised cycle consistent learning scheme. A Dynamic Object Motion Disentanglement (DOMD) module is proposed to disentangle object motions to solve the mismatch problem. Moreover, novel occlusion-aware Cost Volume and Re-projection Loss are designed to alleviate the occlusion effects of object motions. Extensive analyses and experiments on the Cityscapes and KITTI datasets show that our method significantly outperforms the state-of-the-art monocular depth prediction methods, especially in the areas of dynamic objects. Our code will be made publicly available.&lt;/p&gt;
@@ -44,7 +44,7 @@ Conventional self-supervised monocular depth prediction methods are based on a s
     <item>
       <title>FocusTR: Focusing on Valuable Feature by Multiple Transformers for Fusing Feature Pyramid on Object Detection</title>
       <link>/publication/22-focustr-iros/</link>
-      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       <guid>/publication/22-focustr-iros/</guid>
       <description>&lt;p&gt;Abstract:
 The feature pyramid, which is a vital component of the convolutional neural networks, plays a significant role in several perception tasks, including object detection for autonomous driving. However, how to better fuse multi-level and multi-sensor feature pyramids is still a significant challenge, especially for object detection. This paper presents a FocusTR (Focusing on the valuable features by multiple Transformers), which is a simple yet effective architecture, to fuse feature pyramid for the single-stream 2D detector and two-stream 3D detector. Specifically, FocusTR encompasses several novel self-attention mechanisms, including the spatial-wise boxAlign attention (SB) for low-level spatial locations, context-wise affinity attention (CA) for high-level context information, and level-wise attention for the multi-level feature. To alleviate self-attention’s computational complexity and slow training convergence, FocusTR introduces a low and high-level fusion (LHF) to reduce the computational parameters, and the Pre-LN to accelerate the training convergence.&lt;/p&gt;
@@ -52,12 +52,12 @@ The feature pyramid, which is a vital component of the convolutional neural netw
     </item>
     
     <item>
-      <title>Class-Level Confidence Based 3D Semi-Supervised Learning</title>
-      <link>/publication/23-3d-semi-learning-wacv/</link>
-      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/23-3d-semi-learning-wacv/</guid>
+      <title>Embodied-AI Wheelchair Framework with Hands-free Interface and Manipulation</title>
+      <link>/publication/22-embodied-ai-smc/</link>
+      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/22-embodied-ai-smc/</guid>
       <description>&lt;p&gt;Abstract:
-Current pseudo-labeling strategies in 3D semi-supervised learning (SSL) fail to adaptively incorporate each class’s learning difficulty and learning status variance. In this work, we practically demonstrate that 3D unlabeled data class-level confidence can represent the learning status. Based on this finding, we present a novel class-level confidence based 3D SSL method. We firstly propose a dynamic thresholding method based on each class learning status obtained from class-level confidence. Then, a re-sampling strategy is designed to re-balance the learning status based on that the better learning status a class/instance has, the less sample probability it has. To show the generality of our method in 3D SSL task, we conduct extensive experiments on 3D SSL classification and detection tasks. Our method significantly outperforms state-of-the-art counterparts for both 3D SSL classification and detection tasks in all datasets.&lt;/p&gt;
+Assistive robots can be found in hospitals and rehabilitation clinics, where they help patients maintain a positive disposition. Our proposed robotic mobility solution combines state of the art hardware and software to provide a safer, more independent, and more productive lifestyle for people with some of the most severe disabilities. New hardware includes, a retractable roof, manipulator arm, a hard backpack, a number of sensors that collect environmental data and processors that generate 3D maps for a hands-free human-machine interface. The proposed new system receives input from the user via head tracking or voice command, and displays information through augmented reality into the user’s field of view. The software algorithm will use a novel cycle of self-learning artificial intelligence that achieves autonomous navigation while avoiding collisions with stationary and dynamic objects. The prototype will be assembled and tested over the next three years and a publicly available version could be ready two years thereafter.&lt;/p&gt;
 </description>
     </item>
     
