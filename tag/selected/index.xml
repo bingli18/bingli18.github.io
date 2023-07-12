@@ -5,7 +5,7 @@
     <link>/tag/selected/</link>
       <atom:link href="/tag/selected/index.xml" rel="self" type="application/rss+xml" />
     <description>selected</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>selected</title>
@@ -13,12 +13,22 @@
     </image>
     
     <item>
+      <title>FourStr: When Multi-sensor Fusion Meets Semi-supervised Learning</title>
+      <link>/publication/23-fourstr-icra/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/23-fourstr-icra/</guid>
+      <description>&lt;p&gt;Abstract:
+This research proposes a novel semi-supervised learning framework FourStr (Four-Stream formed by two two-stream models) that focuses on the improvement of fusion and labeling efficiency for 3D multi-sensor detector. FourStr adopts a multi-sensor single-stage detector named adaptive fusion network (AFNet) as the backbone and trains it through the semi-supervision learning (SSL) strategy Stereo Fusion. Note that multi-sensor AFNet and SSL Stereo Fusion can benefit each other. On the one hand, the Four-stream composed of two AFNets naturally provides rich inputs and large models for SSL Stereo Fusion. While other SSL works have to use massive augmentation to obtain rich inputs, and deepen and widen the network for large models. On the other hand, by the novel three fusion stages and Loss Pruning, Stereo Fusion improves the fusion and labeling efficiency for AFNet. Finally, extensive experiments demonstrate that FourStr performs excellently on outdoor dataset (KITTI and Waymo Open Dataset) and indoor dataset (SUN RGB-D), especially for the small contour objects. And compared to the fully-supervised methods, FourStr achieves similar accuracy with only 2% labeled data on KITTI (or with 50% labeled data on SUN RGB-D).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Class-Level Confidence Based 3D Semi-Supervised Learning</title>
       <link>/publication/23-3d-semi-learning-wacv/</link>
       <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
       <guid>/publication/23-3d-semi-learning-wacv/</guid>
       <description>&lt;p&gt;Abstract:
-Current pseudo-labeling strategies in 3D semi-supervised learning (SSL) fail to adaptively incorporate each class’s learning difficulty and learning status variance. In this work, we practically demonstrate that 3D unlabeled data class-level confidence can represent the learning status. Based on this finding, we present a novel class-level confidence based 3D SSL method. We firstly propose a dynamic thresholding method based on each class learning status obtained from class-level confidence. Then, a re-sampling strategy is designed to re-balance the learning status based on that the better learning status a class/instance has, the less sample probability it has. To show the generality of our method in 3D SSL task, we conduct extensive experiments on 3D SSL classification and detection tasks. Our method significantly outperforms state-of-the-art counterparts for both 3D SSL classification and detection tasks in all datasets.&lt;/p&gt;
+Recent state-of-the-art method FlexMatch firstly demonstrated that correctly estimating learning status is crucial for semi-supervised learning (SSL). However, the estimation method proposed by FlexMatch does not take into account imbalanced data, which is the common case for 3D semi-supervised learning. To address this problem, we practically demonstrate that unlabeled data class-level confidence can represent the learning status in the 3D imbalanced dataset. Based on this finding, we present a novel class-level confidence based 3D SSL method. Firstly, a dynamic thresholding strategy is proposed to utilize more unlabeled data, especially for low learning status classes. Then, a re-sampling strategy is designed to avoid biasing toward high learning status classes, which dynamically changes the sampling probability of each class. To show the effectiveness of our method in 3D SSL tasks, we conduct extensive experiments on 3D SSL classification and detection tasks. Our method significantly outperforms state-of-the-art counterparts for both 3D SSL classification and detection tasks in all datasets.&lt;/p&gt;
 </description>
     </item>
     
@@ -49,26 +59,6 @@ Human-made concrete structures require cutting-edge inspection tools to ensure t
       <guid>/publication/21-depth-prediction-corl/</guid>
       <description>&lt;p&gt;Abstract:
 Self-supervised monocular depth prediction provides a cost-effective solution to obtain the 3D location of each pixel. However, the existing approaches usually lead to unsatisfactory accuracy, which is critical for autonomous robots. In this paper, we propose FusionDepth, a novel two-stage network to advance the self-supervised monocular dense depth learning by leveraging low-cost sparse (e.g. 4-beam) LiDAR. Unlike the existing methods that use sparse LiDAR mainly in a manner of time-consuming iterative post-processing, our model fuses monocular image features and sparse LiDAR features to predict initial depth maps. Then, an efficient feed-forward refine network is further designed to correct the errors in these initial depth maps in pseudo-3D space with real-time performance. Extensive experiments show that our proposed model significantly outperforms all the state-of-the-art self-supervised methods, as well as the sparse-LiDAR-based methods on both self-supervised monocular depth prediction and completion tasks. With the accurate dense depth prediction, our model outperforms the state-of-the-art sparse-LiDAR-based method (Pseudo-LiDAR++) by more than 68% for the downstream task monocular 3D object detection on the KITTI Leaderboard.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Multimodal Semi-Supervised Learning for 3D Objects</title>
-      <link>/publication/21-m2cp-learning-bmvc/</link>
-      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/21-m2cp-learning-bmvc/</guid>
-      <description>&lt;p&gt;Abstract:
-In recent years, semi-supervised learning has been widely explored and shows excellent data efficiency for 2D data. There is an emerging need to improve data efficiency for 3D tasks due to the scarcity of labeled 3D data. This paper explores how the coherence of different modelities of 3D data (e.g. point cloud, image, and mesh) can be used to improve data efficiency for both 3D classification and retrieval tasks. We propose a novel multimodal semi-supervised learning framework by introducing instance-level consistency constraint and a novel multimodal contrastive prototype (M2CP) loss. The instance-level consistency enforces the network to generate consistent representations for multimodal data of the same object regardless of its modality. The M2CP maintains a multimodal prototype for each class and learns features with small intra-class variations by minimizing the feature distance of each object to its prototype while maximizing the distance to the others. Our proposed framework significantly outperforms all the state-of-the-art counterparts for both classification and retrieval tasks by a large margin on the modelNet10 and ModelNet40 datasets.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Method, Apparatus and Computer Program Product for Mapping and Modeling a Three Dimensional Structure</title>
-      <link>/publication/20-mapping-patent/</link>
-      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/20-mapping-patent/</guid>
-      <description>&lt;p&gt;Abstract:
-Embodiments described herein may provide a method for generating a three-dimensional vector model of the interior of a structure. Methods may include: receiving sensor data indicative of a trajectory; receiving sensor data defining structural surfaces within a structure; generating a three-dimensional point cloud from the sensor data defining structural surfaces within the structure; segmenting the three-dimensional point cloud into two or more segments based, at least in part, on the sensor data indicative of trajectory; generating a three-dimensional surface model of an interior of the structure based on the segmented three-dimensional point cloud with semantic recognition and labelling; and providing the three-dimensional surface model of an interior of the structure to an advanced driver assistance system to facilitate autonomous vehicle parking.&lt;/p&gt;
 </description>
     </item>
     
