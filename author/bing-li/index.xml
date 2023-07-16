@@ -5,12 +5,22 @@
     <link>/author/bing-li/</link>
       <atom:link href="/author/bing-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Bing Li</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>Bing Li</title>
       <link>/author/bing-li/</link>
     </image>
+    
+    <item>
+      <title>Rethinking 3D Geometric Feature Learning for Neural Reconstruction</title>
+      <link>/publication/23-rethinking3d-iccv/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/23-rethinking3d-iccv/</guid>
+      <description>&lt;p&gt;Abstract:
+Recent advances in neural reconstruction using posed image sequences have made remarkable progress. However, due to the lack of depth information, existing volumetric-based techniques simply duplicate 2D image features of the object surface along the entire camera ray. We contend this duplication introduces noise in empty and occluded spaces, posing challenges for producing high-quality 3D geometry. Drawing inspiration from traditional multi-view stereo methods, we propose an end-to-end 3D neural reconstruction framework CVRecon, designed to exploit the rich geometric embedding in the cost volumes to facilitate 3D geometric feature learning. Furthermore, we present Ray-contextual Compensated Cost Volume, a novel 3D geometric feature representation that encodes view-dependent information with improved integrity and robustness. Through comprehensive experiments, we demonstrate that our approach significantly improves the reconstruction quality in various metrics and recovers clear fine details of the 3D geometries. Our extensive ablation studies provide insights into the development of effective 3D geometric feature learning schemes. The code will be made publicly available.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>FourStr: When Multi-sensor Fusion Meets Semi-supervised Learning</title>
