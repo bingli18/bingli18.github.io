@@ -78,6 +78,21 @@
   </url>
   
   <url>
+    <loc>/publication-type/3/</loc>
+    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/23-domaingap/</loc>
+    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/zhimin-chen/</loc>
+    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/ailin-wei/</loc>
     <lastmod>2023-03-10T00:00:00+00:00</lastmod>
   </url>
@@ -119,11 +134,6 @@
   
   <url>
     <loc>/author/yingwei-li/</loc>
-    <lastmod>2023-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/zhimin-chen/</loc>
     <lastmod>2023-02-20T00:00:00+00:00</lastmod>
   </url>
   
