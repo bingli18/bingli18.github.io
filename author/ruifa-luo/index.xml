@@ -5,12 +5,22 @@
     <link>/author/ruifa-luo/</link>
       <atom:link href="/author/ruifa-luo/index.xml" rel="self" type="application/rss+xml" />
     <description>Ruifa Luo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>Ruifa Luo</title>
       <link>/author/ruifa-luo/</link>
     </image>
+    
+    <item>
+      <title>ANAS: Asymptotic NAS for Large-Scale Proxyless Search and Multi-Task Transfer Learning</title>
+      <link>/publication/23-anas-patternrecog/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/23-anas-patternrecog/</guid>
+      <description>&lt;p&gt;Abstract:
+Neural Architecture Search (NAS) is an excellent solution to design a lightweight network for researchers to obtain a trade-off between accuracy and speed, releasing researchers from tedious mechanical trials. However, the main shortcoming of NAS is high and unstable memory consumption of the search work, especially for large-scale tasks. In this study, the proposed Asymptotic Neural Architecture Search network (ANAS) achieved a proxyless search for large-scale tasks with economic and stable memory consumption. Instead of proxy search like other NAS algorithms, ANAS achieved the large-scale proxyless search that directly learns deep neural network architecture for target task. ANAS reduced the peak value of memory consumption by an asymptotic method, and kept the memory consumption stable by the linkage change of a series of key indexes. The Pruning Operation and efficient candidate operations decreased the total memory consumption. Finally, ANAS achieved a good trade-off between accuracy and speed for classification tasks on CIFAR-10, CIFAR-100, and ImageNet datasets. Besides, except for the classification task, it had excellent multi-task transfer learning ability for implementing the segmentation task on CamVid and Cityscapes. ANAS reached 22.8% test errs with 5 M parameter on ImageNet, and 72.9 mIoU (mean Intersection over Union) with 119.9 FPS (Frames Per Second) on Cityscapes.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SPD: Semi-Supervised Learning and Progressive Distillation for 3-D Detection</title>
