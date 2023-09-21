@@ -5,12 +5,22 @@
     <link>/tag/visual-computing/</link>
       <atom:link href="/tag/visual-computing/index.xml" rel="self" type="application/rss+xml" />
     <description>Visual Computing</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 21 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>Visual Computing</title>
       <link>/tag/visual-computing/</link>
     </image>
+    
+    <item>
+      <title>Bridging the Domain Gap: Self-Supervised 3D Scene Understanding with Foundation Models</title>
+      <link>/publication/23-domaingap/</link>
+      <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/23-domaingap/</guid>
+      <description>&lt;p&gt;Abstract:
+Foundation models have made significant strides in 2D and language tasks such as image segmentation, object detection, and visual-language understanding. Nevertheless, their potential to enhance 3D scene representation learning remains largely untapped due to the domain gap. In this paper, we propose an innovative methodology Bridge3D to address this gap, pre-training 3D models using features, semantic masks, and captions sourced from foundation models. Specifically, our approach utilizes semantic masks from these models to guide the masking and reconstruction process in the masked autoencoder. This strategy enables the network to concentrate more on foreground objects, thereby enhancing 3D representation learning. Additionally, we bridge the 3D-text gap at the scene level by harnessing image captioning foundation models. To further facilitate knowledge distillation from well-learned 2D and text representations to the 3D model, we introduce a novel method that employs foundation models to generate highly accurate object-level masks and semantic text information at the object level. Our approach notably outshines state-of-the-art methods in 3D object detection and semantic segmentation tasks. For instance, on the ScanNet dataset, our method surpasses the previous state-of-the-art method, PiMAE, by a significant margin of 5.3%.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Rethinking 3D Geometric Feature Learning for Neural Reconstruction</title>
@@ -19,16 +29,6 @@
       <guid>/publication/23-rethinking3d-iccv/</guid>
       <description>&lt;p&gt;Abstract:
 Recent advances in neural reconstruction using posed image sequences have made remarkable progress. However, due to the lack of depth information, existing volumetric-based techniques simply duplicate 2D image features of the object surface along the entire camera ray. We contend this duplication introduces noise in empty and occluded spaces, posing challenges for producing high-quality 3D geometry. Drawing inspiration from traditional multi-view stereo methods, we propose an end-to-end 3D neural reconstruction framework CVRecon, designed to exploit the rich geometric embedding in the cost volumes to facilitate 3D geometric feature learning. Furthermore, we present Ray-contextual Compensated Cost Volume, a novel 3D geometric feature representation that encodes view-dependent information with improved integrity and robustness. Through comprehensive experiments, we demonstrate that our approach significantly improves the reconstruction quality in various metrics and recovers clear fine details of the 3D geometries. Our extensive ablation studies provide insights into the development of effective 3D geometric feature learning schemes. The code will be made publicly available.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bridging the Domain Gap: Self-Supervised 3D Scene Understanding with Foundation Models</title>
-      <link>/publication/23-domaingap/</link>
-      <pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/23-domaingap/</guid>
-      <description>&lt;p&gt;Abstract:
-Foundation models have made significant strides in 2D and language tasks such as image segmentation, object detection, and visual-language understanding. Nevertheless, their potential to enhance 3D scene representation learning remains largely untapped due to the domain gap. In this paper, we propose an innovative methodology Bridge3D to address this gap, pre-training 3D models using features, semantic masks, and captions sourced from foundation models. Specifically, our approach utilizes semantic masks from these models to guide the masking and reconstruction process in the masked autoencoder. This strategy enables the network to concentrate more on foreground objects, thereby enhancing 3D representation learning. Additionally, we bridge the 3D-text gap at the scene level by harnessing image captioning foundation models. To further facilitate knowledge distillation from well-learned 2D and text representations to the 3D model, we introduce a novel method that employs foundation models to generate highly accurate object-level masks and semantic text information at the object level. Our approach notably outshines state-of-the-art methods in 3D object detection and semantic segmentation tasks. For instance, on the ScanNet dataset, our method surpasses the previous state-of-the-art method, PiMAE, by a significant margin of 5.3%.&lt;/p&gt;
 </description>
     </item>
     

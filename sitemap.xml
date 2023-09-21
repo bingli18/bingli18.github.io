@@ -3,32 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication-type/3/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/bing-li/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/23-domaingap/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/deep-learning/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/selected/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/visual-computing/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/zhimin-chen/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication-type/1/</loc>
     <lastmod>2023-07-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2023-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2023-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/autonomous-driving/</loc>
-    <lastmod>2023-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/bing-li/</loc>
-    <lastmod>2023-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/deep-learning/</loc>
     <lastmod>2023-07-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,53 +83,13 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2023-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2023-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/23-rethinking3d-iccv/</loc>
-    <lastmod>2023-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/selected/</loc>
-    <lastmod>2023-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2023-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/visual-computing/</loc>
     <lastmod>2023-07-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/ziyue-feng/</loc>
     <lastmod>2023-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/3/</loc>
-    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/23-domaingap/</loc>
-    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/zhimin-chen/</loc>
-    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
