@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>/author/longlong-jing/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/</loc>
     <lastmod>2023-09-21T00:00:00+00:00</lastmod>
   </url>
@@ -54,6 +59,11 @@
   
   <url>
     <loc>/tag/visual-computing/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/yingwei-li/</loc>
     <lastmod>2023-09-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -124,16 +134,6 @@
   
   <url>
     <loc>/publication/23-3d-semi-learning-wacv/</loc>
-    <lastmod>2023-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/longlong-jing/</loc>
-    <lastmod>2023-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/yingwei-li/</loc>
     <lastmod>2023-02-20T00:00:00+00:00</lastmod>
   </url>
   
