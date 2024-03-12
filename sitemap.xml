@@ -103,6 +103,31 @@
   </url>
   
   <url>
+    <loc>/publication/22-dynamicdepth/</loc>
+    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/haiyan-wang/</loc>
+    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/yingli-tian/</loc>
+    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/21-depth-prediction-corl/</loc>
+    <lastmod>2023-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/peng-yin/</loc>
+    <lastmod>2023-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/ailin-wei/</loc>
     <lastmod>2023-03-10T00:00:00+00:00</lastmod>
   </url>
@@ -138,28 +163,48 @@
   </url>
   
   <url>
-    <loc>/publication/22-dynamicdepth/</loc>
-    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/haiyan-wang/</loc>
-    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+    <loc>/publication/22-wall-climbing-jfr/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/yingli-tian/</loc>
-    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+    <loc>/author/biao-jiang/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/guoyong-yang/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jinglun-feng/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jizhong-xiao/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/sensing/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/yong-chang/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/22-focustr-iros/</loc>
     <lastmod>2022-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/2/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -183,41 +228,6 @@
   </url>
   
   <url>
-    <loc>/publication/22-wall-climbing-jfr/</loc>
-    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/biao-jiang/</loc>
-    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/guoyong-yang/</loc>
-    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jinglun-feng/</loc>
-    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jizhong-xiao/</loc>
-    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/sensing/</loc>
-    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/yong-chang/</loc>
-    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/haitao-luo/</loc>
     <lastmod>2022-08-23T00:00:00+00:00</lastmod>
   </url>
@@ -234,11 +244,6 @@
   
   <url>
     <loc>/publication/22-wheelchair-thms/</loc>
-    <lastmod>2022-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/peng-yin/</loc>
     <lastmod>2022-08-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -335,11 +340,6 @@
   <url>
     <loc>/author/satya-r.-jaladi/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/21-depth-prediction-corl/</loc>
-    <lastmod>2021-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>

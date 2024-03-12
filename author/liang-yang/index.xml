@@ -23,6 +23,16 @@ Recent advances in neural reconstruction using posed image sequences have made r
     </item>
     
     <item>
+      <title>Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth</title>
+      <link>/publication/22-dynamicdepth/</link>
+      <pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/22-dynamicdepth/</guid>
+      <description>&lt;p&gt;Abstract:
+Conventional self-supervised monocular depth prediction methods are based on a static environment assumption, which leads to accuracy degradation in dynamic scenes due to the mismatch and occlusion problems introduced by object motions. Existing dynamic-object-focused methods only partially solved the mismatch problem at the training loss level. In this paper, we accordingly propose a novel multi-frame monocular depth prediction method to solve these problems at both the prediction and supervision loss levels. Our method, called DynamicDepth, is a new framework trained via a self-supervised cycle consistent learning scheme. A Dynamic Object Motion Disentanglement (DOMD) module is proposed to disentangle object motions to solve the mismatch problem. Moreover, novel occlusion-aware Cost Volume and Re-projection Loss are designed to alleviate the occlusion effects of object motions. Extensive analyses and experiments on the Cityscapes and KITTI datasets show that our method significantly outperforms the state-of-the-art monocular depth prediction methods, especially in the areas of dynamic objects. Our code will be made publicly available.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>FourStr: When Multi-sensor Fusion Meets Semi-supervised Learning</title>
       <link>/publication/23-fourstr-icra/</link>
       <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
@@ -43,12 +53,12 @@ Recent state-of-the-art method FlexMatch firstly demonstrated that correctly est
     </item>
     
     <item>
-      <title>Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth</title>
-      <link>/publication/22-dynamicdepth/</link>
-      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/22-dynamicdepth/</guid>
+      <title>Automated Wall-Climbing Robot for Concrete Construction Inspection</title>
+      <link>/publication/22-wall-climbing-jfr/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/22-wall-climbing-jfr/</guid>
       <description>&lt;p&gt;Abstract:
-Conventional self-supervised monocular depth prediction methods are based on a static environment assumption, which leads to accuracy degradation in dynamic scenes due to the mismatch and occlusion problems introduced by object motions. Existing dynamic-object-focused methods only partially solved the mismatch problem at the training loss level. In this paper, we accordingly propose a novel multi-frame monocular depth prediction method to solve these problems at both the prediction and supervision loss levels. Our method, called DynamicDepth, is a new framework trained via a self-supervised cycle consistent learning scheme. A Dynamic Object Motion Disentanglement (DOMD) module is proposed to disentangle object motions to solve the mismatch problem. Moreover, novel occlusion-aware Cost Volume and Re-projection Loss are designed to alleviate the occlusion effects of object motions. Extensive analyses and experiments on the Cityscapes and KITTI datasets show that our method significantly outperforms the state-of-the-art monocular depth prediction methods, especially in the areas of dynamic objects. Our code will be made publicly available.&lt;/p&gt;
+Human-made concrete structures require cutting-edge inspection tools to ensure the quality of the construction to meet the applicable building codes and to maintain the sustainability of the aging infrastructure. This paper introduces a wall-climbing robot for metric concrete inspection that can reach difficult-to-access locations with a close-up view for visual data collection and real-time flaws detection and localization. The wall-climbing robot is able to detect concrete surface flaws (i.e., cracks and spalls) and produce a defect-highlighted 3D model with extracted location clues and metric measurements. The system encompasses four modules, including a data collection module to capture RGB-D frames and inertial measurement unit data, a visual–inertial navigation system module to generate pose-coupled keyframes, a deep neural network module (namely InspectionNet) to classify each pixel into three classes (background, crack, and spall), and a semantic reconstruction module to integrate per-frame measurement into a global volumetric model with defects highlighted. We found that commercial RGB-D camera output depth is noisy with holes, and a Gussian-Bilateral filter for depth completion is introduced to inpaint the depth image. The method achieves the state-of-the-art depth completion accuracy even with large holes. Based on the semantic mesh, we introduce a coherent defect metric evaluation approach to compute the metric measurement of crack and spall area (e.g., length, width, area, and depth). Field experiments on a concrete bridge demonstrate that our wall-climbing robot is able to operate on a rough surface and can cross over shallow gaps. The robot is capable to detect and measure surface flaws under low illuminated environments and texture-less environments. Besides the robot system, we create the first publicly accessible concrete structure spalls and cracks data set that includes 820 labeled images and over 10,000 field-collected images and release it to the research community.&lt;/p&gt;
 </description>
     </item>
     
@@ -79,16 +89,6 @@ Current learning-based 3-D object detection accuracy is heavily impacted by the 
       <guid>/publication/22-ammf-tits/</guid>
       <description>&lt;p&gt;Abstract:
 Recently significant progress has been made in 3D detection. However, it is still challenging to detect small contour objects under complex scenes. This paper proposes a novel Attention-based Multi-phase Multi-task Fusion (AMMF) that uses point-level, RoI-level, and multi-task fusions to complement the disadvantages of LiDAR and camera, to solve this challenge. First, at the feature extraction phase, AMMF uses the Low and High-level Fusion with Matching Attention (LHF-MA) and efficient FPN (eFPN) to perform point-level fusion for cross sensors and single sensor, respectively. Instead of merging each level and using expensive 3D CNN like other methods, LHF-MA fuses low-level spatial location and high-level contextual feature of 2D CNN customized feature extractors and ignores the fusion of middle levels, reducing the computational cost. Then, at the proposal generation phase, Progressive Proposal Fusion (PPF) with learned attention map is used to perform coarse-to-fine RoI-level fusion, instead of only combining coarse-grained features at high-level of network. PPF using progressively increasing IoU thresholds could avoid overfitting and improve the performance. Note that the matching attentions and learned attention maps are utilized to weigh the priority of different sensors. Moreover, to solve the sparseness of point-wise fusion between LiDAR BEV and RGB image, AMMF uses multi-task fusion that generates pseudo-LiDAR from camera by depth estimation task, to guide this point-wise fusion. Finally, AMMF performs excellently for detecting small contour objects like pedestrians, cyclists, and distant cars. On the KITTI, AMMF finishes 3.62% improvements in the moderate instance for pedestrians. It achieves a 2.21% improvement in the &amp;gt;50 instance of LEVEL-2 level for vehicle on the Waymo Open Dataset. And AMMF is further verified on our customized dataset consisting of challenging scenarios like strong illumination and heavy shadow cases.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Automated Wall-Climbing Robot for Concrete Construction Inspection</title>
-      <link>/publication/22-wall-climbing-jfr/</link>
-      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/22-wall-climbing-jfr/</guid>
-      <description>&lt;p&gt;Abstract:
-Human-made concrete structures require cutting-edge inspection tools to ensure the quality of the construction to meet the applicable building codes and to maintain the sustainability of the aging infrastructure. This paper introduces a wall-climbing robot for metric concrete inspection that can reach difficult-to-access locations with a close-up view for visual data collection and real-time flaws detection and localization. The wall-climbing robot is able to detect concrete surface flaws (i.e., cracks and spalls) and produce a defect-highlighted 3D model with extracted location clues and metric measurements. The system encompasses four modules, including a data collection module to capture RGB-D frames and inertial measurement unit data, a visual–inertial navigation system module to generate pose-coupled keyframes, a deep neural network module (namely InspectionNet) to classify each pixel into three classes (background, crack, and spall), and a semantic reconstruction module to integrate per-frame measurement into a global volumetric model with defects highlighted. We found that commercial RGB-D camera output depth is noisy with holes, and a Gussian-Bilateral filter for depth completion is introduced to inpaint the depth image. The method achieves the state-of-the-art depth completion accuracy even with large holes. Based on the semantic mesh, we introduce a coherent defect metric evaluation approach to compute the metric measurement of crack and spall area (e.g., length, width, area, and depth). Field experiments on a concrete bridge demonstrate that our wall-climbing robot is able to operate on a rough surface and can cross over shallow gaps. The robot is capable to detect and measure surface flaws under low illuminated environments and texture-less environments. Besides the robot system, we create the first publicly accessible concrete structure spalls and cracks data set that includes 820 labeled images and over 10,000 field-collected images and release it to the research community.&lt;/p&gt;
 </description>
     </item>
     
