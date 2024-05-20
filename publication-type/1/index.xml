@@ -5,22 +5,12 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>1</title>
       <link>/publication-type/1/</link>
     </image>
-    
-    <item>
-      <title>Zero-shot 3D Semantic Segmentation via Learning from Noise Zero-shot Labels</title>
-      <link>/publication/24-semanticseg_zero-shot/</link>
-      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/24-semanticseg_zero-shot/</guid>
-      <description>&lt;p&gt;Abstract:
-While advancements in 3D scene understanding leveraging foundation model features have shown promise in the 3D zero-shot semantic segmentation, they still lag behind the performance of fully supervised models. This paper delves into a novel area: leveraging noisy labels obtained from other 3D zero-shot semantic segmentation for self-training and further improving performance. We present &amp;ldquo;Zero2shot&amp;rdquo;, a novel strategy crafted for the problem mentioned before, which confronts the dual challenges of label noise and long-tail data distribution situation inherent in 3D zero-shot labels. To solve these challenges, our method employs a novel approach. Firstly, we introduce an innovative noise separation technique that effectively differentiates clear and noisy labels by the gaussian mixture model, allowing for seamless integration with semi-supervised frameworks. Secondly, we implement tailored class-level warm-up phases, class-aware dynamic threshold adjustments, and a class-balanced reweighting scheme to further address the issues presented by long-tail distributions typical in the proposed area. This integrated strategy provides a comprehensive solution for effectively training 3D models with noisy labels, with our experimental findings affirming its capability to substantially reduce label noise impact.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Rethinking 3D Geometric Feature Learning for Neural Reconstruction</title>
