@@ -3,22 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/publication-type/3/</loc>
-    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/24-aichair-ahfe/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/bing-li/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/hung-la/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jesse-leaman/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/3/</loc>
     <lastmod>2023-09-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -34,16 +64,6 @@
   
   <url>
     <loc>/author/longlong-jing/</loc>
-    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
     <lastmod>2023-09-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -70,11 +90,6 @@
   <url>
     <loc>/author/zhimin-chen/</loc>
     <lastmod>2023-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2023-07-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -294,16 +309,6 @@
   
   <url>
     <loc>/publication/22-embodied-ai-smc/</loc>
-    <lastmod>2022-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/hung-la/</loc>
-    <lastmod>2022-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jesse-leaman/</loc>
     <lastmod>2022-01-03T00:00:00+00:00</lastmod>
   </url>
   
