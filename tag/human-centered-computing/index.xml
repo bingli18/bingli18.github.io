@@ -5,12 +5,22 @@
     <link>/tag/human-centered-computing/</link>
       <atom:link href="/tag/human-centered-computing/index.xml" rel="self" type="application/rss+xml" />
     <description>Human-Centered Computing</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>Human-Centered Computing</title>
       <link>/tag/human-centered-computing/</link>
     </image>
+    
+    <item>
+      <title>An Update on International Robotic Wheelchair Development</title>
+      <link>/publication/24-aichair-ahfe/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/24-aichair-ahfe/</guid>
+      <description>&lt;p&gt;Abstract:
+Disability knows no boarders, so the development of assistive technology is an international effort. This review is a follow up to our previous comprehensive review (Leaman 2017) and a recent mini-review (Sivakanthan 2022). The transition from Power Wheelchair to Robotic Wheelchair (RW) with various operating modes like, Docking, Guide Following, and Path Planning for Autonomous Navigation, has become an attainable goal. Thanks to the revolution in Aerial Drones for the consumer market, many of the necessary algorithms for the RW software have already been developed. The challenge is to put forward a system that will be embraced by the population they are meant to serve. The Human Computer Interface (HCI) will have to be interactive, with all input and output methods depending on the user’s physical capabilities. In addition, all operating modes have to be customizable, based on the preferences of each user. Variables like maximum speed, and minimum distance to obstacles, are input conditions for many operating modes that will impact the user’s experience. The HCI should be able to explain its decisions in order to increase its trustworthiness over time. This may be in the form of verbal communication or visual feedback projected into the user’s field of view like augmented reality.Given the commitment of the international research community, and the growing demand, a commercially viable RW should become reality within the next decade. This will have a positive impact on millions of seniors and people with disabilities, their caregivers, and the governments paying for long-term care programs. The RW will pay for itself by reducing the number of caregiver hours needed to provide the same level of independence. The RW should even positively impact the economy since some users will have the confidence to return to work, and many will be able to participate in social events.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Modeling and Prediction of User Stability and Comfortability on Autonomous Wheelchairs With 3D Mapping</title>

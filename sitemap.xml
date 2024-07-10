@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>/tag/human-centered-computing/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/hung-la/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
   </url>
@@ -48,6 +53,21 @@
   </url>
   
   <url>
+    <loc>/tag/selected/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/wheelchair/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication-type/3/</loc>
     <lastmod>2023-09-21T00:00:00+00:00</lastmod>
   </url>
@@ -64,16 +84,6 @@
   
   <url>
     <loc>/author/longlong-jing/</loc>
-    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/selected/</loc>
-    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2023-09-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -244,11 +254,6 @@
   
   <url>
     <loc>/author/haitao-luo/</loc>
-    <lastmod>2022-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/human-centered-computing/</loc>
     <lastmod>2022-08-23T00:00:00+00:00</lastmod>
   </url>
   
