@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>alumni | AutoAI Lab</title>
+    <title>Alumni | AutoAI Lab</title>
     <link>/category/alumni/</link>
       <atom:link href="/category/alumni/index.xml" rel="self" type="application/rss+xml" />
-    <description>alumni</description>
+    <description>Alumni</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
-      <title>alumni</title>
+      <title>Alumni</title>
       <link>/category/alumni/</link>
     </image>
     
@@ -130,6 +130,14 @@
       <link>/post/tarun-giridhar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/post/tarun-giridhar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toukheer Shaik</title>
+      <link>/post/toukheer-shaik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/toukheer-shaik/</guid>
       <description></description>
     </item>
     
