@@ -77,14 +77,6 @@
     </item>
     
     <item>
-      <title>Dr. Bing Li</title>
-      <link>/post/bing-li/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/post/bing-li/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Dr. Howard Brand</title>
       <link>/post/howard-brand/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -146,6 +138,14 @@
       <link>/post/nobel-dang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/post/nobel-dang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prof. Bing Li</title>
+      <link>/post/bing-li/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/bing-li/</guid>
       <description></description>
     </item>
     
