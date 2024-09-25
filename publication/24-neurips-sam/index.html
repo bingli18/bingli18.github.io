@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Abstract: Recent advances in neural reconstruction using posed image sequences have made remarkable progress. However, due to the lack of depth information, existing volumetric-based techniques simply duplicate 2D image features of the object surface along the entire camera ray.">
+  <meta name="description" content="Abstract: Foundation models have significantly enhanced 2D task performance, and recent works like Bridge3D have successfully applied these models to improve 3D scene understanding through knowledge distillation, marking considerable advancements. Nonetheless, challenges such as the misalignment between 2D and 3D representations and the persistent long-tail distribution in 3D datasets still restrict the effectiveness of knowledge distillation from 2D to 3D using foundation models.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/23-rethinking3d-iccv/">
+  <link rel="alternate" hreflang="en-us" href="/publication/24-neurips-sam/">
 
   
 
@@ -218,7 +218,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu025d85ab7c58f9a06d44c8cbe6356e20_11159_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu025d85ab7c58f9a06d44c8cbe6356e20_11159_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/publication/23-rethinking3d-iccv/">
+  <link rel="canonical" href="/publication/24-neurips-sam/">
 
   
   
@@ -233,15 +233,15 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="AutoAI Lab">
-  <meta property="og:url" content="/publication/23-rethinking3d-iccv/">
-  <meta property="og:title" content="Rethinking 3D Geometric Feature Learning for Neural Reconstruction | AutoAI Lab">
-  <meta property="og:description" content="Abstract: Recent advances in neural reconstruction using posed image sequences have made remarkable progress. However, due to the lack of depth information, existing volumetric-based techniques simply duplicate 2D image features of the object surface along the entire camera ray."><meta property="og:image" content="/img/headers/bubbles-wide.jpg">
+  <meta property="og:url" content="/publication/24-neurips-sam/">
+  <meta property="og:title" content="SAM-Guided Masked Token Prediction for 3D Scene Understanding | AutoAI Lab">
+  <meta property="og:description" content="Abstract: Foundation models have significantly enhanced 2D task performance, and recent works like Bridge3D have successfully applied these models to improve 3D scene understanding through knowledge distillation, marking considerable advancements. Nonetheless, challenges such as the misalignment between 2D and 3D representations and the persistent long-tail distribution in 3D datasets still restrict the effectiveness of knowledge distillation from 2D to 3D using foundation models."><meta property="og:image" content="/img/headers/bubbles-wide.jpg">
   <meta property="twitter:image" content="/img/headers/bubbles-wide.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2023-07-15T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2024-09-25T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2023-07-15T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-09-25T00:00:00&#43;00:00">
   
 
   
@@ -263,16 +263,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/23-rethinking3d-iccv/"
+    "@id": "/publication/24-neurips-sam/"
   },
-  "headline": "Rethinking 3D Geometric Feature Learning for Neural Reconstruction",
+  "headline": "SAM-Guided Masked Token Prediction for 3D Scene Understanding",
   
-  "datePublished": "2023-07-15T00:00:00Z",
-  "dateModified": "2023-07-15T00:00:00Z",
+  "datePublished": "2024-09-25T00:00:00Z",
+  "dateModified": "2024-09-25T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Ziyue Feng"
+    "name": "Zhimin Chen"
   },
   
   "publisher": {
@@ -283,7 +283,7 @@
       "url": "/images/logo_hufbce6705a566d43a9610d78203895d17_430824_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Abstract: Recent advances in neural reconstruction using posed image sequences have made remarkable progress. However, due to the lack of depth information, existing volumetric-based techniques simply duplicate 2D image features of the object surface along the entire camera ray."
+  "description": "Abstract: Foundation models have significantly enhanced 2D task performance, and recent works like Bridge3D have successfully applied these models to improve 3D scene understanding through knowledge distillation, marking considerable advancements. Nonetheless, challenges such as the misalignment between 2D and 3D representations and the persistent long-tail distribution in 3D datasets still restrict the effectiveness of knowledge distillation from 2D to 3D using foundation models."
 }
 </script>
 
@@ -301,7 +301,7 @@
 
 
 
-  <title>Rethinking 3D Geometric Feature Learning for Neural Reconstruction | AutoAI Lab</title>
+  <title>SAM-Guided Masked Token Prediction for 3D Scene Understanding | AutoAI Lab</title>
 
 </head>
 
@@ -663,7 +663,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Rethinking 3D Geometric Feature Learning for Neural Reconstruction</h1>
+  <h1>SAM-Guided Masked Token Prediction for 3D Scene Understanding</h1>
 
   
 
@@ -681,7 +681,7 @@
     
 
   
-  <span >Ziyue Feng</span>, <span >Liang Yang</span>, <span >Pengsheng Guo</span>, <span >Bing Li</span>
+  <span >Zhimin Chen</span>, <span >Bing Li</span>
   </div>
   
   
@@ -755,7 +755,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">International Conference on Computer Vision (ICCV), 2023, <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Feng_CVRecon_Rethinking_3D_Geometric_Feature_Learning_For_Neural_Reconstruction_ICCV_2023_paper.pdf">PDF</a>, <a href="https://github.com/fengziyue/CVRecon">Code</a></div>
+          <div class="col-12 col-md-9">Conference on Neural Information Processing Systems (NeurIPS), 2024</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -766,7 +766,7 @@
     <div class="space-below"></div>
 
     <div class="article-style"><p>Abstract:
-Recent advances in neural reconstruction using posed image sequences have made remarkable progress. However, due to the lack of depth information, existing volumetric-based techniques simply duplicate 2D image features of the object surface along the entire camera ray. We contend this duplication introduces noise in empty and occluded spaces, posing challenges for producing high-quality 3D geometry. Drawing inspiration from traditional multi-view stereo methods, we propose an end-to-end 3D neural reconstruction framework CVRecon, designed to exploit the rich geometric embedding in the cost volumes to facilitate 3D geometric feature learning. Furthermore, we present Ray-contextual Compensated Cost Volume, a novel 3D geometric feature representation that encodes view-dependent information with improved integrity and robustness. Through comprehensive experiments, we demonstrate that our approach significantly improves the reconstruction quality in various metrics and recovers clear fine details of the 3D geometries. Our extensive ablation studies provide insights into the development of effective 3D geometric feature learning schemes. The code will be made publicly available.</p>
+Foundation models have significantly enhanced 2D task performance, and recent works like Bridge3D have successfully applied these models to improve 3D scene understanding through knowledge distillation, marking considerable advancements. Nonetheless, challenges such as the misalignment between 2D and 3D representations and the persistent long-tail distribution in 3D datasets still restrict the effectiveness of knowledge distillation from 2D to 3D using foundation models. To tackle these issues, we introduce a novel SAM-guided tokenization method that seamlessly aligns 3D transformer structures with region-level knowledge distillation, replacing the traditional KNN-based tokenization techniques. Additionally, we implement a group-balanced re-weighting strategy to effectively address the long-tail problem in knowledge distillation. Furthermore, inspired by the recent success of masked feature prediction, our framework incorporates a two-stage masked token prediction process in which the student model predicts both the global embeddings and token-wise local embeddings derived from the teacher models trained in the first stage. Our methodology has been validated across multiple datasets, including SUN RGB-D, ScanNet, and S3DIS, for tasks like 3D object detection and semantic segmentation. The results demonstrate significant improvements over current state-of-the-art self-supervised methods, establishing new benchmarks in this field.</p>
 </div>
 
     
@@ -784,8 +784,6 @@ Recent advances in neural reconstruction using posed image sequences have made r
   
   <a class="badge badge-light" href="/tag/visual-computing/">Visual Computing</a>
   
-  <a class="badge badge-light" href="/tag/autonomous-driving/">Autonomous Driving</a>
-  
 </div>
 
 
@@ -801,7 +799,7 @@ Recent advances in neural reconstruction using posed image sequences have made r
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/23-rethinking3d-iccv/&amp;text=Rethinking%203D%20Geometric%20Feature%20Learning%20for%20Neural%20Reconstruction" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/24-neurips-sam/&amp;text=SAM-Guided%20Masked%20Token%20Prediction%20for%203D%20Scene%20Understanding" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -814,7 +812,7 @@ Recent advances in neural reconstruction using posed image sequences have made r
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/23-rethinking3d-iccv/&amp;t=Rethinking%203D%20Geometric%20Feature%20Learning%20for%20Neural%20Reconstruction" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/24-neurips-sam/&amp;t=SAM-Guided%20Masked%20Token%20Prediction%20for%203D%20Scene%20Understanding" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -827,7 +825,7 @@ Recent advances in neural reconstruction using posed image sequences have made r
       
       
       <li>
-        <a href="mailto:?subject=Rethinking%203D%20Geometric%20Feature%20Learning%20for%20Neural%20Reconstruction&amp;body=/publication/23-rethinking3d-iccv/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=SAM-Guided%20Masked%20Token%20Prediction%20for%203D%20Scene%20Understanding&amp;body=/publication/24-neurips-sam/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -840,7 +838,7 @@ Recent advances in neural reconstruction using posed image sequences have made r
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/23-rethinking3d-iccv/&amp;title=Rethinking%203D%20Geometric%20Feature%20Learning%20for%20Neural%20Reconstruction" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/24-neurips-sam/&amp;title=SAM-Guided%20Masked%20Token%20Prediction%20for%203D%20Scene%20Understanding" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -853,7 +851,7 @@ Recent advances in neural reconstruction using posed image sequences have made r
       
       
       <li>
-        <a href="whatsapp://send?text=Rethinking%203D%20Geometric%20Feature%20Learning%20for%20Neural%20Reconstruction%20/publication/23-rethinking3d-iccv/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=SAM-Guided%20Masked%20Token%20Prediction%20for%203D%20Scene%20Understanding%20/publication/24-neurips-sam/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -866,7 +864,7 @@ Recent advances in neural reconstruction using posed image sequences have made r
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/23-rethinking3d-iccv/&amp;title=Rethinking%203D%20Geometric%20Feature%20Learning%20for%20Neural%20Reconstruction" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/24-neurips-sam/&amp;title=SAM-Guided%20Masked%20Token%20Prediction%20for%203D%20Scene%20Understanding" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -900,15 +898,15 @@ Recent advances in neural reconstruction using posed image sequences have made r
     <h3>Related</h3>
     <ul>
       
+      <li><a href="/publication/23-domaingap/">Bridging the Domain Gap: Self-Supervised 3D Scene Understanding with Foundation Models</a></li>
+      
+      <li><a href="/publication/23-rethinking3d-iccv/">Rethinking 3D Geometric Feature Learning for Neural Reconstruction</a></li>
+      
       <li><a href="/publication/22-dynamicdepth/">Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth</a></li>
       
       <li><a href="/publication/21-depth-prediction-corl/">Advancing Self-Supervised Monocular Depth Learning with Sparse LiDAR</a></li>
       
       <li><a href="/publication/23-fourstr-icra/">FourStr: When Multi-sensor Fusion Meets Semi-supervised Learning</a></li>
-      
-      <li><a href="/publication/22-wall-climbing-jfr/">Automated Wall-Climbing Robot for Concrete Construction Inspection</a></li>
-      
-      <li><a href="/publication/22-ammf-tits/">AMMF: Attention-Based Multi-Phase Multi-Task Fusion for Small Contour Object 3D Detection</a></li>
       
     </ul>
   </div>

@@ -4,26 +4,66 @@
   
   <url>
     <loc>/publication-type/1/</loc>
-    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/24-aichair-ahfe/</loc>
-    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/bing-li/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/deep-learning/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/24-neurips-sam/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/selected/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/visual-computing/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/zhimin-chen/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/24-aichair-ahfe/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,42 +83,12 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/selected/</loc>
-    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/wheelchair/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication-type/3/</loc>
-    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/23-domaingap/</loc>
-    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/deep-learning/</loc>
     <lastmod>2023-09-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -88,17 +98,7 @@
   </url>
   
   <url>
-    <loc>/tag/visual-computing/</loc>
-    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/yingwei-li/</loc>
-    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/zhimin-chen/</loc>
     <lastmod>2023-09-21T00:00:00+00:00</lastmod>
   </url>
   

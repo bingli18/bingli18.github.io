@@ -5,12 +5,22 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 25 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>1</title>
       <link>/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>SAM-Guided Masked Token Prediction for 3D Scene Understanding</title>
+      <link>/publication/24-neurips-sam/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/24-neurips-sam/</guid>
+      <description>&lt;p&gt;Abstract:
+Foundation models have significantly enhanced 2D task performance, and recent works like Bridge3D have successfully applied these models to improve 3D scene understanding through knowledge distillation, marking considerable advancements. Nonetheless, challenges such as the misalignment between 2D and 3D representations and the persistent long-tail distribution in 3D datasets still restrict the effectiveness of knowledge distillation from 2D to 3D using foundation models. To tackle these issues, we introduce a novel SAM-guided tokenization method that seamlessly aligns 3D transformer structures with region-level knowledge distillation, replacing the traditional KNN-based tokenization techniques. Additionally, we implement a group-balanced re-weighting strategy to effectively address the long-tail problem in knowledge distillation. Furthermore, inspired by the recent success of masked feature prediction, our framework incorporates a two-stage masked token prediction process in which the student model predicts both the global embeddings and token-wise local embeddings derived from the teacher models trained in the first stage. Our methodology has been validated across multiple datasets, including SUN RGB-D, ScanNet, and S3DIS, for tasks like 3D object detection and semantic segmentation. The results demonstrate significant improvements over current state-of-the-art self-supervised methods, establishing new benchmarks in this field.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>An Update on International Robotic Wheelchair Development</title>
@@ -19,6 +29,16 @@
       <guid>/publication/24-aichair-ahfe/</guid>
       <description>&lt;p&gt;Abstract:
 Disability knows no boarders, so the development of assistive technology is an international effort. This review is a follow up to our previous comprehensive review (Leaman 2017) and a recent mini-review (Sivakanthan 2022). The transition from Power Wheelchair to Robotic Wheelchair (RW) with various operating modes like, Docking, Guide Following, and Path Planning for Autonomous Navigation, has become an attainable goal. Thanks to the revolution in Aerial Drones for the consumer market, many of the necessary algorithms for the RW software have already been developed. The challenge is to put forward a system that will be embraced by the population they are meant to serve. The Human Computer Interface (HCI) will have to be interactive, with all input and output methods depending on the user’s physical capabilities. In addition, all operating modes have to be customizable, based on the preferences of each user. Variables like maximum speed, and minimum distance to obstacles, are input conditions for many operating modes that will impact the user’s experience. The HCI should be able to explain its decisions in order to increase its trustworthiness over time. This may be in the form of verbal communication or visual feedback projected into the user’s field of view like augmented reality.Given the commitment of the international research community, and the growing demand, a commercially viable RW should become reality within the next decade. This will have a positive impact on millions of seniors and people with disabilities, their caregivers, and the governments paying for long-term care programs. The RW will pay for itself by reducing the number of caregiver hours needed to provide the same level of independence. The RW should even positively impact the economy since some users will have the confidence to return to work, and many will be able to participate in social events.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bridging the Domain Gap: Self-Supervised 3D Scene Understanding with Foundation Models</title>
+      <link>/publication/23-domaingap/</link>
+      <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/23-domaingap/</guid>
+      <description>&lt;p&gt;Abstract:
+Foundation models have made significant strides in 2D and language tasks such as image segmentation, object detection, and visual-language understanding. Nevertheless, their potential to enhance 3D scene representation learning remains largely untapped due to the domain gap. In this paper, we propose an innovative methodology Bridge3D to address this gap, pre-training 3D models using features, semantic masks, and captions sourced from foundation models. Specifically, our approach utilizes semantic masks from these models to guide the masking and reconstruction process in the masked autoencoder. This strategy enables the network to concentrate more on foreground objects, thereby enhancing 3D representation learning. Additionally, we bridge the 3D-text gap at the scene level by harnessing image captioning foundation models. To further facilitate knowledge distillation from well-learned 2D and text representations to the 3D model, we introduce a novel method that employs foundation models to generate highly accurate object-level masks and semantic text information at the object level. Our approach notably outshines state-of-the-art methods in 3D object detection and semantic segmentation tasks. For instance, on the ScanNet dataset, our method surpasses the previous state-of-the-art method, PiMAE, by a significant margin of 5.3%.&lt;/p&gt;
 </description>
     </item>
     
