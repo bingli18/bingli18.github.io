@@ -13,14 +13,6 @@
     </image>
     
     <item>
-      <title></title>
-      <link>/post/_opening2-phd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/post/_opening2-phd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Aaron Chen</title>
       <link>/post/aaron-chen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -138,6 +130,14 @@
       <link>/post/nobel-dang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/post/nobel-dang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ph.D. Student Positions Available</title>
+      <link>/post/_opening2-phd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/_opening2-phd/</guid>
       <description></description>
     </item>
     
