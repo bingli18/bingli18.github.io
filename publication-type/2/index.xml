@@ -5,12 +5,21 @@
     <link>/publication-type/2/</link>
       <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>2</title>
       <link>/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>DyConfidMatch: Dynamic Thresholding and Re-sampling for 3D Semi-supervised Learning</title>
+      <link>/publication/24-patternrecog/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/24-patternrecog/</guid>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract:&lt;/h1&gt;
+</description>
+    </item>
     
     <item>
       <title>Automated Wall-Climbing Robot for Concrete Construction Inspection</title>
