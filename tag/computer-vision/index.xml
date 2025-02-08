@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision | AutoAI Lab</title>
+    <link>/tag/computer-vision/</link>
+      <atom:link href="/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer Vision</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Computer Vision</title>
+      <link>/tag/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>MuTrans: Multiple Transformers for Fusing Feature Pyramid on 2D and 3D Object Detection</title>
+      <link>/publication/23-mutrans-tip/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/23-mutrans-tip/</guid>
+      <description>&lt;p&gt;Abstract:
+One of the major components of the neural network, the feature pyramid plays a vital part in perception tasks, like object detection in autonomous driving. But it is a challenge to fuse multi-level and multi-sensor feature pyramids for object detection. This paper proposes a simple yet effective framework named MuTrans (Multiple Transformers) to fuse feature pyramid in single-stream 2D detector or two-stream 3D detector. The MuTrans based on encoder-decoder focuses on the significant features via multiple Transformers. MuTrans encoder uses three innovative self-attention mechanisms: Spatial-wise BoxAlign attention (SB) for low-level spatial locations, Context-wise Affinity attention (CA) for high-level context information, and high-level attention for multi-level features. Then MuTrans decoder processes these significant proposals including the RoI and context affinity. Besides, the Low and High-level Fusion (LHF) in the encoder reduces the number of computational parameters. And the Pre-LN is utilized to accelerate the training convergence. LHF and Pre-LN are proven to reduce self-attention’s computational complexity and slow training convergence. Our result demonstrates the higher detection accuracy of MuTrans than that of the baseline method, particularly in small object detection.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
