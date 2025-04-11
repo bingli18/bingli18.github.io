@@ -4,22 +4,77 @@
   
   <url>
     <loc>/publication-type/1/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/25-lio-sae/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/abhishek-sharma/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/autonomous-driving/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/bing-li/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/cigdem-kokenoz/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/pierluigi-pisu/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/sensing/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/slam/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/toukheer-shaik/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,27 +93,12 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/24-neurips-sam/</loc>
     <lastmod>2024-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/selected/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2024-09-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -115,11 +155,6 @@
   <url>
     <loc>/publication/23-domaingap/</loc>
     <lastmod>2023-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/autonomous-driving/</loc>
-    <lastmod>2023-07-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -274,11 +309,6 @@
   
   <url>
     <loc>/author/jizhong-xiao/</loc>
-    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/sensing/</loc>
     <lastmod>2022-12-15T00:00:00+00:00</lastmod>
   </url>
   
