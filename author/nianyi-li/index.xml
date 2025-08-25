@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nianyi Li | AutoAI Lab</title>
+    <link>/author/nianyi-li/</link>
+      <atom:link href="/author/nianyi-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nianyi Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
+      <title>Nianyi Li</title>
+      <link>/author/nianyi-li/</link>
+    </image>
+    
+    <item>
+      <title>Hierarchical Feature-Based Localization Using Scene Graphs in Off-Road Navigation</title>
+      <link>/publication/25-scenegraph-sae/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/25-scenegraph-sae/</guid>
+      <description>&lt;p&gt;Abstract:
+Towards the goal of real-time navigation of autonomous robots, the Iterative Closest Point (ICP) based LiDAR odometry methods are a favorable class of Simultaneous Localization and Mapping (SLAM) algorithms for their robustness under any light conditions. However, even with the recent methods, the traditional SLAM challenges persist, where odometry drifts under adversarial conditions such as featureless or dynamic environments, as well as high motion of the robots. In this paper, we present a motion-aware continuous-time LiDAR-inertial SLAM framework. We introduce an efficient EKF-ICP sensor fusion solution by loosely coupling poses from the continuous time ICP and IMU data, designed to improve convergence speed and robustness over existing methods while incorporating a sophisticated motion constraint to maintain accurate localization during rapid motion changes. Our framework is evaluated on the KITTI datasets and artificially motion-induced dataset sequences, demonstrating improvements in SLAM performance in high-motion change environments with loop visualization, making it highly applicable for autonomous navigation in similar high-motion change environments such as uneven terrain and off-road scenarios. We provide various experiments to evaluate quantitatively and qualitatively the estimated trajectories against the ground truth. Our framework ICP-EKF has demonstrated superior trajectory estimation compared to the tightly-coupled EKF SLAM methods FAST-LIO2 and LIO-SAM, and in most instances against the baseline ICP SLAM framework CT-ICP.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,32 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>1</title>
       <link>/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Attention-Aware Temporal Adversarial Shadows on Traffic Sign Sequences</title>
+      <link>/publication/25-trafficsign-cvprw/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/25-trafficsign-cvprw/</guid>
+      <description>&lt;p&gt;Abstract:
+We present NARUTO a neural active reconstruction system that combines a hybrid neural representation with uncertainty learning enabling high-fidelity surface reconstruction. Our approach leverages a multi-resolution hash-grid as the mapping backbone chosen for its exceptional convergence speed and capacity to capture high-frequency local features. The centerpiece of our work is the incorporation of an uncertainty learning module that dynamically quantifies reconstruction uncertainty while actively reconstructing the environment. By harnessing learned uncertainty we propose a novel uncertainty aggregation strategy for goal searching and efficient path planning. Our system autonomously explores by targeting uncertain observations and reconstructs environments with remarkable completeness and fidelity. We also demonstrate the utility of this uncertainty-aware approach by enhancing SOTA neural SLAM systems through an active ray sampling strategy. Extensive evaluations of NARUTO in various environments using an indoor scene simulator confirm its superior performance and state-of-the-art status in active reconstruction as evidenced by its impressive results on benchmark datasets like Replica and MP3D.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Feature-Based Localization Using Scene Graphs in Off-Road Navigation</title>
+      <link>/publication/25-scenegraph-sae/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/25-scenegraph-sae/</guid>
+      <description>&lt;p&gt;Abstract:
+Towards the goal of real-time navigation of autonomous robots, the Iterative Closest Point (ICP) based LiDAR odometry methods are a favorable class of Simultaneous Localization and Mapping (SLAM) algorithms for their robustness under any light conditions. However, even with the recent methods, the traditional SLAM challenges persist, where odometry drifts under adversarial conditions such as featureless or dynamic environments, as well as high motion of the robots. In this paper, we present a motion-aware continuous-time LiDAR-inertial SLAM framework. We introduce an efficient EKF-ICP sensor fusion solution by loosely coupling poses from the continuous time ICP and IMU data, designed to improve convergence speed and robustness over existing methods while incorporating a sophisticated motion constraint to maintain accurate localization during rapid motion changes. Our framework is evaluated on the KITTI datasets and artificially motion-induced dataset sequences, demonstrating improvements in SLAM performance in high-motion change environments with loop visualization, making it highly applicable for autonomous navigation in similar high-motion change environments such as uneven terrain and off-road scenarios. We provide various experiments to evaluate quantitatively and qualitatively the estimated trajectories against the ground truth. Our framework ICP-EKF has demonstrated superior trajectory estimation compared to the tightly-coupled EKF SLAM methods FAST-LIO2 and LIO-SAM, and in most instances against the baseline ICP SLAM framework CT-ICP.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Motion-Aware Continuous Time LiDAR-Inertial SLAM Framework</title>

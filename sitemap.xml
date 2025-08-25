@@ -4,7 +4,122 @@
   
   <url>
     <loc>/publication-type/1/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/amir-salarpour/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/25-trafficsign-cvprw/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/bing-li/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/cigdem-kokenoz/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/david-fernandezn/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/deep-learning/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/mert-d.-pese/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/pedram-mohajeransari/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/reconstruction/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/visual-computing/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/autonomous-driving/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/fardifa-alam/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/federico-luricich/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/25-scenegraph-sae/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/nianyi-li/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/sensing/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/slam/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/yunyi-jia/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,68 +133,13 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/autonomous-driving/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/bing-li/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/cigdem-kokenoz/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/pierluigi-pisu/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/sensing/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/slam/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/toukheer-shaik/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/deep-learning/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -99,11 +159,6 @@
   
   <url>
     <loc>/tag/selected/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/visual-computing/</loc>
     <lastmod>2024-09-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -219,11 +274,6 @@
   
   <url>
     <loc>/author/qingan-yan/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/reconstruction/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -933,6 +983,10 @@
   </url>
   
   <url>
+    <loc>/post/jonas-flinte/</loc>
+  </url>
+  
+  <url>
     <loc>/post/mingzhe-liu/</loc>
   </url>
   
@@ -942,10 +996,6 @@
   
   <url>
     <loc>/post/nachiappan-chockalingam/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/nia-alavandi/</loc>
   </url>
   
   <url>
@@ -974,6 +1024,10 @@
   
   <url>
     <loc>/post/rahil-modi/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/rahul-chamarthi/</loc>
   </url>
   
   <url>
