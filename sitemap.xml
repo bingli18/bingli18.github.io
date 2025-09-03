@@ -174,42 +174,112 @@
   
   <url>
     <loc>/publication/24-aichair-ahfe/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/human-centered-computing/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/hung-la/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/jesse-leaman/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/wheelchair/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication-type/2/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/24-patternrecog/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/changjiang-cai/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/huangying-zhan/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/24-naruto-cvpr/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/qilun-zhu/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/qingan-yan/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/xiangyu-xu/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/yi-xu/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/zheng-chen/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ziyue-feng/</loc>
+    <lastmod>2024-01-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/23-domaingap/</loc>
     <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ailin-wei/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/bangquan-xie/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/computer-vision/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/23-mutrans-tip/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/xiaoxiong-weng/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -223,118 +293,23 @@
   </url>
   
   <url>
-    <loc>/author/ziyue-feng/</loc>
-    <lastmod>2023-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/22-dynamicdepth/</loc>
-    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/haiyan-wang/</loc>
-    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/yingli-tian/</loc>
-    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/21-depth-prediction-corl/</loc>
-    <lastmod>2023-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/peng-yin/</loc>
-    <lastmod>2023-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/changjiang-cai/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/huangying-zhan/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/23-naruto-cvpr/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/qilun-zhu/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/qingan-yan/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/xiangyu-xu/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/yi-xu/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/zheng-chen/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/ailin-wei/</loc>
-    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/bangquan-xie/</loc>
-    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/23-fourstr-icra/</loc>
-    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/robotics/</loc>
-    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/xiaoxiong-weng/</loc>
-    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/zongming-yang/</loc>
-    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/23-3d-semi-learning-wacv/</loc>
     <lastmod>2023-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/computer-vision/</loc>
-    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/23-mutrans-tip/</loc>
-    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -408,6 +383,11 @@
   </url>
   
   <url>
+    <loc>/author/peng-yin/</loc>
+    <lastmod>2022-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/akshay-anil-rana/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url>
@@ -453,6 +433,21 @@
   </url>
   
   <url>
+    <loc>/publication/22-dynamicdepth/</loc>
+    <lastmod>2022-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/haiyan-wang/</loc>
+    <lastmod>2022-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/yingli-tian/</loc>
+    <lastmod>2022-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/22-embodied-ai-smc/</loc>
     <lastmod>2022-01-03T00:00:00+00:00</lastmod>
   </url>
@@ -494,27 +489,32 @@
   
   <url>
     <loc>/publication/21-m2cp-learning-bmvc/</loc>
-    <lastmod>2021-09-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/anton-egorov/</loc>
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/lingyun-xu/</loc>
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/21-place-recognition-tits/</loc>
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
+    <loc>/publication/21-depth-prediction-corl/</loc>
+    <lastmod>2021-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/21-nas-attention-tits/</loc>
     <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/anton-egorov/</loc>
+    <lastmod>2021-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/lingyun-xu/</loc>
+    <lastmod>2021-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/21-place-recognition-tits/</loc>
+    <lastmod>2021-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>

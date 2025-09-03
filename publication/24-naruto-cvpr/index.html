@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Associate Professor">
+  <meta name="description" content="Abstract: We present NARUTO a neural active reconstruction system that combines a hybrid neural representation with uncertainty learning enabling high-fidelity surface reconstruction. Our approach leverages a multi-resolution hash-grid as the mapping backbone chosen for its exceptional convergence speed and capacity to capture high-frequency local features.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/author/liang-yang/">
+  <link rel="alternate" hreflang="en-us" href="/publication/24-naruto-cvpr/">
 
   
 
@@ -42,6 +42,9 @@
   
 
   
+  
+  
+  <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -171,9 +174,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -210,14 +213,12 @@
   
 
   
-  <link rel="alternate" href="/author/liang-yang/index.xml" type="application/rss+xml" title="AutoAI Lab">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu025d85ab7c58f9a06d44c8cbe6356e20_11159_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu025d85ab7c58f9a06d44c8cbe6356e20_11159_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/author/liang-yang/">
+  <link rel="canonical" href="/publication/24-naruto-cvpr/">
 
   
   
@@ -227,35 +228,80 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="AutoAI Lab">
-  <meta property="og:url" content="/author/liang-yang/">
-  <meta property="og:title" content="Liang Yang | AutoAI Lab">
-  <meta property="og:description" content="Associate Professor"><meta property="og:image" content="/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png">
-  <meta property="twitter:image" content="/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="/publication/24-naruto-cvpr/">
+  <meta property="og:title" content="NARUTO: Neural Active Reconstruction from Uncertain Target Observations | AutoAI Lab">
+  <meta property="og:description" content="Abstract: We present NARUTO a neural active reconstruction system that combines a hybrid neural representation with uncertainty learning enabling high-fidelity surface reconstruction. Our approach leverages a multi-resolution hash-grid as the mapping backbone chosen for its exceptional convergence speed and capacity to capture high-frequency local features."><meta property="og:image" content="/img/headers/bubbles-wide.jpg">
+  <meta property="twitter:image" content="/img/headers/bubbles-wide.jpg"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2024-09-25T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2024-01-07T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2024-01-07T00:00:00&#43;00:00">
   
-
-  
-
-
-
 
   
 
 
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/publication/24-naruto-cvpr/"
+  },
+  "headline": "NARUTO: Neural Active Reconstruction from Uncertain Target Observations",
+  
+  "datePublished": "2024-01-07T00:00:00Z",
+  "dateModified": "2024-01-07T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ziyue Feng"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "AutoAI Lab",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/logo_hufbce6705a566d43a9610d78203895d17_430824_192x192_fit_lanczos_2.png"
+    }
+  },
+  "description": "Abstract: We present NARUTO a neural active reconstruction system that combines a hybrid neural representation with uncertainty learning enabling high-fidelity surface reconstruction. Our approach leverages a multi-resolution hash-grid as the mapping backbone chosen for its exceptional convergence speed and capacity to capture high-frequency local features."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
   
 
 
 
 
 
-  <title>Liang Yang | AutoAI Lab</title>
+  <title>NARUTO: Neural Active Reconstruction from Uncertain Target Observations | AutoAI Lab</title>
 
 </head>
 
@@ -413,7 +459,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -587,116 +633,291 @@
 </nav>
 
 
+  <div class="pub">
+
   
 
 
 
-<div class="universal-wrapper pt-3">
-  <h1>Liang Yang</h1>
+
+
+
+
+
+
+<div class="article-header">
+  
+  
+  <img src="/img/headers/bubbles-wide.jpg" class="article-banner" alt="">
+  
+
+  <span class="article-header-caption">My caption</span>
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>NARUTO: Neural Active Reconstruction from Uncertain Target Observations</h1>
+
+  
+
+  
     
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span >Ziyue Feng</span>, <span >Huangying Zhan</span>, <span >Zheng Chen</span>, <span >Qingan Yan</span>, <span >Xiangyu Xu</span>, <span >Changjiang Cai</span>, <span >Bing Li</span>, <span >Qilun Zhu</span>, <span >Yi Xu</span>
+  </div>
+  
+  
+
+  
+  
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
 
     
-    
-    
-    <div class="article-widget content-widget-hr">
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/24-neurips-sam/">SAM-Guided Masked Token Prediction for 3D Scene Understanding</a>
-        </li>
-        
-        <li>
-          <a href="/publication/23-mutrans-tip/">MuTrans: Multiple Transformers for Fusing Feature Pyramid on 2D and 3D Object Detection</a>
-        </li>
-        
-        <li>
-          <a href="/publication/23-rethinking3d-iccv/">Rethinking 3D Geometric Feature Learning for Neural Reconstruction</a>
-        </li>
-        
-        <li>
-          <a href="/publication/23-fourstr-icra/">FourStr: When Multi-sensor Fusion Meets Semi-supervised Learning</a>
-        </li>
-        
-        <li>
-          <a href="/publication/23-3d-semi-learning-wacv/">Class-Level Confidence Based 3D Semi-Supervised Learning</a>
-        </li>
-        
-        <li>
-          <a href="/publication/22-wall-climbing-jfr/">Automated Wall-Climbing Robot for Concrete Construction Inspection</a>
-        </li>
-        
-        <li>
-          <a href="/publication/22-focustr-iros/">FocusTR: Focusing on Valuable Feature by Multiple Transformers for Fusing Feature Pyramid on Object Detection</a>
-        </li>
-        
-        <li>
-          <a href="/publication/22-spd-tnnls/">SPD: Semi-Supervised Learning and Progressive Distillation for 3-D Detection</a>
-        </li>
-        
-        <li>
-          <a href="/publication/22-ammf-tits/">AMMF: Attention-Based Multi-Phase Multi-Task Fusion for Small Contour Object 3D Detection</a>
-        </li>
-        
-        <li>
-          <a href="/publication/22-dynamicdepth/">Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth</a>
-        </li>
-        
-        <li>
-          <a href="/publication/22-seeway-smc/">SeeWay: Vision-Language Assistive Navigation for the Visually Impaired</a>
-        </li>
-        
-        <li>
-          <a href="/publication/21-m2cp-learning-bmvc/">Multimodal Semi-Supervised Learning for 3D Objects</a>
-        </li>
-        
-        <li>
-          <a href="/publication/21-nas-attention-tits/">Multi-Scale Fusion With Matching Attention Model: A Novel Decoding Network Cooperated With NAS for Real-Time Semantic Segmentation</a>
-        </li>
-        
-        <li>
-          <a href="/publication/20-inspection-drone/">Concrete Defects Inspection and 3D Mapping Using CityFlyer Quadrotor Robot</a>
-        </li>
-        
-        <li>
-          <a href="/publication/20-driver-drowsiness-sae/">Driver Drowsiness Behavior Detection and Analysis Using Vision-Based Multimodal Features for Driving Safety</a>
-        </li>
-        
-        <li>
-          <a href="/publication/19-visual-inspection-iros/">Deep Neural Network based Visual Inspection with 3D Metric Measurement of Concrete Defects using Wall-climbing Robot</a>
-        </li>
-        
-        <li>
-          <a href="/publication/18-metric-recon-cvprw/">Semantic Metric 3D Reconstruction for Concrete Inspection</a>
-        </li>
-        
-        <li>
-          <a href="/publication/18-colla-mapping-tits/">Collaborative Mapping and Autonomous Parking for Multi-Story Parking Garage</a>
-        </li>
-        
-        <li>
-          <a href="/publication/17-multi-traj-path-plan/">A Random Multi-trajectory Generation Method for Online Emergency Threat Management (Analysis and Application in Path Planning Algorithm)</a>
-        </li>
-        
-        <li>
-          <a href="/publication/17-spalling-crack-db-robio/">A Robotic System Towards Concrete Structure Spalling and Crack Database</a>
-        </li>
-        
-        <li>
-          <a href="/publication/17-wall-climbing-inspection/">Wall-climbing Robot for Non-destructive Evaluation using Impact-echo and Metric Learning SVM</a>
-        </li>
-        
-      </ul>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference Proceedings
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
     
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024, <a href="https://doi.org/10.1109/CVPR52733.2024.02038">DOI: 10.1109/CVPR52733.2024.02038</a></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><p>Abstract:
+We present NARUTO a neural active reconstruction system that combines a hybrid neural representation with uncertainty learning enabling high-fidelity surface reconstruction. Our approach leverages a multi-resolution hash-grid as the mapping backbone chosen for its exceptional convergence speed and capacity to capture high-frequency local features. The centerpiece of our work is the incorporation of an uncertainty learning module that dynamically quantifies reconstruction uncertainty while actively reconstructing the environment. By harnessing learned uncertainty we propose a novel uncertainty aggregation strategy for goal searching and efficient path planning. Our system autonomously explores by targeting uncertain observations and reconstructs environments with remarkable completeness and fidelity. We also demonstrate the utility of this uncertainty-aware approach by enhancing SOTA neural SLAM systems through an active ray sampling strategy. Extensive evaluations of NARUTO in various environments using an indoor scene simulator confirm its superior performance and state-of-the-art status in active reconstruction as evidenced by its impressive results on benchmark datasets like Replica and MP3D.</p>
+</div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/deep-learning/">Deep Learning</a>
+  
+  <a class="badge badge-light" href="/tag/reconstruction/">Reconstruction</a>
+  
+  <a class="badge badge-light" href="/tag/visual-computing/">Visual Computing</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/publication/24-naruto-cvpr/&amp;text=NARUTO:%20Neural%20Active%20Reconstruction%20from%20Uncertain%20Target%20Observations" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/publication/24-naruto-cvpr/&amp;t=NARUTO:%20Neural%20Active%20Reconstruction%20from%20Uncertain%20Target%20Observations" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=NARUTO:%20Neural%20Active%20Reconstruction%20from%20Uncertain%20Target%20Observations&amp;body=/publication/24-naruto-cvpr/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/24-naruto-cvpr/&amp;title=NARUTO:%20Neural%20Active%20Reconstruction%20from%20Uncertain%20Target%20Observations" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=NARUTO:%20Neural%20Active%20Reconstruction%20from%20Uncertain%20Target%20Observations%20/publication/24-naruto-cvpr/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/publication/24-naruto-cvpr/&amp;title=NARUTO:%20Neural%20Active%20Reconstruction%20from%20Uncertain%20Target%20Observations" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/25-trafficsign-cvprw/">Attention-Aware Temporal Adversarial Shadows on Traffic Sign Sequences</a></li>
+      
+      <li><a href="/publication/23-rethinking3d-iccv/">Rethinking 3D Geometric Feature Learning for Neural Reconstruction</a></li>
+      
+      <li><a href="/publication/22-dynamicdepth/">Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth</a></li>
+      
+      <li><a href="/publication/21-depth-prediction-corl/">Advancing Self-Supervised Monocular Depth Learning with Sparse LiDAR</a></li>
+      
+      <li><a href="/publication/21-place-recognition-tits/">PSE-Match: A Viewpoint-Free Place Recognition Method With Parallel Semantic Embedding</a></li>
+      
+    </ul>
   </div>
-</section>
+  
+
+
+
+
+
+  </div>
+</div>
 
       
 

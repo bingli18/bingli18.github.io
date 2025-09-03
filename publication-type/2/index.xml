@@ -5,7 +5,7 @@
     <link>/publication-type/2/</link>
       <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>2</title>
@@ -15,7 +15,7 @@
     <item>
       <title>DyConfidMatch: Dynamic Thresholding and Re-sampling for 3D Semi-supervised Learning</title>
       <link>/publication/24-patternrecog/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
       <guid>/publication/24-patternrecog/</guid>
       <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract:&lt;/h1&gt;
 </description>
@@ -24,7 +24,7 @@
     <item>
       <title>MuTrans: Multiple Transformers for Fusing Feature Pyramid on 2D and 3D Object Detection</title>
       <link>/publication/23-mutrans-tip/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
       <guid>/publication/23-mutrans-tip/</guid>
       <description>&lt;p&gt;Abstract:
 One of the major components of the neural network, the feature pyramid plays a vital part in perception tasks, like object detection in autonomous driving. But it is a challenge to fuse multi-level and multi-sensor feature pyramids for object detection. This paper proposes a simple yet effective framework named MuTrans (Multiple Transformers) to fuse feature pyramid in single-stream 2D detector or two-stream 3D detector. The MuTrans based on encoder-decoder focuses on the significant features via multiple Transformers. MuTrans encoder uses three innovative self-attention mechanisms: Spatial-wise BoxAlign attention (SB) for low-level spatial locations, Context-wise Affinity attention (CA) for high-level context information, and high-level attention for multi-level features. Then MuTrans decoder processes these significant proposals including the RoI and context affinity. Besides, the Low and High-level Fusion (LHF) in the encoder reduces the number of computational parameters. And the Pre-LN is utilized to accelerate the training convergence. LHF and Pre-LN are proven to reduce self-attention’s computational complexity and slow training convergence. Our result demonstrates the higher detection accuracy of MuTrans than that of the baseline method, particularly in small object detection.&lt;/p&gt;
@@ -82,22 +82,22 @@ Individuals with visual impairments encounter many obstacles with passenger vehi
     </item>
     
     <item>
-      <title>PSE-Match: A Viewpoint-Free Place Recognition Method With Parallel Semantic Embedding</title>
-      <link>/publication/21-place-recognition-tits/</link>
-      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/21-place-recognition-tits/</guid>
-      <description>&lt;p&gt;Abstract:
-Accurate localization on the autonomous driving cars is essential for autonomy and driving safety, especially for complex urban streets and search-and-rescue subterranean environments where high-accurate GPS is not available. However current odometry estimation may introduce the drifting problems in long-term navigation without robust global localization. The main challenges involve scene divergence under the interference of dynamic environments and effective perception of observation and object layout variance from different viewpoints. To tackle these challenges, we present PSE-Match, a viewpoint-free place recognition method based on parallel semantic analysis of isolated semantic attributes from 3D point-cloud models. Compared with the original point cloud, the observed variance of semantic attributes is smaller. PSE-Match incorporates a divergence place learning network to capture different semantic attributes parallelly through the spherical harmonics domain. Using both existing benchmark datasets and two in-field collected datasets, our experiments show that the proposed method achieves above 70% average recall with top one retrieval and above 95% average recall with top ten retrieval cases. And PSE-Match has also demonstrated an obvious generalization ability with limited training dataset.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Multi-Scale Fusion With Matching Attention Model: A Novel Decoding Network Cooperated With NAS for Real-Time Semantic Segmentation</title>
       <link>/publication/21-nas-attention-tits/</link>
       <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
       <guid>/publication/21-nas-attention-tits/</guid>
       <description>&lt;p&gt;Abstract:
 This paper proposes a real-time multi-scale semantic segmentation network (MsNet). MsNet is a combination of our novel multi-scale fusion with matching attention model (MFMA) as the decoding network and the network searched by asymptotic neural architecture search (ANAS) or MobileNetV3 as the encoding network. The MFMA not only extracts low level spatial features from multi-scale inputs but also decodes the contextual features extracted by ANAS. Specifically, considering the advantages and disadvantages of the addition fusion and concatenation fusion, we design multi-scale fusion (MF) that balances speed and accuracy. Then we creatively design two matching attention mechanisms (MA), including matching attention with low calculation (MALC) mechanism and matching attention with strong global context modeling (MASG) mechanism, to match varying resolutions and information of features at different levels of a network. Besides, the ANAS performs the deep neural network search by employing an asymptotic method and provide an efficient encoding network for MsNet, releasing researchers from those tedious mechanical trials. Through extensive experiments, we prove that MFMA, which can be applied to numerous recognition tasks, possesses excellent decoding ability. And we demonstrate the effectiveness and necessity of implementing the matching attention mechanism. Finally, the proposed two versions, MsNet-ANAS and MsNet-M achieve a new state-of-the-art trade-off between accuracy and speed on the CamVid and Cityscapes datasets. More remarkably, on the Nvidia Tesla V100 GPU, our MsNet-ANAS achieves 74.1% mIoU with the speed of 184.2 FPS on the CamVid while 72.9% mIoU with the speed of 119.9 FPS on the Cityscapes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PSE-Match: A Viewpoint-Free Place Recognition Method With Parallel Semantic Embedding</title>
+      <link>/publication/21-place-recognition-tits/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/21-place-recognition-tits/</guid>
+      <description>&lt;p&gt;Abstract:
+Accurate localization on the autonomous driving cars is essential for autonomy and driving safety, especially for complex urban streets and search-and-rescue subterranean environments where high-accurate GPS is not available. However current odometry estimation may introduce the drifting problems in long-term navigation without robust global localization. The main challenges involve scene divergence under the interference of dynamic environments and effective perception of observation and object layout variance from different viewpoints. To tackle these challenges, we present PSE-Match, a viewpoint-free place recognition method based on parallel semantic analysis of isolated semantic attributes from 3D point-cloud models. Compared with the original point cloud, the observed variance of semantic attributes is smaller. PSE-Match incorporates a divergence place learning network to capture different semantic attributes parallelly through the spherical harmonics domain. Using both existing benchmark datasets and two in-field collected datasets, our experiments show that the proposed method achieves above 70% average recall with top one retrieval and above 95% average recall with top ten retrieval cases. And PSE-Match has also demonstrated an obvious generalization ability with limited training dataset.&lt;/p&gt;
 </description>
     </item>
     

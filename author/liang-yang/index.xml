@@ -23,6 +23,16 @@ Foundation models have significantly enhanced 2D task performance, and recent wo
     </item>
     
     <item>
+      <title>MuTrans: Multiple Transformers for Fusing Feature Pyramid on 2D and 3D Object Detection</title>
+      <link>/publication/23-mutrans-tip/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/23-mutrans-tip/</guid>
+      <description>&lt;p&gt;Abstract:
+One of the major components of the neural network, the feature pyramid plays a vital part in perception tasks, like object detection in autonomous driving. But it is a challenge to fuse multi-level and multi-sensor feature pyramids for object detection. This paper proposes a simple yet effective framework named MuTrans (Multiple Transformers) to fuse feature pyramid in single-stream 2D detector or two-stream 3D detector. The MuTrans based on encoder-decoder focuses on the significant features via multiple Transformers. MuTrans encoder uses three innovative self-attention mechanisms: Spatial-wise BoxAlign attention (SB) for low-level spatial locations, Context-wise Affinity attention (CA) for high-level context information, and high-level attention for multi-level features. Then MuTrans decoder processes these significant proposals including the RoI and context affinity. Besides, the Low and High-level Fusion (LHF) in the encoder reduces the number of computational parameters. And the Pre-LN is utilized to accelerate the training convergence. LHF and Pre-LN are proven to reduce self-attention’s computational complexity and slow training convergence. Our result demonstrates the higher detection accuracy of MuTrans than that of the baseline method, particularly in small object detection.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Rethinking 3D Geometric Feature Learning for Neural Reconstruction</title>
       <link>/publication/23-rethinking3d-iccv/</link>
       <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
@@ -33,19 +43,9 @@ Recent advances in neural reconstruction using posed image sequences have made r
     </item>
     
     <item>
-      <title>Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth</title>
-      <link>/publication/22-dynamicdepth/</link>
-      <pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/22-dynamicdepth/</guid>
-      <description>&lt;p&gt;Abstract:
-Conventional self-supervised monocular depth prediction methods are based on a static environment assumption, which leads to accuracy degradation in dynamic scenes due to the mismatch and occlusion problems introduced by object motions. Existing dynamic-object-focused methods only partially solved the mismatch problem at the training loss level. In this paper, we accordingly propose a novel multi-frame monocular depth prediction method to solve these problems at both the prediction and supervision loss levels. Our method, called DynamicDepth, is a new framework trained via a self-supervised cycle consistent learning scheme. A Dynamic Object Motion Disentanglement (DOMD) module is proposed to disentangle object motions to solve the mismatch problem. Moreover, novel occlusion-aware Cost Volume and Re-projection Loss are designed to alleviate the occlusion effects of object motions. Extensive analyses and experiments on the Cityscapes and KITTI datasets show that our method significantly outperforms the state-of-the-art monocular depth prediction methods, especially in the areas of dynamic objects. Our code will be made publicly available.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>FourStr: When Multi-sensor Fusion Meets Semi-supervised Learning</title>
       <link>/publication/23-fourstr-icra/</link>
-      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
       <guid>/publication/23-fourstr-icra/</guid>
       <description>&lt;p&gt;Abstract:
 This research proposes a novel semi-supervised learning framework FourStr (Four-Stream formed by two two-stream models) that focuses on the improvement of fusion and labeling efficiency for 3D multi-sensor detector. FourStr adopts a multi-sensor single-stage detector named adaptive fusion network (AFNet) as the backbone and trains it through the semi-supervision learning (SSL) strategy Stereo Fusion. Note that multi-sensor AFNet and SSL Stereo Fusion can benefit each other. On the one hand, the Four-stream composed of two AFNets naturally provides rich inputs and large models for SSL Stereo Fusion. While other SSL works have to use massive augmentation to obtain rich inputs, and deepen and widen the network for large models. On the other hand, by the novel three fusion stages and Loss Pruning, Stereo Fusion improves the fusion and labeling efficiency for AFNet. Finally, extensive experiments demonstrate that FourStr performs excellently on outdoor dataset (KITTI and Waymo Open Dataset) and indoor dataset (SUN RGB-D), especially for the small contour objects. And compared to the fully-supervised methods, FourStr achieves similar accuracy with only 2% labeled data on KITTI (or with 50% labeled data on SUN RGB-D).&lt;/p&gt;
@@ -59,16 +59,6 @@ This research proposes a novel semi-supervised learning framework FourStr (Four-
       <guid>/publication/23-3d-semi-learning-wacv/</guid>
       <description>&lt;p&gt;Abstract:
 Recent state-of-the-art method FlexMatch firstly demonstrated that correctly estimating learning status is crucial for semi-supervised learning (SSL). However, the estimation method proposed by FlexMatch does not take into account imbalanced data, which is the common case for 3D semi-supervised learning. To address this problem, we practically demonstrate that unlabeled data class-level confidence can represent the learning status in the 3D imbalanced dataset. Based on this finding, we present a novel class-level confidence based 3D SSL method. Firstly, a dynamic thresholding strategy is proposed to utilize more unlabeled data, especially for low learning status classes. Then, a re-sampling strategy is designed to avoid biasing toward high learning status classes, which dynamically changes the sampling probability of each class. To show the effectiveness of our method in 3D SSL tasks, we conduct extensive experiments on 3D SSL classification and detection tasks. Our method significantly outperforms state-of-the-art counterparts for both 3D SSL classification and detection tasks in all datasets.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MuTrans: Multiple Transformers for Fusing Feature Pyramid on 2D and 3D Object Detection</title>
-      <link>/publication/23-mutrans-tip/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/23-mutrans-tip/</guid>
-      <description>&lt;p&gt;Abstract:
-One of the major components of the neural network, the feature pyramid plays a vital part in perception tasks, like object detection in autonomous driving. But it is a challenge to fuse multi-level and multi-sensor feature pyramids for object detection. This paper proposes a simple yet effective framework named MuTrans (Multiple Transformers) to fuse feature pyramid in single-stream 2D detector or two-stream 3D detector. The MuTrans based on encoder-decoder focuses on the significant features via multiple Transformers. MuTrans encoder uses three innovative self-attention mechanisms: Spatial-wise BoxAlign attention (SB) for low-level spatial locations, Context-wise Affinity attention (CA) for high-level context information, and high-level attention for multi-level features. Then MuTrans decoder processes these significant proposals including the RoI and context affinity. Besides, the Low and High-level Fusion (LHF) in the encoder reduces the number of computational parameters. And the Pre-LN is utilized to accelerate the training convergence. LHF and Pre-LN are proven to reduce self-attention’s computational complexity and slow training convergence. Our result demonstrates the higher detection accuracy of MuTrans than that of the baseline method, particularly in small object detection.&lt;/p&gt;
 </description>
     </item>
     
@@ -113,6 +103,16 @@ Recently significant progress has been made in 3D detection. However, it is stil
     </item>
     
     <item>
+      <title>Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth</title>
+      <link>/publication/22-dynamicdepth/</link>
+      <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/22-dynamicdepth/</guid>
+      <description>&lt;p&gt;Abstract:
+Conventional self-supervised monocular depth prediction methods are based on a static environment assumption, which leads to accuracy degradation in dynamic scenes due to the mismatch and occlusion problems introduced by object motions. Existing dynamic-object-focused methods only partially solved the mismatch problem at the training loss level. In this paper, we accordingly propose a novel multi-frame monocular depth prediction method to solve these problems at both the prediction and supervision loss levels. Our method, called DynamicDepth, is a new framework trained via a self-supervised cycle consistent learning scheme. A Dynamic Object Motion Disentanglement (DOMD) module is proposed to disentangle object motions to solve the mismatch problem. Moreover, novel occlusion-aware Cost Volume and Re-projection Loss are designed to alleviate the occlusion effects of object motions. Extensive analyses and experiments on the Cityscapes and KITTI datasets show that our method significantly outperforms the state-of-the-art monocular depth prediction methods, especially in the areas of dynamic objects. Our code will be made publicly available.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SeeWay: Vision-Language Assistive Navigation for the Visually Impaired</title>
       <link>/publication/22-seeway-smc/</link>
       <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
@@ -125,7 +125,7 @@ Assistive navigation for blind or visually impaired (BVI) individuals is of sign
     <item>
       <title>Multimodal Semi-Supervised Learning for 3D Objects</title>
       <link>/publication/21-m2cp-learning-bmvc/</link>
-      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
       <guid>/publication/21-m2cp-learning-bmvc/</guid>
       <description>&lt;p&gt;Abstract:
 In recent years, semi-supervised learning has been widely explored and shows excellent data efficiency for 2D data. There is an emerging need to improve data efficiency for 3D tasks due to the scarcity of labeled 3D data. This paper explores how the coherence of different modelities of 3D data (e.g. point cloud, image, and mesh) can be used to improve data efficiency for both 3D classification and retrieval tasks. We propose a novel multimodal semi-supervised learning framework by introducing instance-level consistency constraint and a novel multimodal contrastive prototype (M2CP) loss. The instance-level consistency enforces the network to generate consistent representations for multimodal data of the same object regardless of its modality. The M2CP maintains a multimodal prototype for each class and learns features with small intra-class variations by minimizing the feature distance of each object to its prototype while maximizing the distance to the others. Our proposed framework significantly outperforms all the state-of-the-art counterparts for both classification and retrieval tasks by a large margin on the modelNet10 and ModelNet40 datasets.&lt;/p&gt;

@@ -5,12 +5,22 @@
     <link>/author/ziyue-feng/</link>
       <atom:link href="/author/ziyue-feng/index.xml" rel="self" type="application/rss+xml" />
     <description>Ziyue Feng</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_2.png</url>
       <title>Ziyue Feng</title>
       <link>/author/ziyue-feng/</link>
     </image>
+    
+    <item>
+      <title>NARUTO: Neural Active Reconstruction from Uncertain Target Observations</title>
+      <link>/publication/24-naruto-cvpr/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/24-naruto-cvpr/</guid>
+      <description>&lt;p&gt;Abstract:
+We present NARUTO a neural active reconstruction system that combines a hybrid neural representation with uncertainty learning enabling high-fidelity surface reconstruction. Our approach leverages a multi-resolution hash-grid as the mapping backbone chosen for its exceptional convergence speed and capacity to capture high-frequency local features. The centerpiece of our work is the incorporation of an uncertainty learning module that dynamically quantifies reconstruction uncertainty while actively reconstructing the environment. By harnessing learned uncertainty we propose a novel uncertainty aggregation strategy for goal searching and efficient path planning. Our system autonomously explores by targeting uncertain observations and reconstructs environments with remarkable completeness and fidelity. We also demonstrate the utility of this uncertainty-aware approach by enhancing SOTA neural SLAM systems through an active ray sampling strategy. Extensive evaluations of NARUTO in various environments using an indoor scene simulator confirm its superior performance and state-of-the-art status in active reconstruction as evidenced by its impressive results on benchmark datasets like Replica and MP3D.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Rethinking 3D Geometric Feature Learning for Neural Reconstruction</title>
@@ -25,7 +35,7 @@ Recent advances in neural reconstruction using posed image sequences have made r
     <item>
       <title>Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth</title>
       <link>/publication/22-dynamicdepth/</link>
-      <pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
       <guid>/publication/22-dynamicdepth/</guid>
       <description>&lt;p&gt;Abstract:
 Conventional self-supervised monocular depth prediction methods are based on a static environment assumption, which leads to accuracy degradation in dynamic scenes due to the mismatch and occlusion problems introduced by object motions. Existing dynamic-object-focused methods only partially solved the mismatch problem at the training loss level. In this paper, we accordingly propose a novel multi-frame monocular depth prediction method to solve these problems at both the prediction and supervision loss levels. Our method, called DynamicDepth, is a new framework trained via a self-supervised cycle consistent learning scheme. A Dynamic Object Motion Disentanglement (DOMD) module is proposed to disentangle object motions to solve the mismatch problem. Moreover, novel occlusion-aware Cost Volume and Re-projection Loss are designed to alleviate the occlusion effects of object motions. Extensive analyses and experiments on the Cityscapes and KITTI datasets show that our method significantly outperforms the state-of-the-art monocular depth prediction methods, especially in the areas of dynamic objects. Our code will be made publicly available.&lt;/p&gt;
@@ -35,7 +45,7 @@ Conventional self-supervised monocular depth prediction methods are based on a s
     <item>
       <title>Advancing Self-Supervised Monocular Depth Learning with Sparse LiDAR</title>
       <link>/publication/21-depth-prediction-corl/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
       <guid>/publication/21-depth-prediction-corl/</guid>
       <description>&lt;p&gt;Abstract:
 Self-supervised monocular depth prediction provides a cost-effective solution to obtain the 3D location of each pixel. However, the existing approaches usually lead to unsatisfactory accuracy, which is critical for autonomous robots. In this paper, we propose FusionDepth, a novel two-stage network to advance the self-supervised monocular dense depth learning by leveraging low-cost sparse (e.g. 4-beam) LiDAR. Unlike the existing methods that use sparse LiDAR mainly in a manner of time-consuming iterative post-processing, our model fuses monocular image features and sparse LiDAR features to predict initial depth maps. Then, an efficient feed-forward refine network is further designed to correct the errors in these initial depth maps in pseudo-3D space with real-time performance. Extensive experiments show that our proposed model significantly outperforms all the state-of-the-art self-supervised methods, as well as the sparse-LiDAR-based methods on both self-supervised monocular depth prediction and completion tasks. With the accurate dense depth prediction, our model outperforms the state-of-the-art sparse-LiDAR-based method (Pseudo-LiDAR++) by more than 68% for the downstream task monocular 3D object detection on the KITTI Leaderboard.&lt;/p&gt;
@@ -43,19 +53,9 @@ Self-supervised monocular depth prediction provides a cost-effective solution to
     </item>
     
     <item>
-      <title>NARUTO: Neural Active Reconstruction from Uncertain Target Observations</title>
-      <link>/publication/23-naruto-cvpr/</link>
-      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/23-naruto-cvpr/</guid>
-      <description>&lt;p&gt;Abstract:
-We present NARUTO a neural active reconstruction system that combines a hybrid neural representation with uncertainty learning enabling high-fidelity surface reconstruction. Our approach leverages a multi-resolution hash-grid as the mapping backbone chosen for its exceptional convergence speed and capacity to capture high-frequency local features. The centerpiece of our work is the incorporation of an uncertainty learning module that dynamically quantifies reconstruction uncertainty while actively reconstructing the environment. By harnessing learned uncertainty we propose a novel uncertainty aggregation strategy for goal searching and efficient path planning. Our system autonomously explores by targeting uncertain observations and reconstructs environments with remarkable completeness and fidelity. We also demonstrate the utility of this uncertainty-aware approach by enhancing SOTA neural SLAM systems through an active ray sampling strategy. Extensive evaluations of NARUTO in various environments using an indoor scene simulator confirm its superior performance and state-of-the-art status in active reconstruction as evidenced by its impressive results on benchmark datasets like Replica and MP3D.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>PSE-Match: A Viewpoint-Free Place Recognition Method With Parallel Semantic Embedding</title>
       <link>/publication/21-place-recognition-tits/</link>
-      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
       <guid>/publication/21-place-recognition-tits/</guid>
       <description>&lt;p&gt;Abstract:
 Accurate localization on the autonomous driving cars is essential for autonomy and driving safety, especially for complex urban streets and search-and-rescue subterranean environments where high-accurate GPS is not available. However current odometry estimation may introduce the drifting problems in long-term navigation without robust global localization. The main challenges involve scene divergence under the interference of dynamic environments and effective perception of observation and object layout variance from different viewpoints. To tackle these challenges, we present PSE-Match, a viewpoint-free place recognition method based on parallel semantic analysis of isolated semantic attributes from 3D point-cloud models. Compared with the original point cloud, the observed variance of semantic attributes is smaller. PSE-Match incorporates a divergence place learning network to capture different semantic attributes parallelly through the spherical harmonics domain. Using both existing benchmark datasets and two in-field collected datasets, our experiments show that the proposed method achieves above 70% average recall with top one retrieval and above 95% average recall with top ten retrieval cases. And PSE-Match has also demonstrated an obvious generalization ability with limited training dataset.&lt;/p&gt;
