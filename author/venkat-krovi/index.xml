@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Venkat Krovi | AutoAI Lab</title>
+    <link>/author/venkat-krovi/</link>
+      <atom:link href="/author/venkat-krovi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Venkat Krovi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_3.png</url>
+      <title>Venkat Krovi</title>
+      <link>/author/venkat-krovi/</link>
+    </image>
+    
+    <item>
+      <title>Sim2Real Diffusion: Leveraging Foundation Vision Language Models for Adaptive Automated Driving</title>
+      <link>/publication/25-ra-l-sim2real/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/25-ra-l-sim2real/</guid>
+      <description>&lt;p&gt;Abstract:
+Simulation-based design, optimization, and validation of autonomous vehicles have proven to be crucial for their improvement over the years. Nevertheless, the ultimate measure of effectiveness is their successful transition from simulation to reality (sim2real). However, existing sim2real transfer methods struggle to address the autonomy-oriented requirements of balancing: (i) conditioned domain adaptation, (ii) robust performance with limited examples, (iii) modularity in handling multiple domain representations, and (iv) real-time performance. To alleviate these pain points, we present a unified framework for learning cross-domain adaptive representations through conditional latent diffusion for sim2real transferable automated driving. Our framework offers options to leverage: (i) alternate foundation models, (ii) a few-shot fine-tuning pipeline, and (iii) textual as well as image prompts for mapping across given source and target domains. It is also capable of generating diverse high-quality samples when diffusing across parameter spaces such as times of day, weather conditions, seasons, and operational design domains. We systematically analyze the presented framework and report our findings in terms of performance benchmarks and ablation studies. Additionally, we demonstrate its serviceability for autonomous driving using behavioral cloning case studies. Our experiments indicate that the proposed framework is capable of bridging the perceptual sim2real gap by over 40%.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
