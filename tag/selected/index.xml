@@ -5,12 +5,22 @@
     <link>/tag/selected/</link>
       <atom:link href="/tag/selected/index.xml" rel="self" type="application/rss+xml" />
     <description>selected</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_3.png</url>
       <title>selected</title>
       <link>/tag/selected/</link>
     </image>
+    
+    <item>
+      <title>Sim2Real Diffusion: Leveraging Foundation Vision Language Models for Adaptive Automated Driving</title>
+      <link>/publication/25-ra-l-sim2real/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/25-ra-l-sim2real/</guid>
+      <description>&lt;p&gt;Abstract:
+Simulation-based design, optimization, and validation of autonomous vehicles have proven to be crucial for their improvement over the years. Nevertheless, the ultimate measure of effectiveness is their successful transition from simulation to reality (sim2real). However, existing sim2real transfer methods struggle to address the autonomy-oriented requirements of balancing: (i) conditioned domain adaptation, (ii) robust performance with limited examples, (iii) modularity in handling multiple domain representations, and (iv) real-time performance. To alleviate these pain points, we present a unified framework for learning cross-domain adaptive representations through conditional latent diffusion for sim2real transferable automated driving. Our framework offers options to leverage: (i) alternate foundation models, (ii) a few-shot fine-tuning pipeline, and (iii) textual as well as image prompts for mapping across given source and target domains. It is also capable of generating diverse high-quality samples when diffusing across parameter spaces such as times of day, weather conditions, seasons, and operational design domains. We systematically analyze the presented framework and report our findings in terms of performance benchmarks and ablation studies. Additionally, we demonstrate its serviceability for autonomous driving using behavioral cloning case studies. Our experiments indicate that the proposed framework is capable of bridging the perceptual sim2real gap by over 40%.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Point Cloud Self-supervised Learning via 3D to Multi-view Masked Learner</title>
@@ -49,26 +59,6 @@ Disability knows no boarders, so the development of assistive technology is an i
       <guid>/publication/23-domaingap/</guid>
       <description>&lt;p&gt;Abstract:
 Foundation models have made significant strides in 2D and language tasks such as image segmentation, object detection, and visual-language understanding. Nevertheless, their potential to enhance 3D scene representation learning remains largely untapped due to the domain gap. In this paper, we propose an innovative methodology Bridge3D to address this gap, pre-training 3D models using features, semantic masks, and captions sourced from foundation models. Specifically, our approach utilizes semantic masks from these models to guide the masking and reconstruction process in the masked autoencoder. This strategy enables the network to concentrate more on foreground objects, thereby enhancing 3D representation learning. Additionally, we bridge the 3D-text gap at the scene level by harnessing image captioning foundation models. To further facilitate knowledge distillation from well-learned 2D and text representations to the 3D model, we introduce a novel method that employs foundation models to generate highly accurate object-level masks and semantic text information at the object level. Our approach notably outshines state-of-the-art methods in 3D object detection and semantic segmentation tasks. For instance, on the ScanNet dataset, our method surpasses the previous state-of-the-art method, PiMAE, by a significant margin of 5.3%.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Rethinking 3D Geometric Feature Learning for Neural Reconstruction</title>
-      <link>/publication/23-rethinking3d-iccv/</link>
-      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/23-rethinking3d-iccv/</guid>
-      <description>&lt;p&gt;Abstract:
-Recent advances in neural reconstruction using posed image sequences have made remarkable progress. However, due to the lack of depth information, existing volumetric-based techniques simply duplicate 2D image features of the object surface along the entire camera ray. We contend this duplication introduces noise in empty and occluded spaces, posing challenges for producing high-quality 3D geometry. Drawing inspiration from traditional multi-view stereo methods, we propose an end-to-end 3D neural reconstruction framework CVRecon, designed to exploit the rich geometric embedding in the cost volumes to facilitate 3D geometric feature learning. Furthermore, we present Ray-contextual Compensated Cost Volume, a novel 3D geometric feature representation that encodes view-dependent information with improved integrity and robustness. Through comprehensive experiments, we demonstrate that our approach significantly improves the reconstruction quality in various metrics and recovers clear fine details of the 3D geometries. Our extensive ablation studies provide insights into the development of effective 3D geometric feature learning schemes. The code will be made publicly available.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>FourStr: When Multi-sensor Fusion Meets Semi-supervised Learning</title>
-      <link>/publication/23-fourstr-icra/</link>
-      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/23-fourstr-icra/</guid>
-      <description>&lt;p&gt;Abstract:
-This research proposes a novel semi-supervised learning framework FourStr (Four-Stream formed by two two-stream models) that focuses on the improvement of fusion and labeling efficiency for 3D multi-sensor detector. FourStr adopts a multi-sensor single-stage detector named adaptive fusion network (AFNet) as the backbone and trains it through the semi-supervision learning (SSL) strategy Stereo Fusion. Note that multi-sensor AFNet and SSL Stereo Fusion can benefit each other. On the one hand, the Four-stream composed of two AFNets naturally provides rich inputs and large models for SSL Stereo Fusion. While other SSL works have to use massive augmentation to obtain rich inputs, and deepen and widen the network for large models. On the other hand, by the novel three fusion stages and Loss Pruning, Stereo Fusion improves the fusion and labeling efficiency for AFNet. Finally, extensive experiments demonstrate that FourStr performs excellently on outdoor dataset (KITTI and Waymo Open Dataset) and indoor dataset (SUN RGB-D), especially for the small contour objects. And compared to the fully-supervised methods, FourStr achieves similar accuracy with only 2% labeled data on KITTI (or with 50% labeled data on SUN RGB-D).&lt;/p&gt;
 </description>
     </item>
     
