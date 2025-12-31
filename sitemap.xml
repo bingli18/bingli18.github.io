@@ -587,6 +587,8 @@
   </url><url>
     <loc>/categories/</loc>
   </url><url>
+    <loc>/post/chay-chennamsetty/</loc>
+  </url><url>
     <loc>/post/cigdem-kokenoz/</loc>
   </url><url>
     <loc>/post/bing-li/</loc>
@@ -595,7 +597,7 @@
   </url><url>
     <loc>/post/jesse-leaman/</loc>
   </url><url>
-    <loc>/post/ziyue-feng/</loc>
+    <loc>/post/zhimin-chen/</loc>
   </url><url>
     <loc>/post/geeta-koduri/</loc>
   </url><url>
@@ -607,6 +609,10 @@
   </url><url>
     <loc>/post/nachiappan-chockalingam/</loc>
   </url><url>
+    <loc>/post/nathan-impreso/</loc>
+  </url><url>
+    <loc>/post/neemesh-nanaware/</loc>
+  </url><url>
     <loc>/post/nobel-dang/</loc>
   </url><url>
     <loc>/category/opening/</loc>
@@ -617,8 +623,6 @@
   </url><url>
     <loc>/category/ph.d.-students/</loc>
   </url><url>
-    <loc>/post/</loc>
-  </url><url>
     <loc>/post/rahil-modi/</loc>
   </url><url>
     <loc>/post/rahul-chamarthi/</loc>
@@ -627,13 +631,13 @@
   </url><url>
     <loc>/category/research-interns/</loc>
   </url><url>
+    <loc>/post/rohit-vummadi/</loc>
+  </url><url>
     <loc>/post/sanket-bachuwa/</loc>
   </url><url>
     <loc>/post/shaurya-panthri/</loc>
   </url><url>
     <loc>/post/srivatsav-kamarajugadda/</loc>
-  </url><url>
-    <loc>/post/tarun-giridhar/</loc>
   </url><url>
     <loc>/post/_opening3-msthesis/</loc>
   </url><url>
@@ -641,8 +645,10 @@
   </url><url>
     <loc>/post/_opening4-interns/</loc>
   </url><url>
-    <loc>/post/zack-yang/</loc>
+    <loc>/post/</loc>
   </url><url>
-    <loc>/post/zhimin-chen/</loc>
+    <loc>/post/ziyue-feng/</loc>
+  </url><url>
+    <loc>/post/zack-yang/</loc>
   </url>
 </urlset>

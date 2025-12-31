@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | AutoAI Lab</title>
+    <title>Ziyue Feng | AutoAI Lab</title>
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <description>Ziyue Feng</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_3.png</url>
-      <title>Posts</title>
+      <title>Ziyue Feng</title>
       <link>/post/</link>
     </image>
     
@@ -61,6 +61,14 @@
     </item>
     
     <item>
+      <title>Chay Chennamsetty</title>
+      <link>/post/chay-chennamsetty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/chay-chennamsetty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cigdem Kokenoz</title>
       <link>/post/cigdem-kokenoz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -96,10 +104,10 @@
     </item>
     
     <item>
-      <title>Dr. Ziyue Feng</title>
-      <link>/post/ziyue-feng/</link>
+      <title>Dr. Zhimin Chen</title>
+      <link>/post/zhimin-chen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/post/ziyue-feng/</guid>
+      <guid>/post/zhimin-chen/</guid>
       <description></description>
     </item>
     
@@ -144,6 +152,22 @@
     </item>
     
     <item>
+      <title>Nathan Impreso</title>
+      <link>/post/nathan-impreso/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/nathan-impreso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neemesh Nanaware</title>
+      <link>/post/neemesh-nanaware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/neemesh-nanaware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nobel Dang</title>
       <link>/post/nobel-dang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -176,6 +200,14 @@
     </item>
     
     <item>
+      <title>Rohit Vummadi</title>
+      <link>/post/rohit-vummadi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/rohit-vummadi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Sanket Bachuwa</title>
       <link>/post/sanket-bachuwa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -196,14 +228,6 @@
       <link>/post/srivatsav-kamarajugadda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/post/srivatsav-kamarajugadda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tarun Giridhar</title>
-      <link>/post/tarun-giridhar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/post/tarun-giridhar/</guid>
       <description></description>
     </item>
     
@@ -232,36 +256,19 @@
     </item>
     
     <item>
-      <title>Zack Yang</title>
-      <link>/post/zack-yang/</link>
+      <title>Ziyue Feng</title>
+      <link>/post/ziyue-feng/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/post/zack-yang/</guid>
+      <guid>/post/ziyue-feng/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Zhimin Chen</title>
-      <link>/post/zhimin-chen/</link>
+      <title>Zongming Yang</title>
+      <link>/post/zack-yang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/post/zhimin-chen/</guid>
-      <description>&lt;p&gt;Email: zhiminc AT clemson.edu, (
-&lt;a href=&#34;https://zhiminc.website/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Profile Page&lt;/a&gt;)&lt;/p&gt;
-&lt;h2 id=&#34;biography&#34;&gt;Biography&lt;/h2&gt;
-&lt;p&gt;(2020~) Multi-modal Data-efficient Learning for 3D Machine Vision.&lt;/p&gt;
-&lt;h2 id=&#34;interests&#34;&gt;Interests&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Self/semi-supervised learning&lt;/li&gt;
-&lt;li&gt;Multi-modality learning&lt;/li&gt;
-&lt;li&gt;Foundation models&lt;/li&gt;
-&lt;li&gt;Video generation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;publications&#34;&gt;Publications:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;SAM-Guided Masked Token Prediction for 3D Scene Understanding. In NeurIPS, 2024.&lt;/li&gt;
-&lt;li&gt;Bridging the Domain Gap: Self-Supervised 3D Scene Understanding with Foundation Models. In NeurIPS, 2023.&lt;/li&gt;
-&lt;li&gt;Class-Level Confidence Based 3D Semi-Supervised Learning. In WACV, 2023.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>/post/zack-yang/</guid>
+      <description></description>
     </item>
     
   </channel>
