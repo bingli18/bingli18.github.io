@@ -5,12 +5,22 @@
     <link>/author/bing-li/</link>
       <atom:link href="/author/bing-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Bing Li</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hufbce6705a566d43a9610d78203895d17_430824_300x300_fit_lanczos_3.png</url>
       <title>Bing Li</title>
       <link>/author/bing-li/</link>
     </image>
+    
+    <item>
+      <title>When Digital Twins Meet Large Language Models: Realistic, Interactive, and Editable Simulation for Autonomous Driving</title>
+      <link>/publication/26-ra-m_digital-twins-/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>/publication/26-ra-m_digital-twins-/</guid>
+      <description>&lt;p&gt;Abstract:
+Simulation frameworks have been key enablers for the development and validation of autonomous driving systems. However, existing methods struggle to comprehensively address the autonomy-oriented requirements of balancing 1) dynamical fidelity, 2) photorealistic rendering, 3) context-relevant scenario orchestration, and 4) real-time performance. To address these limitations, we present a unified framework for creating and curating high-fidelity digital twins to accelerate advancements in autonomous driving research. Our framework leverages a mix of physics-based and data-driven techniques for developing and simulating digital twins of autonomous vehicles and their operating environments. It is capable of reconstructing real-world scenes and assets with geometric and photorealistic accuracy (∼97% structural similarity) and infusing them with physical properties to enable real-time (&amp;gt;60-Hz) dynamical simulation of the ensuing driving scenarios. Additionally, it incorporates a large language model (LLM) interface to flexibly edit the driving scenarios online via natural language prompts, with ∼85% generalizability and ∼95% repeatability. Finally, an optional vision language model (VLM) provides ∼80% visual enhancement by blending the hybrid scene composition.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Sim2Real Diffusion: Leveraging Foundation Vision Language Models for Adaptive Automated Driving</title>
