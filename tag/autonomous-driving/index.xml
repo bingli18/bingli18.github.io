@@ -23,6 +23,16 @@ Simulation frameworks have been key enablers for the development and validation 
     </item>
     
     <item>
+      <title>From MIRAGE to CLEAR: Component-Level Explainable Anomaly Reasoning for Autonomous Vehicle Perception Systems</title>
+      <link>/publication/26-mirage2clear-dsn/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/publication/26-mirage2clear-dsn/</guid>
+      <description>&lt;p&gt;Abstract:
+Autonomous vehicle (AV) perception systems remain vulnerable to failures that current anomaly detectors can flag but cannot trace to a specific component; an attribution gap that impedes forensics and emerging transparency mandates like the EU AI Act. We introduce a unified framework comprising MIRAGE and CLEAR. MIRAGE (MUTCD-Informed Realistic Anomalous Generation Engine) integrates 48,022 real-world driving scenes from nuScenes, Waymo Open, and Argoverse 2 with structured rules from the Manual on Uniform Traffic Control Devices (MUTCD), generating 5,847 annotated anomalous scenarios with known module-level ground truth across four violation types: direct, subtle, contextual, and environmental. This data powers CLEAR, a hierarchical three-layer LLM pipeline that detects anomalies, classifies violations, and attributes failures to Traffic Sign Recognition (TSR), Automated Lane Centering (ALC), or Object Detection (OD) with interpretable justifications. Confidence-gated propagation and schema-constrained outputs prevent error cascades and minimize hallucinations. CLEAR achieves 95.2% detection accuracy, 62.3% classification accuracy, and 84% attribution accuracy on direct TSR violations. A Top- 2 evaluation paired with per-module confidence analysis raises overall attribution to 74.6%, confirming that apparent misattributions largely reflect the multi-module nature of anomaly types rather than reasoning failures. These results show that grounding LLM reasoning in structured traffic regulations enables reliable, interpretable forensics for AV perception systems, offering a practical path toward auditable, regulation-compliant safety analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sim2Real Diffusion: Leveraging Foundation Vision Language Models for Adaptive Automated Driving</title>
       <link>/publication/25-ra-l-sim2real/</link>
       <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>

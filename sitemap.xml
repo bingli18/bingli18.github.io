@@ -47,14 +47,32 @@
     <loc>/publication/26-ra-m_digital-twins-/</loc>
     <lastmod>2026-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/25-ra-l-sim2real/</loc>
-    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/amir-salarpour/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/cigdem-kokenoz/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/david-fernandez/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/26-mirage2clear-dsn/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/mert-d.-pese/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/pedram-mohajeransari/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/visual-computing/</loc>
-    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2025-08-25T00:00:00+00:00</lastmod>
+    <loc>/publication/25-ra-l-sim2real/</loc>
+    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/liang-yang/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
@@ -77,22 +95,10 @@
     <loc>/author/zhimin-chen/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/amir-salarpour/</loc>
-    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication/25-trafficsign-cvprw/</loc>
     <lastmod>2025-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/cigdem-kokenoz/</loc>
-    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/david-fernandezn/</loc>
-    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/mert-d.-pese/</loc>
-    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/pedram-mohajeransari/</loc>
     <lastmod>2025-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/reconstruction/</loc>
@@ -596,8 +602,6 @@
   </url><url>
     <loc>/categories/</loc>
   </url><url>
-    <loc>/post/chay-chennamsetty/</loc>
-  </url><url>
     <loc>/post/cigdem-kokenoz/</loc>
   </url><url>
     <loc>/post/bing-li/</loc>
@@ -605,6 +609,8 @@
     <loc>/post/geeta-koduri/</loc>
   </url><url>
     <loc>/post/jonas-flinte/</loc>
+  </url><url>
+    <loc>/post/jonathan-tran/</loc>
   </url><url>
     <loc>/post/mingzhe-liu/</loc>
   </url><url>
